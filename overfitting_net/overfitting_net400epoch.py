@@ -31,7 +31,7 @@ import os
 
 
 def main():
-    gpu_id = 2
+    gpu_id = 3
     datasets = 'CIFAR10'
     torch.manual_seed(gpu_id)
     # for net_id in range(1):
@@ -45,7 +45,7 @@ def OF_net_train(gpu_id,datasets,sample_rate,net_id):
     depth = 56
     resume_dir = 'checkpoint_Reset(400){0}_{1}_samplerate_{2}_netid_{3}.pth.tar'.format(depth, datasets,sample_rate,net_id)
     best_prec1 = 0
-    epoch_step = [60, 120, 160, 200, 240, 280, 320, 360] # list with epochs to drop lrN on
+    epoch_step = [100, 200, 300] # list with epochs to drop lrN on
     num_classes = 10 if datasets == 'CIFAR10' else 100
 
     logger_train = Logger('./logs/%s-%s-%s-%s/train' % ('resnet(400)'+str(depth), datasets,'sample_rate'+str(sample_rate),'net_id'+str(net_id)))
