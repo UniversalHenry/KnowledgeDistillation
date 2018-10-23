@@ -10,7 +10,7 @@ import pylab as pl
 def main():
     random.seed(1)
 
-    data = np.random.normal(loc=0.0, scale=10, size=(10000, 512, 3, 3))
+    data = np.random.normal(loc=0.0, scale=10, size=(10, 512, 3, 3))
     shape = data.shape
     interval = 100
     num = shape[0]
@@ -34,6 +34,7 @@ def main():
     plt.xlabel('n_components', fontsize=10)
     plt.ylabel('explained_variance_', fontsize=10)
     plt.title("picture(%d)" %(num), fontsize=12)
+
 
     # decent singular_values_
     plt.figure(1)
