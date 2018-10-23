@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f005bff-d5ec-4c59-b178-a3b1ab842326" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR10-sample_rate1-net_id0/train/events.out.tfevents.1540010107.user-Z10PE-D8-WS" beforeDir="false" afterPath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR10-sample_rate1-net_id0/train/events.out.tfevents.1540010107.user-Z10PE-D8-WS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR10-sample_rate1-net_id0/val/events.out.tfevents.1540010109.user-Z10PE-D8-WS" beforeDir="false" afterPath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR10-sample_rate1-net_id0/val/events.out.tfevents.1540010109.user-Z10PE-D8-WS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR100-sample_rate1-net_id0/train/events.out.tfevents.1540010046.user-Z10PE-D8-WS" beforeDir="false" afterPath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR100-sample_rate1-net_id0/train/events.out.tfevents.1540010046.user-Z10PE-D8-WS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR100-sample_rate1-net_id0/val/events.out.tfevents.1540010048.user-Z10PE-D8-WS" beforeDir="false" afterPath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR100-sample_rate1-net_id0/val/events.out.tfevents.1540010048.user-Z10PE-D8-WS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR10-sample_rate1-net_id0/train/events.out.tfevents.1540010306.user-Z10PE-D8-WS" beforeDir="false" afterPath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR10-sample_rate1-net_id0/train/events.out.tfevents.1540010306.user-Z10PE-D8-WS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR10-sample_rate1-net_id0/val/events.out.tfevents.1540010315.user-Z10PE-D8-WS" beforeDir="false" afterPath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR10-sample_rate1-net_id0/val/events.out.tfevents.1540010315.user-Z10PE-D8-WS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR100-sample_rate1-net_id0/train/events.out.tfevents.1540010259.user-Z10PE-D8-WS" beforeDir="false" afterPath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR100-sample_rate1-net_id0/train/events.out.tfevents.1540010259.user-Z10PE-D8-WS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR100-sample_rate1-net_id0/val/events.out.tfevents.1540010264.user-Z10PE-D8-WS" beforeDir="false" afterPath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR100-sample_rate1-net_id0/val/events.out.tfevents.1540010264.user-Z10PE-D8-WS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overfitting_net/overfitting_net400epoch.py" beforeDir="false" afterPath="$PROJECT_DIR$/overfitting_net/overfitting_net400epoch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PCA/pca_conv_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +14,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/knowledge_distillation$pca.coverage" NAME="pca Coverage Results" MODIFIED="1540220980859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$overfitting_net400epoch.coverage" NAME="overfitting_net400epoch Coverage Results" MODIFIED="1540010078007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/overfitting_net" />
+    <SUITE FILE_PATH="coverage/knowledge_distillation$pca_conv_data.coverage" NAME="pca_conv_data Coverage Results" MODIFIED="1540256040622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$overfitting_net_training_split_dataset.coverage" NAME="overfitting net_training_split_dataset Coverage Results" MODIFIED="1538707455905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/overfitting_net" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$overfitting_net_training.coverage" NAME="overfitting net_training Coverage Results" MODIFIED="1538707494312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/overfitting_net" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$overfitting_net400epoch_expand.coverage" NAME="overfitting_net400epoch_expand Coverage Results" MODIFIED="1540010177296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/overfitting_net" />
@@ -39,67 +33,37 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="py" value="37" />
+          <entry key="py" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="37" />
+          <entry key="Python" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="630" />
           <entry key="gitignore" value="34" />
-          <entry key="py" value="2003" />
+          <entry key="py" value="2329" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="34" />
-          <entry key="Python" value="2633" />
+          <entry key="Python" value="2959" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/overfitting_net/resnet_expand.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-427">
-              <caret line="98" column="28" selection-start-line="98" selection-start-column="28" selection-end-line="98" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/overfitting_net/overfitting_net400epoch_expand.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="290" column="8" selection-start-line="290" selection-start-column="4" selection-end-line="290" selection-end-column="8" />
-              <folding>
-                <element signature="e#476#496#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/anaconda3/lib/python3.6/site-packages/sklearn/decomposition/pca.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="314" lean-forward="true" selection-start-line="314" selection-end-line="314" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PCA/pca.py">
+        <entry file="file://$PROJECT_DIR$/PCA/pca_conv_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="951">
-              <caret line="65" column="10" lean-forward="true" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
+            <state relative-caret-position="150">
+              <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -108,6 +72,13 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -125,6 +96,7 @@
     </findStrings>
     <replaceStrings>
       <replace>expand</replace>
+      <replace />
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -140,6 +112,7 @@
         <option value="$PROJECT_DIR$/overfitting_net/overfitting_net400epoch_expand.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/PCA/pca.py" />
+        <option value="$PROJECT_DIR$/PCA/pca_conv_data.py" />
       </list>
     </option>
   </component>
@@ -167,11 +140,6 @@
             <path>
               <item name="knowledge_distillation" type="b2602c69:ProjectViewProjectNode" />
               <item name="knowledge_distillation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="knowledge_distillation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="knowledge_distillation" type="462c0819:PsiDirectoryNode" />
-              <item name="overfitting_net" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="knowledge_distillation" type="b2602c69:ProjectViewProjectNode" />
@@ -207,7 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pca">
+  <component name="RunManager" selected="Python.pca_conv_data">
     <configuration name="overfitting net_training" type="PythonConfigurationType" factoryName="Python">
       <module name="knowledge_distillation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -318,15 +286,39 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pca_conv_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="knowledge_distillation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PCA" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PCA/pca_conv_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.overfitting net_training" />
       <item itemvalue="Python.overfitting net_training_split_dataset" />
       <item itemvalue="Python.overfitting_net400epoch" />
       <item itemvalue="Python.overfitting_net400epoch_expand" />
       <item itemvalue="Python.pca" />
+      <item itemvalue="Python.pca_conv_data" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pca_conv_data" />
         <item itemvalue="Python.pca" />
         <item itemvalue="Python.overfitting_net400epoch_expand" />
         <item itemvalue="Python.overfitting_net400epoch" />
@@ -370,7 +362,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.32982844" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32982844" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -550,8 +542,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PCA/pca.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="951">
-          <caret line="65" column="10" lean-forward="true" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
+        <state relative-caret-position="150">
+          <caret line="10" column="18" lean-forward="true" selection-end-line="65" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/pca_conv_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
