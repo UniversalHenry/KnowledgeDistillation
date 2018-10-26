@@ -3,144 +3,133 @@ import torch
 from sklearn import decomposition
 import matplotlib.pyplot as plt
 import numpy as np
-import pylab as pl
-
+import os
 
 def main():
-    filter_show = range(5)  # which filters to calculate
+
+    filter_show = range(5)   # which filters to calculate
     interval = 100  # divide the histogram into how many parts
     # where to load the data
     print("Loading inputFeature_random ...")
-    tar_data = torch.load('./conv_data/inputFeature_random.pkl')
+    tar_data = torch.load('./conv_data/inputFeature_random_MAX.pkl')
     print("Loaded inputFeature_random !")
     print("Loading dW_random ...")
-    dw_data = torch.load('./conv_data/dW_random.pkl')
+    dw_data = torch.load('./conv_data/dW_random_MAX.pkl')
     print("Loaded dW_random !")
 
+    print("Converting data ...")
     num, filter_num, top_num, channel, filter_col, filter_row = tar_data.shape
     count = channel * filter_row * filter_col
-    tar_x = np.zeros([filter_num, num * top_num, count])
-    dw_x = np.zeros([filter_num, num, count])
-    all_x = np.zeros([filter_num, num * top_num + num, count])
-    pca = {}
+    tar_x = np.zeros([max(filter_show)+1, num * top_num, count])
+    dw_x = np.zeros([max(filter_show)+1, num, count])
+    dot_tar_x = np.zeros([max(filter_show)+1, num * top_num, count])
     for filter_order in filter_show:
         for order in range(num):
             for top_order in range(top_num):
-                print("filter_order (%d/%d)\t" % (filter_order + 1, filter_num) + "order (%d/%d)\t" % (order + 1, num))
-                tar_x[filter_order][order * top_num + top_order] = tar_data[order][filter_order][
-                    top_order].numpy().reshape([1, -1])
-                dw_x[filter_order][order] = dw_data[order][filter_order].numpy().reshape([1, -1])
-        all_x[filter_order] = np.append(tar_x[filter_order], dw_x[filter_order], axis=0)
+                if (order + 1) % np.ceil(num / 5) == 0:
+                    print("filter_order (%d/%d)\t" %(filter_order + 1,filter_num)+"order (%d/%d)\t" %(order + 1,num))
+                tar_x[filter_order][order * top_num + top_order] = tar_data[order][filter_order][top_order].numpy().reshape([1,-1])
+                dw_x[filter_order][order] = dw_data[order][filter_order].numpy().reshape([1,-1])
+        for top_order in range(top_num):
+            dot_tar_x[filter_order][top_order * num:(top_order + 1) * num] = tar_x[filter_order][top_order * num:(top_order + 1) * num] * dw_x[filter_order][:]
+    del tar_data
+    del dw_data
+    print("Convert finished !")
 
-        print("\nfilter (%d/%d)\tall (%d)\t" % (filter_order + 1, filter_num, num) + "PCA ...")
-        tmppca_tar = decomposition.PCA(whiten=True)
-        tmppca_tar.fit(tar_x[filter_order])
-        tmppca_dw = decomposition.PCA(whiten=True)
-        tmppca_dw.fit(dw_x[filter_order])
-        tmppca_all = decomposition.PCA(whiten=True)
-        tmppca_all.fit(all_x[filter_order])
-        pca[filter_order] = {'pca_tar': tmppca_tar, 'pca_dw': tmppca_dw}
-        print("filter (%d/%d)\tall (%d)\t" % (filter_order + 1, filter_num, num) + "PCA Finished\n")
+    for filter_order in filter_show:
+        pca={}
+        k = 0
+        n = 9
+        tmppca = decomposition.PCA()
+        print("\nfilter (%d/%d)\tsample (%d)\t" % (filter_order + 1, filter_num, num) + "PCA ...")
+        tmppca.fit(tar_x[filter_order] / count ** 0.5) # 1
+        pca["tar"] = tmppca.singular_values_
+        k += 1
+        print("(%d/%d) ..." % (k, n))
+        tmppca.fit(dw_x[filter_order] / count ** 0.5) # 2
+        pca["dw"] = tmppca.singular_values_
+        k += 1
+        print("(%d/%d) ..." % (k, n))
+        tmppca.fit(dot_tar_x[filter_order] / count ** 0.5) # 3
+        pca["dot_tar"] = tmppca.singular_values_
+        k += 1
+        print("(%d/%d) ..." % (k, n))
+        pca["dot_res"] = pca["dw"] * pca["tar"] # 4
+        k += 1
+        print("(%d/%d) ..." % (k, n))
+        tar_x_norm = tar_x / np.mean(tar_x ** 2) ** 0.5 # 5
+        k += 1
+        print("(%d/%d) ..." % (k, n))
+        dw_x_norm = dw_x / np.mean(dw_x ** 2) ** 0.5 # 6
+        k += 1
+        print("(%d/%d) ..." % (k, n))
+        tmppca.fit(tar_x_norm[filter_order] / count ** 0.5) # 7
+        pca["tar_norm"] = tmppca.singular_values_
+        k += 1
+        print("(%d/%d) ..." % (k, n))
+        tmppca.fit(dw_x_norm[filter_order] / count ** 0.5) # 8
+        pca["dw_norm"] = tmppca.singular_values_
+        k += 1
+        print("(%d/%d) ..." % (k, n))
+        tmppca.fit(np.append(tar_x_norm[filter_order],dw_x_norm[filter_order],axis = 0) / count ** 0.5) # 9
+        pca["all"] = tmppca.singular_values_
+        k += 1
+        print("(%d/%d) ..." % (k, n))
+        print("filter (%d/%d)\tsample (%d)\t" %(filter_order + 1, filter_num, num)+"PCA Finished\n")
 
-        # decent singular_values_ tar
-        plt.figure(filter_order * 9)
-        plt.plot(tmppca_tar.singular_values_, 'k', linewidth=2)
-        plt.xlabel('n_components', fontsize=10)
-        plt.ylabel('singular_values_', fontsize=10)
-        plt.title("filter (%d/%d) tar (%d) " % (filter_order + 1, filter_num, num * top_num), fontsize=12)
-        plt.savefig(
-            "./res_random/decent/filter(%d,%d)tar(%d)decent" % (filter_order + 1, filter_num, num * top_num) + ".png")
+        # painting figures
+        fig = 0
+        for key in pca:
+            # decent singular_values_
+            plt.figure(fig)
+            fig += 1
+            plt.plot(pca[key], 'k', linewidth=2)
+            plt.xlabel('n_components', fontsize=10)
+            plt.ylabel('singular_values_', fontsize=10)
+            plt.title("filter (%d/%d) " % (filter_order + 1, filter_num) + key + " (%d) " % (num), fontsize=12)
+            dir = "./res_random/decent/" + key + "/"
+            if not os.path.exists(dir):
+                os.makedirs(dir)
+            plt.savefig(dir + "filter(%d,%d)" % (filter_order + 1, filter_num) + key + "(%d)decent" % (num) + ".png")
 
-        # decent singular_values_ dw
-        plt.figure(filter_order * 9 + 1)
-        plt.plot(tmppca_dw.singular_values_, 'k', linewidth=2)
-        plt.xlabel('n_components', fontsize=10)
-        plt.ylabel('singular_values_', fontsize=10)
-        plt.title("filter (%d/%d) dw (%d) " % (filter_order + 1, filter_num, num), fontsize=12)
-        plt.savefig("./res_random/decent/filter(%d,%d)dw(%d)decent" % (filter_order + 1, filter_num, num) + ".png")
+            # histogram singular_values_
+            plt.figure(fig)
+            fig += 1
+            max_pca = max(pca[key])
+            min_pca = min(pca[key])
+            plt.hist(pca[key],np.arange(min_pca,max_pca,(max_pca - min_pca)/interval))
+            plt.ylabel('number_of_components', fontsize=10)
+            plt.xlabel('singular_values_', fontsize=10)
+            plt.title("filter (%d/%d) " % (filter_order + 1, filter_num) + key + " (%d) " % (num), fontsize=12)
+            dir = "./res_random/hist/" + key + "/"
+            if not os.path.exists(dir):
+                os.makedirs(dir)
+            plt.savefig(dir + "filter(%d,%d)" % (filter_order + 1, filter_num) + key + "(%d)hist" % (num) + ".png")
 
-        # decent singular_values_ all
-        plt.figure(filter_order * 9 + 2)
-        plt.plot(tmppca_all.singular_values_, 'k', linewidth=2)
-        plt.xlabel('n_components', fontsize=10)
-        plt.ylabel('singular_values_', fontsize=10)
-        plt.title("filter (%d/%d) all (%d) " % (filter_order + 1, filter_num, num), fontsize=12)
-        plt.savefig("./res_random/decent/filter(%d,%d)all(%d)decent" % (filter_order + 1, filter_num, num) + ".png")
+            # histogram singular_values_ tar without 0
+            plt.figure(fig)
+            fig += 1
+            max_pca = max(pca[key])
+            min_pca = min(pca[key])
+            plt.hist(pca[key],np.arange((max_pca - min_pca)/interval,max_pca,(max_pca - min_pca)/interval))
+            plt.ylabel('number_of_components', fontsize=10)
+            plt.xlabel('singular_values_', fontsize=10)
+            plt.title("filter (%d/%d) " % (filter_order + 1, filter_num) + key + " (%d) no_0 " % (num), fontsize=12)
+            dir = "./res_random/hist_no_0/" + key + "/"
+            if not os.path.exists(dir):
+                os.makedirs(dir)
+            plt.savefig(dir + "filter(%d,%d)" % (filter_order + 1, filter_num) + key + "(%d)hist_no_0" % (num) + ".png")
 
-        # histogram singular_values_ tar
-        pl.figure(filter_order * 9 + 3)
-        max_pca = max(tmppca_tar.singular_values_)
-        min_pca = min(tmppca_tar.singular_values_)
-        pl.hist(tmppca_tar.singular_values_, np.arange(min_pca, max_pca, (max_pca - min_pca) / interval))
-        pl.ylabel('number_of_components', fontsize=10)
-        pl.xlabel('singular_values_', fontsize=10)
-        pl.title("filter (%d/%d) tar (%d) " % (filter_order + 1, filter_num, num * top_num), fontsize=12)
-        plt.savefig("./res_random/hist/filter(%d,%d)tar(%d)histogram" % (
-        filter_order + 1, filter_num, num * top_num) + ".png")
+        for i in range(fig):
+            plt.figure(i).clear()
+            # plt.show()
 
-        # histogram singular_values_ dw
-        pl.figure(filter_order * 9 + 4)
-        max_pca = max(tmppca_dw.singular_values_)
-        min_pca = min(tmppca_dw.singular_values_)
-        pl.hist(tmppca_dw.singular_values_, np.arange(min_pca, max_pca, (max_pca - min_pca) / interval))
-        pl.ylabel('number_of_components', fontsize=10)
-        pl.xlabel('singular_values_', fontsize=10)
-        pl.title("filter (%d/%d) dw (%d) " % (filter_order + 1, filter_num, num), fontsize=12)
-        plt.savefig(
-            "./res_random/hist/filter(%d,%d)dw(%d)histogram" % (filter_order + 1, filter_num, num * top_num) + ".png")
-
-        # histogram singular_values_ all
-        pl.figure(filter_order * 9 + 5)
-        max_pca = max(tmppca_all.singular_values_)
-        min_pca = min(tmppca_all.singular_values_)
-        pl.hist(tmppca_all.singular_values_, np.arange(min_pca, max_pca, (max_pca - min_pca) / interval))
-        pl.ylabel('number_of_components', fontsize=10)
-        pl.xlabel('singular_values_', fontsize=10)
-        pl.title("filter (%d/%d) all (%d) " % (filter_order + 1, filter_num, num), fontsize=12)
-        plt.savefig("./res_random/hist/filter(%d,%d)all(%d)histogram" % (
-        filter_order + 1, filter_num, num * top_num) + ".png")
-
-        # histogram singular_values_ tar without 0
-        pl.figure(filter_order * 9 + 6)
-        max_pca = max(tmppca_tar.singular_values_)
-        min_pca = min(tmppca_tar.singular_values_)
-        pl.hist(tmppca_tar.singular_values_,
-                np.arange((max_pca - min_pca) / interval, max_pca, (max_pca - min_pca) / interval))
-        pl.ylabel('number_of_components', fontsize=10)
-        pl.xlabel('singular_values_', fontsize=10)
-        pl.title("filter (%d/%d) tar (%d) " % (filter_order + 1, filter_num, num * top_num), fontsize=12)
-        plt.savefig("./res_random/hist_no_0/filter(%d,%d)tar(%d)histogram" % (
-        filter_order + 1, filter_num, num * top_num) + ".png")
-
-        # histogram singular_values_ dw without 0
-        pl.figure(filter_order * 9 + 7)
-        max_pca = max(tmppca_dw.singular_values_)
-        min_pca = min(tmppca_dw.singular_values_)
-        pl.hist(tmppca_dw.singular_values_,
-                np.arange((max_pca - min_pca) / interval, max_pca, (max_pca - min_pca) / interval))
-        pl.ylabel('number_of_components', fontsize=10)
-        pl.xlabel('singular_values_', fontsize=10)
-        pl.title("filter (%d/%d) dw (%d) " % (filter_order + 1, filter_num, num), fontsize=12)
-        plt.savefig("./res_random/hist_no_0/filter(%d,%d)dw(%d)histogram" % (
-        filter_order + 1, filter_num, num * top_num) + ".png")
-
-        # histogram singular_values_ all without 0
-        pl.figure(filter_order * 9 + 8)
-        max_pca = max(tmppca_all.singular_values_)
-        min_pca = min(tmppca_all.singular_values_)
-        pl.hist(tmppca_all.singular_values_,
-                np.arange((max_pca - min_pca) / interval, max_pca, (max_pca - min_pca) / interval))
-        pl.ylabel('number_of_components', fontsize=10)
-        pl.xlabel('singular_values_', fontsize=10)
-        pl.title("filter (%d/%d) all (%d) " % (filter_order + 1, filter_num, num), fontsize=12)
-        plt.savefig("./res_random/hist_no_0/filter(%d,%d)all(%d)histogram" % (
-        filter_order + 1, filter_num, num * top_num) + ".png")
-
-        # plt.show()
         print("Saving PCA...")
-        torch.save(pca, 'pca_random.pth.tar')
+        dir = "./pca_data/filter(%d,%d)/" % (filter_order + 1, filter_num)
+        if not os.path.exists(dir):
+            os.makedirs(dir)
+        torch.save(pca,dir + "pca_random_filter(%d,%d).pth.tar" % (filter_order + 1, filter_num))
         print("PCA saved.\n")
-
 
 if __name__ == '__main__':
     main()

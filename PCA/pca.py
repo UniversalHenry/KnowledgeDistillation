@@ -8,7 +8,7 @@ import random
 import pylab as pl
 
 def main():
-    random.seed(1)
+    np.random.seed(1)
 
     data = np.random.normal(loc=0.0, scale=10, size=(10, 512, 3, 3))
     shape = data.shape

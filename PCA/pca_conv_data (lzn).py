@@ -20,9 +20,9 @@ def main():
     print("Converting data ...")
     num, filter_num, top_num, channel, filter_col, filter_row = tar_data.shape
     count = channel * filter_row * filter_col
-    tar_x = np.zeros([max(filter_show)+1, num * top_num, count])
-    dw_x = np.zeros([max(filter_show)+1, num, count])
-    dot_tar_x = np.zeros([max(filter_show)+1, num * top_num, count])
+    tar_x = np.zeros([filter_num, num * top_num, count])
+    dw_x = np.zeros([filter_num, num, count])
+    dot_tar_x = np.zeros([filter_num, num * top_num, count])
     for filter_order in filter_show:
         for order in range(num):
             for top_order in range(top_num):
@@ -40,18 +40,14 @@ def main():
         pca={}
         k = 0
         n = 9
-        tmppca = decomposition.PCA()
         print("\nfilter (%d/%d)\tsample (%d)\t" % (filter_order + 1, filter_num, num) + "PCA ...")
-        tmppca.fit(tar_x[filter_order] / count ** 0.5) # 1
-        pca["tar"] = tmppca.singular_values_
+        _, pca["tar"], _ = np.linalg.svd(tar_x[filter_order] / (num * top_num) ** 0.5) # 1
         k += 1
         print("(%d/%d) ..." % (k, n))
-        tmppca.fit(dw_x[filter_order] / count ** 0.5) # 2
-        pca["dw"] = tmppca.singular_values_
+        _, pca["dw"], _ = np.linalg.svd(dw_x[filter_order] / (num ) ** 0.5) # 2
         k += 1
         print("(%d/%d) ..." % (k, n))
-        tmppca.fit(dot_tar_x[filter_order] / count ** 0.5) # 3
-        pca["dot_tar"] = tmppca.singular_values_
+        _, pca["dot_tar"], _ = np.linalg.svd(dot_tar_x[filter_order] / (num * top_num) ** 0.5) # 3
         k += 1
         print("(%d/%d) ..." % (k, n))
         pca["dot_res"] = pca["dw"] * pca["tar"] # 4
@@ -63,16 +59,13 @@ def main():
         dw_x_norm = dw_x / np.mean(dw_x ** 2) ** 0.5 # 6
         k += 1
         print("(%d/%d) ..." % (k, n))
-        tmppca.fit(tar_x_norm[filter_order] / count ** 0.5) # 7
-        pca["tar_norm"] = tmppca.singular_values_
+        _, pca["tar_norm"], _ = np.linalg.svd(tar_x_norm[filter_order] / (num * top_num) ** 0.5) # 7
         k += 1
         print("(%d/%d) ..." % (k, n))
-        tmppca.fit(dw_x_norm[filter_order] / count ** 0.5) # 8
-        pca["dw_norm"] = tmppca.singular_values_
+        _, pca["dw_norm"], _ = np.linalg.svd(dw_x_norm[filter_order] / (num) ** 0.5) # 8
         k += 1
         print("(%d/%d) ..." % (k, n))
-        tmppca.fit(np.append(tar_x_norm[filter_order],dw_x_norm[filter_order],axis = 0) / count ** 0.5) # 9
-        pca["all"] = tmppca.singular_values_
+        _, pca["all"], _ = np.linalg.svd(np.append(tar_x_norm,dw_x_norm,axis = 0) / (num * (top_num + 1)) ** 0.5) # 9
         k += 1
         print("(%d/%d) ..." % (k, n))
         print("filter (%d/%d)\tsample (%d)\t" %(filter_order + 1, filter_num, num)+"PCA Finished\n")
