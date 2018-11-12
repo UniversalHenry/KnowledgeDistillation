@@ -1,67 +1,41 @@
-from sklearn.decomposition import PCA
-import torch
-from sklearn import datasets
-from sklearn import decomposition
-import matplotlib.pyplot as plt
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Oct 23 10:14:36 2018
+
+@author: lzn
+"""
 import numpy as np
-import random
-import pylab as pl
+from matplotlib import pyplot as plt
+from sklearn import decomposition
 
-def main():
-    np.random.seed(1)
+# def esd(X):
+#     n = X.shape[1] # sample numbers
+#     _, D, _ = np.linalg.svd(X / n**0.5)
+#     plt.figure()
+#     plt.hist(D[:], normed=True) # density distribution
+#     plt.show()
+#     plt.close()
+np.random.seed(1)
+X = np.random.randn(500,1000)
+m, n = X.shape # sample numbers
+_, D, _ = np.linalg.svd(X / n**0.5)
 
-    data = np.random.normal(loc=0.0, scale=10, size=(10, 512, 3, 3))
-    shape = data.shape
-    interval = 100
-    num = shape[0]
-    batch = shape[1]
-    filter_col = shape[2]
-    filter_row = shape[3]
-    count = batch * filter_row * filter_col
-    x=np.zeros([num ,count])
-    for order in range(num):
-        print("order (%d/%d)\t" %(order + 1,num))
-        x[order] = data[order].reshape([1,-1])
+tmppca = decomposition.PCA(svd_solver = 'auto')
+# pca = decomposition.PCA()
+tmppca.fit(X / n ** 0.5)
 
-    pca = decomposition.PCA(whiten=True)
-    # pca = decomposition.PCA()
-    pca.fit(x)
-    print("all (%d)\t" %(num)+"PCA Finished")
+d, _  = np.linalg.eigh(np.dot(X, X.T) / n)
+if m > n:
+    svs = D[m-n:n,]
 
-    # decent explained_variance_
-    plt.figure(0)
-    plt.plot(pca.explained_variance_, 'k', linewidth=2)
-    plt.xlabel('n_components', fontsize=10)
-    plt.ylabel('explained_variance_', fontsize=10)
-    plt.title("picture(%d)" %(num), fontsize=12)
+max_pca = max(D)
+min_pca = min(D)
+plt.figure(0)
+plt.hist(D[:],np.arange((max_pca - min_pca) / 100, max_pca, (max_pca - min_pca) / 100))
 
-
-    # decent singular_values_
-    plt.figure(1)
-    plt.plot(pca.singular_values_, 'k', linewidth=2)
-    plt.xlabel('n_components', fontsize=10)
-    plt.ylabel('singular_values_', fontsize=10)
-    plt.title("picture(%d)" % (num), fontsize=12)
-
-    # histogram explained_variance_
-    pl.figure(2)
-    max_pca = max(pca.explained_variance_)
-    min_pca = min(pca.explained_variance_)
-    pl.hist(pca.explained_variance_,np.arange(min_pca,max_pca,(max_pca - min_pca)/interval))
-    pl.ylabel('number_of_components', fontsize=10)
-    pl.xlabel('explained_variance_', fontsize=10)
-    pl.title("picture(%d)" %(num), fontsize=12)
-
-    # histogram singular_values_
-    pl.figure(3)
-    max_pca = max(pca.singular_values_)
-    min_pca = min(pca.singular_values_)
-    pl.hist(pca.singular_values_, np.arange(min_pca, max_pca, (max_pca - min_pca) / interval))
-    pl.ylabel('number_of_components', fontsize=10)
-    pl.xlabel('singular_values_', fontsize=10)
-    pl.title("picture(%d)" % (num), fontsize=12)
-
-    plt.show()
-
-if __name__ == '__main__':
-    main()
+plt.figure(1)
+# max_pca = max(tmppca.singular_values_)
+# min_pca = min(tmppca.singular_values_)
+plt.hist(tmppca.singular_values_,np.arange((max_pca - min_pca) / 100, max_pca, (max_pca - min_pca) / 100))
+plt.show()
+plt.close()

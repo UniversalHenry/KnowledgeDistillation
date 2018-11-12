@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="henry_lu@202.120.40.50:8989" exclude=".svn;.cvs;.idea;.DS_Store;.git;.hg;*.hprof;*.pyc;*.pkl;*.png">
+    <serverData>
+      <paths name="GPU2_local">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/data/Henry_Lu/knowledge_distillation" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="henry_lu@202.120.40.50:8989">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/data/Henry_Lu/knowledge_distillation" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/data/Henry_Lu/knowledge_distillation/overfitting_net/checkpoint" />
+            <excludedPath path="/data/Henry_Lu/knowledge_distillation/overfitting_net/checkpoint*" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
