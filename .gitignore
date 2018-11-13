@@ -2,6 +2,8 @@
 
 /overfitting_net/checkpoint/*
 /overfitting_net/data/*
+/PCA/conv_data/*
+*.pkl
 *.pth.tar
 /matconvnet*
 /netcollect

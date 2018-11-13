@@ -1,7 +1,375 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eeac7d69-0217-4108-a2a1-02f135e3fbd6" name="Default Changelist" comment="" />
+    <list default="true" id="eeac7d69-0217-4108-a2a1-02f135e3fbd6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PCA/hierarchical_clustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/PCA/hierarchical_clustering.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PCA/kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/PCA/kmeans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PCA/pca_noise.py" beforeDir="false" afterPath="$PROJECT_DIR$/PCA/pca_noise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PCA/pca_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/PCA/pca_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR10-sample_rate1-net_id0/train/events.out.tfevents.1539952101.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR10-sample_rate1-net_id0/train/events.out.tfevents.1540009947.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR10-sample_rate1-net_id0/train/events.out.tfevents.1540010107.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR10-sample_rate1-net_id0/val/events.out.tfevents.1539952103.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR10-sample_rate1-net_id0/val/events.out.tfevents.1540009948.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR10-sample_rate1-net_id0/val/events.out.tfevents.1540010109.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR10-sample_rate1-net_id1/train/events.out.tfevents.1539956793.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR10-sample_rate1-net_id1/train/events.out.tfevents.1540014705.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR10-sample_rate1-net_id1/val/events.out.tfevents.1539956794.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR10-sample_rate1-net_id1/val/events.out.tfevents.1540014707.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR10-sample_rate1-net_id2/train/events.out.tfevents.1539961494.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR10-sample_rate1-net_id2/train/events.out.tfevents.1540019370.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR10-sample_rate1-net_id2/val/events.out.tfevents.1539961495.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR10-sample_rate1-net_id2/val/events.out.tfevents.1540019371.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR10-sample_rate1-net_id3/train/events.out.tfevents.1539966196.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR10-sample_rate1-net_id3/train/events.out.tfevents.1540024023.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR10-sample_rate1-net_id3/val/events.out.tfevents.1539966197.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR10-sample_rate1-net_id3/val/events.out.tfevents.1540024025.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR10-sample_rate1-net_id4/train/events.out.tfevents.1539970886.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR10-sample_rate1-net_id4/train/events.out.tfevents.1540028605.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR10-sample_rate1-net_id4/val/events.out.tfevents.1539970887.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR10-sample_rate1-net_id4/val/events.out.tfevents.1540028606.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR100-sample_rate1-net_id0/train/events.out.tfevents.1539952016.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR100-sample_rate1-net_id0/train/events.out.tfevents.1540010046.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR100-sample_rate1-net_id0/val/events.out.tfevents.1539952017.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR100-sample_rate1-net_id0/val/events.out.tfevents.1540010048.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR100-sample_rate1-net_id1/train/events.out.tfevents.1539956493.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR100-sample_rate1-net_id1/train/events.out.tfevents.1540014629.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR100-sample_rate1-net_id1/val/events.out.tfevents.1539956494.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR100-sample_rate1-net_id1/val/events.out.tfevents.1540014630.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR100-sample_rate1-net_id2/train/events.out.tfevents.1539960994.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR100-sample_rate1-net_id2/train/events.out.tfevents.1540019325.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR100-sample_rate1-net_id2/val/events.out.tfevents.1539960995.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR100-sample_rate1-net_id2/val/events.out.tfevents.1540019326.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR100-sample_rate1-net_id3/train/events.out.tfevents.1539965505.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR100-sample_rate1-net_id3/train/events.out.tfevents.1540024002.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR100-sample_rate1-net_id3/val/events.out.tfevents.1539965507.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR100-sample_rate1-net_id3/val/events.out.tfevents.1540024003.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR100-sample_rate1-net_id4/train/events.out.tfevents.1539970008.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR100-sample_rate1-net_id4/train/events.out.tfevents.1540028585.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR100-sample_rate1-net_id4/val/events.out.tfevents.1539970009.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400)56-CIFAR100-sample_rate1-net_id4/val/events.out.tfevents.1540028586.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR10-sample_rate1-net_id0/train/events.out.tfevents.1539954559.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR10-sample_rate1-net_id0/train/events.out.tfevents.1540010306.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR10-sample_rate1-net_id0/val/events.out.tfevents.1539954564.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR10-sample_rate1-net_id0/val/events.out.tfevents.1540010315.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR10-sample_rate1-net_id1/train/events.out.tfevents.1539970137.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR10-sample_rate1-net_id1/train/events.out.tfevents.1540038049.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR10-sample_rate1-net_id1/val/events.out.tfevents.1539970142.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR10-sample_rate1-net_id1/val/events.out.tfevents.1540038053.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR10-sample_rate1-net_id2/train/events.out.tfevents.1539985479.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR10-sample_rate1-net_id2/train/events.out.tfevents.1540053762.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR10-sample_rate1-net_id2/val/events.out.tfevents.1539985483.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR10-sample_rate1-net_id2/val/events.out.tfevents.1540053767.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR10-sample_rate1-net_id3/train/events.out.tfevents.1540000514.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR10-sample_rate1-net_id3/train/events.out.tfevents.1540070247.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR10-sample_rate1-net_id3/val/events.out.tfevents.1540000518.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR10-sample_rate1-net_id3/val/events.out.tfevents.1540070251.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR10-sample_rate1-net_id4/train/events.out.tfevents.1540094687.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR10-sample_rate1-net_id4/val/events.out.tfevents.1540094692.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR100-sample_rate1-net_id0/train/events.out.tfevents.1539954534.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR100-sample_rate1-net_id0/train/events.out.tfevents.1540010259.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR100-sample_rate1-net_id0/val/events.out.tfevents.1539954538.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR100-sample_rate1-net_id0/val/events.out.tfevents.1540010264.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR100-sample_rate1-net_id1/train/events.out.tfevents.1539970127.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR100-sample_rate1-net_id1/train/events.out.tfevents.1540026105.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR100-sample_rate1-net_id1/val/events.out.tfevents.1539970131.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR100-sample_rate1-net_id1/val/events.out.tfevents.1540026110.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR100-sample_rate1-net_id2/train/events.out.tfevents.1539985456.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR100-sample_rate1-net_id2/train/events.out.tfevents.1540041845.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR100-sample_rate1-net_id2/val/events.out.tfevents.1539985461.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR100-sample_rate1-net_id2/val/events.out.tfevents.1540041850.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR100-sample_rate1-net_id3/train/events.out.tfevents.1540000607.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR100-sample_rate1-net_id3/train/events.out.tfevents.1540057218.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR100-sample_rate1-net_id3/val/events.out.tfevents.1540000611.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR100-sample_rate1-net_id3/val/events.out.tfevents.1540057223.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR100-sample_rate1-net_id4/train/events.out.tfevents.1540078501.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(400expand)56-CIFAR100-sample_rate1-net_id4/val/events.out.tfevents.1540078505.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(56-CIFAR10-sample_rate1-net_id0/train/events.out.tfevents.1539951301.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet(56-CIFAR100-sample_rate1-net_id0/train/events.out.tfevents.1539951503.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet32-CIFAR10-sample_rate1-net_id0/train/events.out.tfevents.1538707513.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet32-CIFAR10-sample_rate1-net_id0/train/events.out.tfevents.1540044913.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet32-CIFAR10-sample_rate1-net_id0/val/events.out.tfevents.1538707513.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet32-CIFAR10-sample_rate1-net_id0/val/events.out.tfevents.1540044914.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet32-CIFAR10-sample_rate1-net_id1/train/events.out.tfevents.1538710570.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet32-CIFAR10-sample_rate1-net_id1/val/events.out.tfevents.1538710571.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR10-sample_rate0.1-net_id1/train/events.out.tfevents.1537341462.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR10-sample_rate0.1-net_id1/val/events.out.tfevents.1537341463.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR10-sample_rate0.1-net_id2/train/events.out.tfevents.1537345275.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR10-sample_rate0.1-net_id2/val/events.out.tfevents.1537345276.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR10-sample_rate0.1-net_id3/train/events.out.tfevents.1537349203.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR10-sample_rate0.1-net_id3/val/events.out.tfevents.1537349204.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR10-sample_rate0.1-net_id4/train/events.out.tfevents.1537353047.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR10-sample_rate0.1-net_id4/val/events.out.tfevents.1537353048.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR10-sample_rate0.2-net_id1/train/events.out.tfevents.1537342188.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR10-sample_rate0.2-net_id1/val/events.out.tfevents.1537342189.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR10-sample_rate0.2-net_id2/train/events.out.tfevents.1537346095.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR10-sample_rate0.2-net_id2/val/events.out.tfevents.1537346096.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR10-sample_rate0.2-net_id3/train/events.out.tfevents.1537349951.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR10-sample_rate0.2-net_id3/val/events.out.tfevents.1537349952.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR10-sample_rate0.2-net_id4/train/events.out.tfevents.1537353780.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR10-sample_rate0.2-net_id4/val/events.out.tfevents.1537353781.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR10-sample_rate0.4-net_id1/train/events.out.tfevents.1537343323.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR10-sample_rate0.4-net_id1/val/events.out.tfevents.1537343324.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR10-sample_rate0.4-net_id2/train/events.out.tfevents.1537347241.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR10-sample_rate0.4-net_id2/val/events.out.tfevents.1537347242.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR10-sample_rate0.4-net_id3/train/events.out.tfevents.1537351100.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR10-sample_rate0.4-net_id3/val/events.out.tfevents.1537351101.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR10-sample_rate0.4-net_id4/train/events.out.tfevents.1537354920.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR10-sample_rate0.4-net_id4/val/events.out.tfevents.1537354921.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR10-sample_rate1-net_id0/val/events.out.tfevents.1539951302.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR10-sample_rate1-net_id1/train/events.out.tfevents.1537517400.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR10-sample_rate1-net_id1/val/events.out.tfevents.1537517401.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR10-sample_rate1-net_id2/train/events.out.tfevents.1537522138.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR10-sample_rate1-net_id2/val/events.out.tfevents.1537522139.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id0/train/events.out.tfevents.1536693039.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id0/val/events.out.tfevents.1536693041.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id1/train/events.out.tfevents.1536741146.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id1/val/events.out.tfevents.1536741147.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id10/train/events.out.tfevents.1536749375.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id10/val/events.out.tfevents.1536749377.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id11/train/events.out.tfevents.1536753967.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id11/val/events.out.tfevents.1536753969.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id12/train/events.out.tfevents.1536762089.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id12/val/events.out.tfevents.1536762091.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id13/train/events.out.tfevents.1536770134.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id13/val/events.out.tfevents.1536770135.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id14/train/events.out.tfevents.1536778321.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id14/val/events.out.tfevents.1536778323.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id15/train/events.out.tfevents.1536749401.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id15/val/events.out.tfevents.1536749402.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id16/train/events.out.tfevents.1536753492.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id16/train/events.out.tfevents.1536835299.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id16/val/events.out.tfevents.1536753493.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id16/val/events.out.tfevents.1536835301.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id17/train/events.out.tfevents.1536757326.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id17/train/events.out.tfevents.1536843178.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id17/val/events.out.tfevents.1536757327.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id17/val/events.out.tfevents.1536843181.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id18/train/events.out.tfevents.1536851204.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id18/val/events.out.tfevents.1536851207.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id19/train/events.out.tfevents.1536855642.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id19/val/events.out.tfevents.1536855644.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id2/train/events.out.tfevents.1536745297.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id2/val/events.out.tfevents.1536745299.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id21/train/events.out.tfevents.1537083085.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id21/val/events.out.tfevents.1537083087.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id22/train/events.out.tfevents.1537087189.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id22/val/events.out.tfevents.1537087190.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id23/train/events.out.tfevents.1537091237.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id23/val/events.out.tfevents.1537091238.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id24/train/events.out.tfevents.1537095228.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id24/val/events.out.tfevents.1537095230.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id26/train/events.out.tfevents.1537099689.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id26/val/events.out.tfevents.1537099691.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id27/train/events.out.tfevents.1537104215.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id27/val/events.out.tfevents.1537104217.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id28/train/events.out.tfevents.1537108451.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id28/val/events.out.tfevents.1537108452.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id29/train/events.out.tfevents.1537112378.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id29/val/events.out.tfevents.1537112379.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id3/train/events.out.tfevents.1536741170.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id3/val/events.out.tfevents.1536741171.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id31/train/events.out.tfevents.1537169717.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id31/val/events.out.tfevents.1537169719.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id32/train/events.out.tfevents.1537173492.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id32/val/events.out.tfevents.1537173494.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id33/train/events.out.tfevents.1537177510.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id33/val/events.out.tfevents.1537177511.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id34/train/events.out.tfevents.1537181356.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id34/val/events.out.tfevents.1537181358.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id36/train/events.out.tfevents.1537185692.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id36/val/events.out.tfevents.1537185693.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id37/train/events.out.tfevents.1537189546.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id37/val/events.out.tfevents.1537189548.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id38/train/events.out.tfevents.1537193363.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id38/val/events.out.tfevents.1537193364.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id39/train/events.out.tfevents.1537197378.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id39/val/events.out.tfevents.1537197380.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id4/train/events.out.tfevents.1536745174.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id4/val/events.out.tfevents.1536745176.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id5/train/events.out.tfevents.1536741181.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id5/val/events.out.tfevents.1536741183.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id6/train/events.out.tfevents.1536745257.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id6/val/events.out.tfevents.1536745258.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id7/train/events.out.tfevents.1536747390.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id7/val/events.out.tfevents.1536747391.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id8/train/events.out.tfevents.1536751502.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.1-net_id8/val/events.out.tfevents.1536751503.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id0/train/events.out.tfevents.1536693861.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id0/train/events.out.tfevents.1537527888.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id0/train/events.out.tfevents.1537527933.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id0/val/events.out.tfevents.1536693862.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id0/val/events.out.tfevents.1537527890.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id0/val/events.out.tfevents.1537527935.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id1/train/events.out.tfevents.1536741934.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id1/train/events.out.tfevents.1537785536.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id1/train/events.out.tfevents.1537785600.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id1/val/events.out.tfevents.1536741935.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id1/val/events.out.tfevents.1537785538.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id1/val/events.out.tfevents.1537785603.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id10/train/events.out.tfevents.1536750185.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id10/val/events.out.tfevents.1536750186.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id11/train/events.out.tfevents.1536755141.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id11/val/events.out.tfevents.1536755143.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id12/train/events.out.tfevents.1536763601.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id12/val/events.out.tfevents.1536763604.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id13/train/events.out.tfevents.1536771298.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id13/val/events.out.tfevents.1536771300.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id14/train/events.out.tfevents.1536779643.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id14/val/events.out.tfevents.1536779644.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id15/train/events.out.tfevents.1536750210.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id15/val/events.out.tfevents.1536750212.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id16/train/events.out.tfevents.1536754236.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id16/train/events.out.tfevents.1536836675.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id16/train/events.out.tfevents.1536837758.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id16/val/events.out.tfevents.1536754237.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id16/val/events.out.tfevents.1536836678.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id16/val/events.out.tfevents.1536837760.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id17/train/events.out.tfevents.1536844651.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id17/val/events.out.tfevents.1536844654.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id18/train/events.out.tfevents.1536852477.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id18/val/events.out.tfevents.1536852478.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id19/train/events.out.tfevents.1536856428.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id19/val/events.out.tfevents.1536856429.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id2/train/events.out.tfevents.1536746719.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id2/train/events.out.tfevents.1537787532.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id2/val/events.out.tfevents.1536746720.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id2/val/events.out.tfevents.1537787534.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id21/train/events.out.tfevents.1537083893.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id21/val/events.out.tfevents.1537083895.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id22/train/events.out.tfevents.1537087985.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id22/val/events.out.tfevents.1537087986.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id23/train/events.out.tfevents.1537092011.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id23/val/events.out.tfevents.1537092013.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id24/train/events.out.tfevents.1537096000.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id24/val/events.out.tfevents.1537096001.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id26/train/events.out.tfevents.1537100475.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id26/val/events.out.tfevents.1537100476.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id27/train/events.out.tfevents.1537105267.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id27/val/events.out.tfevents.1537105268.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id28/train/events.out.tfevents.1537109242.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id28/val/events.out.tfevents.1537109243.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id29/train/events.out.tfevents.1537113157.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id29/val/events.out.tfevents.1537113158.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id3/train/events.out.tfevents.1536741939.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id3/train/events.out.tfevents.1537789797.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id3/val/events.out.tfevents.1536741940.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id3/val/events.out.tfevents.1537789799.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id31/train/events.out.tfevents.1537170447.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id31/val/events.out.tfevents.1537170448.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id32/train/events.out.tfevents.1537174225.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id32/val/events.out.tfevents.1537174226.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id33/train/events.out.tfevents.1537178291.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id33/val/events.out.tfevents.1537178292.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id34/train/events.out.tfevents.1537182068.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id34/val/events.out.tfevents.1537182069.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id36/train/events.out.tfevents.1537186419.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id36/val/events.out.tfevents.1537186420.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id37/train/events.out.tfevents.1537190271.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id37/val/events.out.tfevents.1537190272.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id38/train/events.out.tfevents.1537194099.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id38/val/events.out.tfevents.1537194101.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id39/train/events.out.tfevents.1537198884.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id39/val/events.out.tfevents.1537198886.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id4/train/events.out.tfevents.1536745932.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id4/train/events.out.tfevents.1537791590.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id4/val/events.out.tfevents.1536745934.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id4/val/events.out.tfevents.1537791592.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id5/train/events.out.tfevents.1536741977.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id5/val/events.out.tfevents.1536741979.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id6/train/events.out.tfevents.1536746008.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id6/val/events.out.tfevents.1536746009.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id7/train/events.out.tfevents.1536748199.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id7/val/events.out.tfevents.1536748200.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id8/train/events.out.tfevents.1536752305.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.2-net_id8/val/events.out.tfevents.1536752307.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id0/train/events.out.tfevents.1536695143.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id0/val/events.out.tfevents.1536695144.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id1/train/events.out.tfevents.1536743131.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id1/val/events.out.tfevents.1536743133.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id10/train/events.out.tfevents.1536751411.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id10/val/events.out.tfevents.1536751413.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id11/train/events.out.tfevents.1536757677.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id11/val/events.out.tfevents.1536757680.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id12/train/events.out.tfevents.1536766089.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id12/val/events.out.tfevents.1536766091.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id13/train/events.out.tfevents.1536773822.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id13/val/events.out.tfevents.1536773824.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id14/train/events.out.tfevents.1536780819.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id14/val/events.out.tfevents.1536780820.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id15/train/events.out.tfevents.1536751427.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id15/val/events.out.tfevents.1536751429.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id16/train/events.out.tfevents.1536755382.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id16/train/events.out.tfevents.1536839018.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id16/val/events.out.tfevents.1536755383.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id16/val/events.out.tfevents.1536839020.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id17/train/events.out.tfevents.1536846995.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id17/val/events.out.tfevents.1536846997.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id18/train/events.out.tfevents.1536853658.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id18/val/events.out.tfevents.1536853660.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id19/train/events.out.tfevents.1536857625.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id19/val/events.out.tfevents.1536857627.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id2/train/events.out.tfevents.1536748153.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id2/val/events.out.tfevents.1536748155.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id21/train/events.out.tfevents.1537085129.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id21/val/events.out.tfevents.1537085130.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id22/train/events.out.tfevents.1537089194.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id22/val/events.out.tfevents.1537089195.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id23/train/events.out.tfevents.1537093196.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id23/val/events.out.tfevents.1537093198.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id24/train/events.out.tfevents.1537097189.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id24/val/events.out.tfevents.1537097191.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id26/train/events.out.tfevents.1537101673.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id26/val/events.out.tfevents.1537101675.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id27/train/events.out.tfevents.1537106455.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id27/val/events.out.tfevents.1537106457.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id28/train/events.out.tfevents.1537110420.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id28/val/events.out.tfevents.1537110421.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id29/train/events.out.tfevents.1537114323.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id29/val/events.out.tfevents.1537114325.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id3/train/events.out.tfevents.1536743130.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id3/val/events.out.tfevents.1536743132.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id31/train/events.out.tfevents.1537171575.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id31/val/events.out.tfevents.1537171577.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id32/train/events.out.tfevents.1537175444.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id32/val/events.out.tfevents.1537175446.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id33/train/events.out.tfevents.1537179417.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id33/val/events.out.tfevents.1537179418.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id34/train/events.out.tfevents.1537183178.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id34/val/events.out.tfevents.1537183179.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id36/train/events.out.tfevents.1537187579.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id36/val/events.out.tfevents.1537187580.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id37/train/events.out.tfevents.1537191416.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id37/val/events.out.tfevents.1537191418.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id38/train/events.out.tfevents.1537195234.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id38/val/events.out.tfevents.1537195236.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id39/train/events.out.tfevents.1537201406.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id39/val/events.out.tfevents.1537201408.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id4/train/events.out.tfevents.1536747091.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id4/val/events.out.tfevents.1536747092.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id5/train/events.out.tfevents.1536743188.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id5/val/events.out.tfevents.1536743189.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id6/train/events.out.tfevents.1536747154.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id6/val/events.out.tfevents.1536747156.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id7/train/events.out.tfevents.1536749417.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate0.4-net_id7/val/events.out.tfevents.1536749419.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate1-net_id0/train/events.out.tfevents.1536741144.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate1-net_id0/val/events.out.tfevents.1536741145.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate1-net_id0/val/events.out.tfevents.1539951505.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate1-net_id1/train/events.out.tfevents.1537522815.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate1-net_id1/train/events.out.tfevents.1537526980.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate1-net_id1/val/events.out.tfevents.1537522817.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate1-net_id1/val/events.out.tfevents.1537526982.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate1-net_id2/train/events.out.tfevents.1537527378.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate1-net_id2/val/events.out.tfevents.1537527379.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate1-net_id3/train/events.out.tfevents.1537532018.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate1-net_id3/val/events.out.tfevents.1537532020.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate1-net_id4/train/events.out.tfevents.1537536549.user-Z10PE-D8-WS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overfitting_net/logs/resnet56-CIFAR100-sample_rate1-net_id4/val/events.out.tfevents.1537536551.user-Z10PE-D8-WS" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,6 +378,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/knowledge_distillation$pca.coverage" NAME="pca Coverage Results" MODIFIED="1540544802088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
+    <SUITE FILE_PATH="coverage/knowledge_distillation$kmeans_all.coverage" NAME="kmeans_all Coverage Results" MODIFIED="1542083430128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$pca_conv_data.coverage" NAME="pca_conv_data Coverage Results" MODIFIED="1541854628380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$dbscan_filters.coverage" NAME="dbscan_filters Coverage Results" MODIFIED="1541749394991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$dbscan1.coverage" NAME="dbscan1 Coverage Results" MODIFIED="1541749408489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
@@ -19,8 +388,9 @@
     <SUITE FILE_PATH="coverage/knowledge_distillation$overfitting_net_training.coverage" NAME="overfitting net_training Coverage Results" MODIFIED="1540045015175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/overfitting_net" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$pca_random.coverage" NAME="pca_random Coverage Results" MODIFIED="1540544298942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$dbscan_dx.coverage" NAME="dbscan_dx Coverage Results" MODIFIED="1541722245998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
-    <SUITE FILE_PATH="coverage/knowledge_distillation$hierarchical_clustering.coverage" NAME="hierarchical_clustering Coverage Results" MODIFIED="1541999406640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
-    <SUITE FILE_PATH="coverage/knowledge_distillation$kmeans.coverage" NAME="kmeans Coverage Results" MODIFIED="1541999425160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
+    <SUITE FILE_PATH="coverage/knowledge_distillation$hierarchical_clustering.coverage" NAME="hierarchical_clustering Coverage Results" MODIFIED="1542083415322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
+    <SUITE FILE_PATH="coverage/knowledge_distillation$kmeans.coverage" NAME="kmeans Coverage Results" MODIFIED="1542083403227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
+    <SUITE FILE_PATH="coverage/knowledge_distillation$hierarchical_clustering_all.coverage" NAME="hierarchical_clustering_all Coverage Results" MODIFIED="1542083434414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$resnet.coverage" NAME="resnet Coverage Results" MODIFIED="1540045009325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/overfitting_net" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$pca_test.coverage" NAME="pca_test Coverage Results" MODIFIED="1540370594425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
   </component>
@@ -45,7 +415,7 @@
         <counts>
           <entry key="_bootstrap&gt;" value="2" />
           <entry key="png" value="26" />
-          <entry key="py" value="76" />
+          <entry key="py" value="80" />
           <entry key="txt" value="15" />
         </counts>
       </usages-collector>
@@ -54,57 +424,65 @@
           <entry key="Image" value="26" />
           <entry key="PLAIN_TEXT" value="15" />
           <entry key="PyRemoteDebug" value="5" />
-          <entry key="Python" value="73" />
+          <entry key="Python" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="936" />
-          <entry key="py" value="3144" />
+          <entry key="Python Console" value="954" />
+          <entry key="py" value="3604" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="4080" />
+          <entry key="Python" value="4558" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="191018474">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.29848784">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/PCA/hierarchical_clustering.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="768">
-                  <caret line="112" column="59" selection-start-line="112" selection-start-column="59" selection-end-line="112" selection-end-column="59" />
-                  <folding>
-                    <element signature="e#0#51#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/PCA/kmeans.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="88" column="102" selection-start-line="88" selection-start-column="102" selection-end-line="88" selection-end-column="102" />
-                  <folding>
-                    <element signature="e#0#34#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PCA/hierarchical_clustering_all.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-76">
+              <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PCA/kmeans_all.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -127,6 +505,10 @@
       <find>pretrain</find>
       <find>print</find>
       <find>4608</find>
+      <find>conc</find>
+      <find>append</find>
+      <find>Kmeans_data</find>
+      <find>tol</find>
     </findStrings>
     <replaceStrings>
       <replace>()</replace>
@@ -142,7 +524,14 @@
       <replace>pretrain_(complete)</replace>
       <replace>Kmeans</replace>
       <replace>Kmeans_data</replace>
+      <replace>'all'</replace>
+      <replace>'all_10'</replace>
+      <replace>Cluster_data</replace>
+      <replace>Hierarchical_clustering_data</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -162,8 +551,10 @@
         <option value="$PROJECT_DIR$/PCA/dbscan1.py" />
         <option value="$PROJECT_DIR$/PCA/dbscan_data/process_data.py" />
         <option value="&lt;45e3ada4-5011-48a5-aa35-d60dcb968434&gt;/data/Henry_Lu/knowledge_distillation/PCA/Hierarchical_clustering_data/res.txt" />
-        <option value="$PROJECT_DIR$/PCA/hierarchical_clustering.py" />
+        <option value="$PROJECT_DIR$/PCA/hierarchical_clustering_all.py" />
+        <option value="$PROJECT_DIR$/PCA/kmeans_all.py" />
         <option value="$PROJECT_DIR$/PCA/kmeans.py" />
+        <option value="$PROJECT_DIR$/PCA/hierarchical_clustering.py" />
       </list>
     </option>
   </component>
@@ -173,7 +564,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="83" />
     <option name="width" value="929" />
     <option name="height" value="1087" />
@@ -183,23 +574,38 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="knowledge_distillation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="knowledge_distillation" type="462c0819:PsiDirectoryNode" />
+              <item name="KnowledgeDistillation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KnowledgeDistillation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="knowledge_distillation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="knowledge_distillation" type="462c0819:PsiDirectoryNode" />
+              <item name="KnowledgeDistillation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KnowledgeDistillation" type="462c0819:PsiDirectoryNode" />
+              <item name="BornAgainNN" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KnowledgeDistillation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KnowledgeDistillation" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KnowledgeDistillation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KnowledgeDistillation" type="462c0819:PsiDirectoryNode" />
+              <item name="overfitting_net" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KnowledgeDistillation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KnowledgeDistillation" type="462c0819:PsiDirectoryNode" />
               <item name="PCA" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,29 +640,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.kmeans">
-    <configuration name="dbscan1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="knowledge_distillation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PCA" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PCA/dbscan1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.hierarchical_clustering_all">
     <configuration name="hierarchical_clustering" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="knowledge_distillation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -279,6 +663,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="hierarchical_clustering_all" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="knowledge_distillation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PCA" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PCA/hierarchical_clustering_all.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="kmeans" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="knowledge_distillation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -293,6 +699,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PCA/kmeans.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="kmeans_all" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="knowledge_distillation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PCA" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PCA/kmeans_all.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -367,28 +795,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="process_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="knowledge_distillation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PCA/dbscan_data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Administrator\PycharmProjects\Henry_Lu\knowledge_distillation\PCA\process_data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="resnet" type="PythonConfigurationType" factoryName="Python">
       <module name="knowledge_distillation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -415,19 +821,19 @@
       <item itemvalue="Python.pca" />
       <item itemvalue="Python.overfitting net_training" />
       <item itemvalue="Python.resnet" />
-      <item itemvalue="Python.dbscan1" />
       <item itemvalue="Python.hierarchical_clustering" />
-      <item itemvalue="Python.process_data" />
       <item itemvalue="Python.pca_conv_data" />
       <item itemvalue="Python.kmeans" />
+      <item itemvalue="Python.hierarchical_clustering_all" />
+      <item itemvalue="Python.kmeans_all" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.kmeans" />
+        <item itemvalue="Python.hierarchical_clustering_all" />
+        <item itemvalue="Python.kmeans_all" />
         <item itemvalue="Python.hierarchical_clustering" />
+        <item itemvalue="Python.kmeans" />
         <item itemvalue="Python.pca_conv_data" />
-        <item itemvalue="Python.process_data" />
-        <item itemvalue="Python.dbscan1" />
       </list>
     </recent_temporary>
   </component>
@@ -456,7 +862,34 @@
   <component name="ToolWindowManager">
     <frame x="82" y="-8" width="1846" height="1096" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2099664" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19540873" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3136033" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4994401" weight="0.34890965" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32917964" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" order="9" visible="true" weight="0.32848233" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32917964" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5005599" side_tool="true" weight="0.32917964" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.4994401" weight="0.32917964" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" anchor="right" id="Remote Host" order="3" visible="true" weight="0.20548712" />
+      <window_info anchor="right" id="R Graphics" order="4" weight="0.32978722" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="SciView" order="6" weight="0.37737963" />
+      <window_info anchor="right" id="Database" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13157895" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -476,34 +909,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.2799552" />
-      <window_info anchor="right" id="R Graphics" order="4" weight="0.32978722" />
-      <window_info anchor="right" id="R Packages" order="5" />
-      <window_info anchor="right" id="SciView" order="6" weight="0.37737963" />
-      <window_info anchor="right" id="Database" order="7" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2099664" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47767395" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4994401" weight="0.4423676" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32917964" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="File Transfer" order="9" weight="0.32917964" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32917964" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5005599" side_tool="true" weight="0.32917964" />
-      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.4994401" weight="0.32917964" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.20268758" />
+      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.20548712" />
       <window_info anchor="right" id="R Graphics" order="4" weight="0.32978722" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="SciView" order="6" weight="0.37737963" />
@@ -674,13 +1080,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/process_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PCA/dbscan_filters.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -706,9 +1105,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -719,25 +1115,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/Hierarchical_clustering_data/res_pretrain_0/filter(2,512)/res/res.txt" />
+    <entry file="file://$PROJECT_DIR$/PCA/process_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="15" column="87" lean-forward="true" selection-start-line="15" selection-start-column="87" selection-end-line="15" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PCA/hierarchical_clustering.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="112" column="59" selection-start-line="112" selection-start-column="59" selection-end-line="112" selection-end-column="59" />
+        <state relative-caret-position="285">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/Hierarchical_clustering_data/res_pretrain_0/filter(2,512)/res/res.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-65236" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PCA/kmeans.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="88" column="102" selection-start-line="88" selection-start-column="102" selection-end-line="88" selection-end-column="102" />
+        <state relative-caret-position="209">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/hierarchical_clustering_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/kmeans_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>

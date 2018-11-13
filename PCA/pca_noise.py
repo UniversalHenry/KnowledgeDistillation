@@ -6,6 +6,7 @@ import numpy as np
 import os
 
 def main():
+
     filter_show = range(5)   # which filters to calculate
     interval = 100  # divide the histogram into how many parts
     # where to load the data
