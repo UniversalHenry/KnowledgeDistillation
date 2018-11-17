@@ -46,6 +46,8 @@ def main():
             'all_10', filter_order + 1, filter_num)
         if not os.path.exists(dir):
             os.makedirs(dir)
+        else:
+            continue
         f = open(dir + '/res.txt', 'w')
         print('Loading Processed data(' + 'all_10' + ')...',file=f)
         print('Loaded data(' + 'all_10' +  ').',file=f)
@@ -76,10 +78,10 @@ def main():
             'all_10', filter_order + 1, filter_num)
         if not os.path.exists(dir):
             os.makedirs(dir)
-        torch.save(pca_val, dir + "pca_val_pretrain_%s_filter(%d,%d).pth.tar" % (
-            'all_10', filter_order + 1, filter_num))
-        torch.save(pca_component, dir + "pca_component_%s_pretrain_filter(%d,%d).pth.tar" % (
-            'all_10', filter_order + 1, filter_num))
+        # torch.save(pca_val, dir + "pca_val_pretrain_%s_filter(%d,%d).pth.tar" % (
+        #     'all_10', filter_order + 1, filter_num))
+        # torch.save(pca_component, dir + "pca_component_%s_pretrain_filter(%d,%d).pth.tar" % (
+        #     'all_10', filter_order + 1, filter_num))
         print("filter (%d/%d)\tsample (%d)\t" %(filter_order + 1, filter_num, num)+"PCA Finished",file=f)
 
         # Kmeans
@@ -120,7 +122,7 @@ def main():
                 dir = "./Kmeans_data/res_pretrain_%s/filter(%d,%d)/select_feature(%d)/" % ( 'all_10' ,filter_order + 1, filter_num ,select_feature_num)
                 if not os.path.exists(dir):
                     os.makedirs(dir)
-                torch.save(Kmeans_data,dir + "Kmeans_%s_pretrain_filter(%d,%d).pth.tar" % ('all_10' ,filter_order + 1, filter_num))
+                # torch.save(Kmeans_data,dir + "Kmeans_%s_pretrain_filter(%d,%d).pth.tar" % ('all_10' ,filter_order + 1, filter_num))
                 print("Kmeans saved.")
 
             select_feature_num -= 50
