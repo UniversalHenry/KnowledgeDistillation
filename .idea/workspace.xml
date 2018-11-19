@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eeac7d69-0217-4108-a2a1-02f135e3fbd6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/PCA/res_net/kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/PCA/res_net/kmeans.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/textureNet/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/docs/textureNet/LICENSE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/textureNet/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/textureNet/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/textureNet/code/data_input/data_input_CUB-200-2011/getI.m" beforeDir="false" afterPath="$PROJECT_DIR$/docs/textureNet/code/data_input/data_input_CUB-200-2011/getI.m" afterDir="false" />
@@ -809,7 +808,7 @@
     <session id="191018474">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.9" value="1" />
@@ -1233,7 +1232,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33471933" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33471933" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4994401" weight="0.34890965" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
