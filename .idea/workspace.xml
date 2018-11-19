@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eeac7d69-0217-4108-a2a1-02f135e3fbd6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/PCA/alex_net/hierarchical_clustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/PCA/alex_net/hierarchical_clustering.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PCA/alex_net/hierarchical_clustering_normed_feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/PCA/alex_net/hierarchical_clustering_normed_feature.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PCA/alex_net/kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/PCA/alex_net/kmeans.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PCA/alex_net/kmeans_normed_feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/PCA/alex_net/kmeans_normed_feature.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PCA/res_net/hierarchical_clustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/PCA/res_net/hierarchical_clustering.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PCA/res_net/hierarchical_clustering_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/PCA/res_net/hierarchical_clustering_all.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PCA/res_net/hierarchical_clustering_all_normed_feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/PCA/res_net/hierarchical_clustering_all_normed_feature.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PCA/res_net/hierarchical_clustering_normed_feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/PCA/res_net/hierarchical_clustering_normed_feature.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PCA/res_net/kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/PCA/res_net/kmeans.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PCA/res_net/kmeans_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/PCA/res_net/kmeans_all.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PCA/res_net/kmeans_all_normed_feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/PCA/res_net/kmeans_all_normed_feature.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PCA/res_net/kmeans_normed_feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/PCA/res_net/kmeans_normed_feature.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/textureNet/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/docs/textureNet/LICENSE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/textureNet/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/textureNet/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/textureNet/code/data_input/data_input_CUB-200-2011/getI.m" beforeDir="false" afterPath="$PROJECT_DIR$/docs/textureNet/code/data_input/data_input_CUB-200-2011/getI.m" afterDir="false" />
@@ -748,26 +737,26 @@
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$kmeans.coverage" NAME="kmeans Coverage Results" MODIFIED="1542459895228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$dbscan_filters.coverage" NAME="dbscan_filters Coverage Results" MODIFIED="1541749394991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$dbscan1.coverage" NAME="dbscan1 Coverage Results" MODIFIED="1541749408489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
-    <SUITE FILE_PATH="coverage/KnowledgeDistillation$hierarchical_clustering__1_.coverage" NAME="hierarchical_clustering (1) Coverage Results" MODIFIED="1542459885287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$hierarchical_clustering__1_.coverage" NAME="hierarchical_clustering (1) Coverage Results" MODIFIED="1542533324992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$process_data.coverage" NAME="process_data Coverage Results" MODIFIED="1541849560970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/dbscan_data" />
-    <SUITE FILE_PATH="coverage/KnowledgeDistillation$hierarchical_clustering_normed_feature.coverage" NAME="hierarchical_clustering_normed_feature Coverage Results" MODIFIED="1542459922684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$hierarchical_clustering_normed_feature.coverage" NAME="hierarchical_clustering_normed_feature Coverage Results" MODIFIED="1542533332316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$overfitting_net_training.coverage" NAME="overfitting net_training Coverage Results" MODIFIED="1540045015175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/overfitting_net" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$pca_random.coverage" NAME="pca_random Coverage Results" MODIFIED="1540544298942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$dbscan_dx.coverage" NAME="dbscan_dx Coverage Results" MODIFIED="1541722245998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$hierarchical_clustering.coverage" NAME="hierarchical_clustering Coverage Results" MODIFIED="1542083415322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
-    <SUITE FILE_PATH="coverage/KnowledgeDistillation$kmeans__1_.coverage" NAME="kmeans (1) Coverage Results" MODIFIED="1542464954761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/res_net" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$kmeans__1_.coverage" NAME="kmeans (1) Coverage Results" MODIFIED="1542519461134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/res_net" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$pca_test.coverage" NAME="pca_test Coverage Results" MODIFIED="1540370594425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$pca.coverage" NAME="pca Coverage Results" MODIFIED="1540544802088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$kmeans_all.coverage" NAME="kmeans_all Coverage Results" MODIFIED="1542083430128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$pca_conv_data.coverage" NAME="pca_conv_data Coverage Results" MODIFIED="1541854628380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
-    <SUITE FILE_PATH="coverage/KnowledgeDistillation$kmeans_all_normed_feature.coverage" NAME="kmeans_all_normed_feature Coverage Results" MODIFIED="1542464965998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/res_net" />
-    <SUITE FILE_PATH="coverage/KnowledgeDistillation$kmeans_normed_feature__1_.coverage" NAME="kmeans_normed_feature (1) Coverage Results" MODIFIED="1542465752877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/res_net" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$kmeans_all_normed_feature.coverage" NAME="kmeans_all_normed_feature Coverage Results" MODIFIED="1542534345611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/res_net" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$kmeans_normed_feature__1_.coverage" NAME="kmeans_normed_feature (1) Coverage Results" MODIFIED="1542534343276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/res_net" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$kmeans_normed_feature.coverage" NAME="kmeans_normed_feature Coverage Results" MODIFIED="1542459940361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$hierarchical_clustering.coverage" NAME="hierarchical_clustering Coverage Results" MODIFIED="1542464618657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/res_net" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$pca_test2.coverage" NAME="pca_test2 Coverage Results" MODIFIED="1540546688034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$pca_noise.coverage" NAME="pca_noise Coverage Results" MODIFIED="1540607822921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$process_data.coverage" NAME="process_data Coverage Results" MODIFIED="1542445656336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net" />
-    <SUITE FILE_PATH="coverage/KnowledgeDistillation$kmeans_all.coverage" NAME="kmeans_all Coverage Results" MODIFIED="1542464961053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/res_net" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$kmeans_all.coverage" NAME="kmeans_all Coverage Results" MODIFIED="1542519420325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/res_net" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$kmeans.coverage" NAME="kmeans Coverage Results" MODIFIED="1542083403227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$hierarchical_clustering_all.coverage" NAME="hierarchical_clustering_all Coverage Results" MODIFIED="1542083434414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$resnet.coverage" NAME="resnet Coverage Results" MODIFIED="1540045009325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/overfitting_net" />
@@ -841,67 +830,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="180" />
+          <entry key="py" value="181" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="180" />
+          <entry key="Python" value="181" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PCA/res_net/kmeans.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="62" column="18" lean-forward="true" selection-start-line="66" selection-start-column="15" selection-end-line="69" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PCA/res_net/kmeans_all.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="122" column="6" lean-forward="true" selection-start-line="122" selection-start-column="6" selection-end-line="122" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PCA/res_net/kmeans_all_normed_feature.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PCA/res_net/kmeans_normed_feature.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -991,10 +931,10 @@
         <option value="$PROJECT_DIR$/PCA/res_net/hierarchical_clustering_all.py" />
         <option value="$PROJECT_DIR$/PCA/res_net/hierarchical_clustering_all_normed_feature.py" />
         <option value="$PROJECT_DIR$/PCA/res_net/hierarchical_clustering_normed_feature.py" />
-        <option value="$PROJECT_DIR$/PCA/res_net/kmeans.py" />
         <option value="$PROJECT_DIR$/PCA/res_net/kmeans_all.py" />
         <option value="$PROJECT_DIR$/PCA/res_net/kmeans_all_normed_feature.py" />
         <option value="$PROJECT_DIR$/PCA/res_net/kmeans_normed_feature.py" />
+        <option value="$PROJECT_DIR$/PCA/res_net/kmeans.py" />
       </list>
     </option>
   </component>
@@ -1004,7 +944,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="83" />
     <option name="width" value="929" />
     <option name="height" value="1087" />
@@ -1023,23 +963,6 @@
             <path>
               <item name="KnowledgeDistillation" type="b2602c69:ProjectViewProjectNode" />
               <item name="KnowledgeDistillation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KnowledgeDistillation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KnowledgeDistillation" type="462c0819:PsiDirectoryNode" />
-              <item name="PCA" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KnowledgeDistillation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KnowledgeDistillation" type="462c0819:PsiDirectoryNode" />
-              <item name="PCA" type="462c0819:PsiDirectoryNode" />
-              <item name="alex_net" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KnowledgeDistillation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KnowledgeDistillation" type="462c0819:PsiDirectoryNode" />
-              <item name="PCA" type="462c0819:PsiDirectoryNode" />
-              <item name="res_net" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1083,7 +1006,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.kmeans_normed_feature (1)">
+  <component name="RunManager" selected="Python.kmeans (1)">
     <configuration name="hierarchical_clustering" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="knowledge_distillation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1272,10 +1195,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.kmeans_normed_feature (1)" />
         <item itemvalue="Python.kmeans_all_normed_feature" />
-        <item itemvalue="Python.kmeans_all" />
+        <item itemvalue="Python.kmeans_normed_feature (1)" />
         <item itemvalue="Python.kmeans (1)" />
+        <item itemvalue="Python.kmeans_all" />
         <item itemvalue="Python.hierarchical_clustering" />
       </list>
     </recent_temporary>
@@ -1303,15 +1226,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="82" y="-8" width="1846" height="1096" extended-state="7" />
-    <editor active="true" />
+    <frame x="82" y="-8" width="1846" height="1096" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18645017" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33471933" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33471933" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4994401" weight="0.34890965" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1326,7 +1248,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.20548712" />
+      <window_info active="true" anchor="right" id="Remote Host" order="3" visible="true" weight="0.20548712" />
       <window_info anchor="right" id="R Graphics" order="4" weight="0.32978722" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="SciView" order="6" weight="0.37737963" />
@@ -1582,16 +1504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/res_net/kmeans.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="62" column="18" lean-forward="true" selection-start-line="66" selection-start-column="15" selection-end-line="69" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PCA/res_net/kmeans_all.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -1616,6 +1528,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/res_net/kmeans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>

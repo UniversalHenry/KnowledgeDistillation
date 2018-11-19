@@ -10,7 +10,7 @@ def main():
     filter_show = range(5)   # which filters to calculate
     interval = 100  # divide the histogram into how many parts
     # where to load the data
-    typeorder = 3
+    typeorder = 0
     typenum = 10
     data = {}
     print('Initiating...')
