@@ -82,7 +82,7 @@ def main():
             # print("Corresponding dw singular value:",file=f)
             # print(pca_val["dw"],file=f)
 
-            for i in np.arange(1,20):
+            for i in range(1,200,5):
                 Kmeans_data[i] = {}
                 Kmeans_data[i]['all'] = KMeans(n_clusters=i, random_state=0,max_iter=1000,tol=1e-8).fit(select_feature)
                 print("Kmeans(n_clusters=",i,",inertia_=", Kmeans_data[i]['all'].inertia_, ",n_iter_=",
