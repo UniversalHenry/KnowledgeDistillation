@@ -13,9 +13,9 @@ def main():
     interval = 100  # divide the histogram into how many parts
     # where to load the data
     data = {}
-    typeorder = 0
+    typeorder = 1
     print('Initiating...')
-    tar_data = torch.load('/data/HaoChen/knowledge_distillation/PCA/tar_pretrain_0_CUB_v1.pkl')
+    tar_data = torch.load('/data/HaoChen/knowledge_distillation/PCA/tar_pretrain_1_v1.pkl')
     num, filter_num, top_num, channel, filter_col, filter_row = tar_data.shape
     count = channel * filter_row * filter_col
     del tar_data
@@ -23,8 +23,8 @@ def main():
     print('Finished!')
 
     print('Loading Processed data...')
-    dir = './Processed_data/pretrain_0_CUB_v1/'
-    data[typeorder] = torch.load( dir + 'Processed_data_pretrain_0_CUB_v1_filter(0-9).pth.tar')
+    dir = './Processed_data/pretrain_1_v1/'
+    data[typeorder] = torch.load( dir + 'Processed_data_pretrain_1_v1_filter(0-9).pth.tar')
     print('Loaded data.')
 
     for filter_order in filter_show:
@@ -34,7 +34,7 @@ def main():
             os.makedirs(dir)
         # else:
         #     continue
-        f = open(dir + '/res.txt', 'w')
+        f = open(dir + '/res_bac.txt', 'w')
         print('Loading Processed data...')
         print('Loaded data.')
 
@@ -88,7 +88,8 @@ def main():
                     Cluster_data[method][i][int(select_feature_num / 50)] = max(unique)
                     res = dict(zip(unique, counts))
                     print("Hierarchical_clustering(rate=%.2f" % rate,",tol=%.3f" % tol,",n_cluster=", max(unique),
-                          ",max_counts=",max(counts),",linkage="+ method+ ",select_feature=",select_feature_num,")", file=f)
+                          ",max_counts=",max(counts),",linkage="+ method+ ",select_feature=",select_feature_num,")"
+                    , file = f)
                     print("Hierarchical_clustering(rate=%.2f" % rate, ",tol=%.3f" % tol, ",n_cluster=", max(unique),
                           ",max_counts=",max(counts),",linkage=" + method + ",select_feature=", select_feature_num, ")")
 
@@ -100,7 +101,7 @@ def main():
             filter_order + 1, filter_num, num) + "Hierarchical_clustering Finished", file=f)
         print("filter (%d/%d)\tsample (%d)\t" % (
             filter_order + 1, filter_num, num) + "Hierarchical_clustering Finished")
-        torch.save(Cluster_data,dir + "cluster_data.pth.tar")
+        # torch.save(Cluster_data,dir + "cluster_data.pth.tar")
 
 if __name__ == '__main__':
     main()

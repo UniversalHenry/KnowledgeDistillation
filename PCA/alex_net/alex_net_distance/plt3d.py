@@ -17,8 +17,9 @@ def main():
     plt.switch_backend('agg')
     del tar_data
     print('Finished!')
-    for root_dir in {"./Hierarchical_density_data/res_0.2_parttrain",
-                "./Hierarchical_density_data/res_pretrain"}:
+    for root_dir in ["./Hierarchical_density_data/res_0.2_parttrain",
+                     "./Hierarchical_density_data/res_0.5_parttrain",
+                "./Hierarchical_density_data/res_pretrain"]:
         for filter_order in filter_show:
             print(root_dir)
             print("filter (%d/%d)\tsample (%d)\t" % (filter_order + 1, filter_num, num) + "Ploting ...")
@@ -31,14 +32,12 @@ def main():
                 os.makedirs(dir)
             # else:
             #     continue
-            y = np.linspace(1, 0.01, 100)
+            y = np.linspace(0.99, 0, 100)
             x = np.linspace(count % 50, count , int(count / 50) + 1)
             x,y = np.meshgrid(x,y)
             for key in Cluster_data.keys():
                 print(key,'\tShape:',Cluster_data[key].shape)
-                z = Cluster_data[key][::-1]
-                for i in np.arange(z.shape[0]):
-                    z[i] = z[i][::-1]
+                z = Cluster_data[key]
                 fig = plt.figure()
                 ax = Axes3D(fig)
                 ax.plot_surface(x, y, z, rstride=1, cstride=1, cmap='rainbow')

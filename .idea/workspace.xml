@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eeac7d69-0217-4108-a2a1-02f135e3fbd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PCA/alex_net/hierarchical_clustering_by_density.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PCA/alex_net/hierarchical_clustering_by_density_20per.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PCA/alex_net/plt3d.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PCA/alex_net/process_data_20per.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PCA/alex_net/alex_net_distance/hierarchical_clustering_by_density_50per.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PCA/alex_net/alex_net_distance/plt2d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PCA/alex_net/alex_net_distance/plt3d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PCA/alex_net/alex_net_distance/process_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PCA/alex_net/alex_net_distance/process_data_20per.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PCA/alex_net/alex_net_distance/process_data_50per.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PCA/alex_net/try1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PCA/cifar_alex_net/check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PCA/cifar_alex_net/hierarchical_clustering_by_density.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PCA/cifar_alex_net/plt3d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PCA/cifar_alex_net/process_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PCA/cifar_alex_net/try1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PCA/alex_net/kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/PCA/alex_net/kmeans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PCA/alex_net/hierarchical_clustering_by_density.py" beforeDir="false" afterPath="$PROJECT_DIR$/PCA/alex_net/hierarchical_clustering_by_density.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PCA/alex_net/plt3d.py" beforeDir="false" afterPath="$PROJECT_DIR$/PCA/alex_net/plt3d.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,32 +29,38 @@
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$kmeans.coverage" NAME="kmeans Coverage Results" MODIFIED="1542459895228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$dbscan_filters.coverage" NAME="dbscan_filters Coverage Results" MODIFIED="1541749394991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$dbscan1.coverage" NAME="dbscan1 Coverage Results" MODIFIED="1541749408489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
-    <SUITE FILE_PATH="coverage/KnowledgeDistillation$hierarchical_clustering_by_density.coverage" NAME="hierarchical_clustering_by_density Coverage Results" MODIFIED="1542807883164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$hierarchical_clustering_by_density.coverage" NAME="hierarchical_clustering_by_density Coverage Results" MODIFIED="1542966584059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$hierarchical_clustering__1_.coverage" NAME="hierarchical_clustering (1) Coverage Results" MODIFIED="1542533324992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$process_data.coverage" NAME="process_data Coverage Results" MODIFIED="1541849560970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/dbscan_data" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$hierarchical_clustering_normed_feature.coverage" NAME="hierarchical_clustering_normed_feature Coverage Results" MODIFIED="1542845780531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$overfitting_net_training.coverage" NAME="overfitting net_training Coverage Results" MODIFIED="1540045015175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/overfitting_net" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$plt3d__1_.coverage" NAME="plt3d (1) Coverage Results" MODIFIED="1542965414673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$pca_random.coverage" NAME="pca_random Coverage Results" MODIFIED="1540544298942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$plt2d.coverage" NAME="plt2d Coverage Results" MODIFIED="1542964692023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$hierarchical_clustering_by_density_20per.coverage" NAME="hierarchical_clustering_by_density_20per Coverage Results" MODIFIED="1542794590775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$dbscan_dx.coverage" NAME="dbscan_dx Coverage Results" MODIFIED="1541722245998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$hierarchical_clustering.coverage" NAME="hierarchical_clustering Coverage Results" MODIFIED="1542083415322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$kmeans__1_.coverage" NAME="kmeans (1) Coverage Results" MODIFIED="1542519461134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/res_net" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$try1.coverage" NAME="try1 Coverage Results" MODIFIED="1542906408812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/cifar_alex_net" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$try3d.coverage" NAME="try3d Coverage Results" MODIFIED="1542848252727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$pca_test.coverage" NAME="pca_test Coverage Results" MODIFIED="1540370594425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$pca.coverage" NAME="pca Coverage Results" MODIFIED="1540544802088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$kmeans_all.coverage" NAME="kmeans_all Coverage Results" MODIFIED="1542083430128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$pca_conv_data.coverage" NAME="pca_conv_data Coverage Results" MODIFIED="1541854628380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$check.coverage" NAME="check Coverage Results" MODIFIED="1542944658001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/cifar_alex_net" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$kmeans_all_normed_feature.coverage" NAME="kmeans_all_normed_feature Coverage Results" MODIFIED="1542534345611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/res_net" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$kmeans_normed_feature__1_.coverage" NAME="kmeans_normed_feature (1) Coverage Results" MODIFIED="1542534343276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/res_net" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$kmeans_normed_feature.coverage" NAME="kmeans_normed_feature Coverage Results" MODIFIED="1542459940361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$hierarchical_clustering.coverage" NAME="hierarchical_clustering Coverage Results" MODIFIED="1542464618657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/res_net" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$pca_test2.coverage" NAME="pca_test2 Coverage Results" MODIFIED="1540546688034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$plt3d__2_.coverage" NAME="plt3d (2) Coverage Results" MODIFIED="1542962351731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net/alex_net_distance" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$pca_noise.coverage" NAME="pca_noise Coverage Results" MODIFIED="1540607822921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
-    <SUITE FILE_PATH="coverage/KnowledgeDistillation$process_data_20per.coverage" NAME="process_data_20per Coverage Results" MODIFIED="1542794490880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$hierarchical_clustering_by_density__1_.coverage" NAME="hierarchical_clustering_by_density (1) Coverage Results" MODIFIED="1542941713378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/cifar_alex_net" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$process_data_20per.coverage" NAME="process_data_20per Coverage Results" MODIFIED="1542962631242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net/alex_net_distance" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$kmeans_all.coverage" NAME="kmeans_all Coverage Results" MODIFIED="1542519420325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/res_net" />
-    <SUITE FILE_PATH="coverage/KnowledgeDistillation$process_data.coverage" NAME="process_data Coverage Results" MODIFIED="1542807507475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$process_data.coverage" NAME="process_data Coverage Results" MODIFIED="1542901351427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/cifar_alex_net" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$kmeans.coverage" NAME="kmeans Coverage Results" MODIFIED="1542083403227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
-    <SUITE FILE_PATH="coverage/KnowledgeDistillation$plt3d.coverage" NAME="plt3d Coverage Results" MODIFIED="1542852114887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$plt3d.coverage" NAME="plt3d Coverage Results" MODIFIED="1542961422891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net/alex_net(distance)" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$hierarchical_clustering_all.coverage" NAME="hierarchical_clustering_all Coverage Results" MODIFIED="1542083434414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$resnet.coverage" NAME="resnet Coverage Results" MODIFIED="1540045009325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/overfitting_net" />
   </component>
@@ -97,47 +112,68 @@
     <session id="191018474">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="2" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.10" value="4" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="3" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.open.time.9" value="5" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="_bootstrap&gt;" value="1" />
-          <entry key="png" value="30" />
-          <entry key="py" value="67" />
-          <entry key="txt" value="10" />
+          <entry key="png" value="103" />
+          <entry key="py" value="139" />
+          <entry key="txt" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="30" />
-          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Image" value="103" />
+          <entry key="PLAIN_TEXT" value="17" />
           <entry key="PyRemoteDebug" value="1" />
-          <entry key="Python" value="67" />
+          <entry key="Python" value="139" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="214" />
-          <entry key="py" value="1633" />
+          <entry key="Python Console" value="563" />
+          <entry key="py" value="2143" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1847" />
+          <entry key="Python" value="2706" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_distance/process_data_50per.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="16" column="16" selection-start-line="10" selection-start-column="82" selection-end-line="10" selection-end-column="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_distance/hierarchical_clustering_by_density_50per.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="24" column="20" lean-forward="true" selection-start-line="17" selection-start-column="86" selection-end-line="17" selection-end-column="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -148,8 +184,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>(whiten=True)</find>
-      <find>res_random</find>
       <find>max(filter_show) + 1</find>
       <find>test1</find>
       <find>random</find>
@@ -172,6 +206,14 @@
       <find>CUB_v1</find>
       <find>sr0.2</find>
       <find>sa</find>
+      <find>pretrain_0_CUB_v1</find>
+      <find>/data/HaoChen/knowledge_distillation/PCA/tar_pretrain_0_CUB_v1.pkl</find>
+      <find>tar_pretrain</find>
+      <find>file</find>
+      <find>pretrain_1</find>
+      <find>pretrain_0_v1</find>
+      <find>save</find>
+      <find>fcluster</find>
     </findStrings>
     <replaceStrings>
       <replace>()</replace>
@@ -194,6 +236,10 @@
       <replace>_0_CUB_</replace>
       <replace># torch.save(</replace>
       <replace>CUB_sr</replace>
+      <replace>pretrain_0_v1</replace>
+      <replace>/data/HaoChen/knowledge_distillation/PCA/dw_pretrain_0_v1.pkl</replace>
+      <replace>pretrain_0</replace>
+      <replace>pretrain_1_v1</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -203,11 +249,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/overfitting_net/overfitting_net400epoch.py" />
-        <option value="$PROJECT_DIR$/overfitting_net/overfitting net_training.py" />
-        <option value="$PROJECT_DIR$/PCA/conv_data/pca_test.py" />
-        <option value="$PROJECT_DIR$/PCA/pca_random.py" />
-        <option value="$PROJECT_DIR$/PCA/pca_conv_data.py" />
         <option value="$PROJECT_DIR$/PCA/pca_test2.py" />
         <option value="$PROJECT_DIR$/PCA/pca_test1.py" />
         <option value="$PROJECT_DIR$/PCA/pca.py" />
@@ -237,9 +278,28 @@
         <option value="$PROJECT_DIR$/PCA/alex_net/kmeans.py" />
         <option value="$PROJECT_DIR$/PCA/alex_net/process_data_20per.py" />
         <option value="$PROJECT_DIR$/PCA/alex_net/hierarchical_clustering_by_density_20per.py" />
-        <option value="$PROJECT_DIR$/PCA/alex_net/hierarchical_clustering_by_density.py" />
         <option value="$PROJECT_DIR$/PCA/alex_net/try3d.py" />
         <option value="$PROJECT_DIR$/PCA/alex_net/plt3d.py" />
+        <option value="$PROJECT_DIR$/PCA/alex_net/try1.py" />
+        <option value="$PROJECT_DIR$/PCA/alex_net/hierarchical_clustering_by_density.py" />
+        <option value="$PROJECT_DIR$/PCA/cifar_alex_net/process_data.py" />
+        <option value="$PROJECT_DIR$/PCA/cifar_alex_net/try1.py" />
+        <option value="$PROJECT_DIR$/PCA/cifar_alex_net/plt3d.py" />
+        <option value="$PROJECT_DIR$/PCA/cifar_alex_net/hierarchical_clustering_by_density.py" />
+        <option value="$PROJECT_DIR$/PCA/cifar_alex_net/check.py" />
+        <option value="$PROJECT_DIR$/PCA/alex_net/alex_net(distance)/hierarchical_clustering_by_density_20per.py" />
+        <option value="$PROJECT_DIR$/PCA/alex_net/alex_net(distance)/hierarchical_clustering_by_density.py" />
+        <option value="$PROJECT_DIR$/PCA/alex_net/alex_net(maxclust)/hierarchical_clustering_by_density_20per.py" />
+        <option value="$PROJECT_DIR$/PCA/alex_net/alex_net(maxclust)/hierarchical_clustering_by_density.py" />
+        <option value="$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust/plt2d.py" />
+        <option value="$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust/plt3d.py" />
+        <option value="$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust/hierarchical_clustering_by_density.py" />
+        <option value="$PROJECT_DIR$/PCA/alex_net/alex_net_distance/hierarchical_clustering_by_density_20per.py" />
+        <option value="$PROJECT_DIR$/PCA/alex_net/alex_net_distance/hierarchical_clustering_by_density.py" />
+        <option value="$PROJECT_DIR$/PCA/alex_net/alex_net_distance/process_data_50per.py" />
+        <option value="$PROJECT_DIR$/PCA/alex_net/alex_net_distance/hierarchical_clustering_by_density_50per.py" />
+        <option value="$PROJECT_DIR$/PCA/alex_net/alex_net_distance/plt2d.py" />
+        <option value="$PROJECT_DIR$/PCA/alex_net/alex_net_distance/plt3d.py" />
       </list>
     </option>
   </component>
@@ -250,9 +310,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="83" />
+    <option name="x" value="90" />
     <option name="width" value="929" />
-    <option name="height" value="1087" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -278,13 +338,22 @@
               <item name="KnowledgeDistillation" type="b2602c69:ProjectViewProjectNode" />
               <item name="KnowledgeDistillation" type="462c0819:PsiDirectoryNode" />
               <item name="PCA" type="462c0819:PsiDirectoryNode" />
-              <item name="PCA_data" type="462c0819:PsiDirectoryNode" />
+              <item name="alex_net" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KnowledgeDistillation" type="b2602c69:ProjectViewProjectNode" />
               <item name="KnowledgeDistillation" type="462c0819:PsiDirectoryNode" />
               <item name="PCA" type="462c0819:PsiDirectoryNode" />
-              <item name="res_net" type="462c0819:PsiDirectoryNode" />
+              <item name="alex_net" type="462c0819:PsiDirectoryNode" />
+              <item name="alex_net_distance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KnowledgeDistillation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KnowledgeDistillation" type="462c0819:PsiDirectoryNode" />
+              <item name="PCA" type="462c0819:PsiDirectoryNode" />
+              <item name="alex_net" type="462c0819:PsiDirectoryNode" />
+              <item name="alex_net_distance" type="462c0819:PsiDirectoryNode" />
+              <item name="Hierarchical_density_data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KnowledgeDistillation" type="b2602c69:ProjectViewProjectNode" />
@@ -312,11 +381,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\alex_net\alex_net_distance" />
+      <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\alex_net\alex_net_distance\Hierarchical_density_data" />
+      <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\alex_net\alex_net_maxclust" />
       <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\alex_net" />
-      <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\res_net" />
-      <recent name="C:\Users\Administrator\PycharmProjects\Henry_Lu\knowledge_distillation\PCA" />
+      <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\alex_net\alex_net(maxclust)" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\alex_net\alex_net_distance" />
       <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\alex_net" />
       <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\res_net" />
       <recent name="C:\Users\Administrator\PycharmProjects\Henry_Lu\knowledge_distillation\PCA" />
@@ -334,7 +406,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.plt3d">
+  <component name="RunManager" selected="Python.hierarchical_clustering_by_density">
     <configuration name="hierarchical_clustering_by_density" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="knowledge_distillation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -343,34 +415,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PCA/alex_net" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PCA/alex_net/hierarchical_clustering_by_density.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="hierarchical_clustering_normed_feature" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="knowledge_distillation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PCA/alex_net" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PCA/alex_net/hierarchical_clustering_normed_feature.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust/hierarchical_clustering_by_density.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -423,7 +473,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="plt3d" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="plt2d" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="knowledge_distillation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -431,12 +481,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PCA/alex_net" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PCA/alex_net/plt3d.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust/plt2d.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -445,7 +495,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="process_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="plt3d (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="knowledge_distillation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -453,12 +503,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PCA/alex_net" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PCA/alex_net/process_data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust/plt3d.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="plt3d (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="knowledge_distillation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PCA/alex_net/alex_net_distance" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PCA/alex_net/alex_net_distance/plt3d.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="process_data_20per" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="knowledge_distillation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PCA/alex_net/alex_net_distance" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PCA/alex_net/alex_net_distance/process_data_20per.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -489,45 +583,23 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="try3d" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="knowledge_distillation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PCA/alex_net" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PCA/alex_net/try3d.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.pca" />
       <item itemvalue="Python.overfitting net_training" />
       <item itemvalue="Python.resnet" />
+      <item itemvalue="Python.plt3d (2)" />
+      <item itemvalue="Python.process_data_20per" />
+      <item itemvalue="Python.plt3d (1)" />
+      <item itemvalue="Python.plt2d" />
       <item itemvalue="Python.hierarchical_clustering_by_density" />
-      <item itemvalue="Python.process_data" />
-      <item itemvalue="Python.hierarchical_clustering_normed_feature" />
-      <item itemvalue="Python.plt3d" />
-      <item itemvalue="Python.try3d" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.plt3d" />
-        <item itemvalue="Python.try3d" />
-        <item itemvalue="Python.hierarchical_clustering_normed_feature" />
         <item itemvalue="Python.hierarchical_clustering_by_density" />
-        <item itemvalue="Python.process_data" />
+        <item itemvalue="Python.plt3d (1)" />
+        <item itemvalue="Python.plt2d" />
+        <item itemvalue="Python.process_data_20per" />
+        <item itemvalue="Python.plt3d (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -554,29 +626,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="82" y="-8" width="1846" height="1096" extended-state="6" />
+    <frame x="82" y="-8" width="1846" height="1096" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19540873" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2525196" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49664053" weight="0.3929314" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49720046" weight="0.3991684" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.27323627" weight="0.3991684" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.37402016" weight="0.45841995" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32848233" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.49888018" weight="0.32848233" />
+      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.49608064" visible="true" weight="0.32848233" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.50335944" side_tool="true" visible="true" weight="0.3929314" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.50391936" side_tool="true" visible="true" weight="0.32848233" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5005599" side_tool="true" weight="0.32848233" />
-      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.49888018" weight="0.32848233" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.49888018" weight="0.36278588" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.21612541" />
+      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.24020156" />
       <window_info anchor="right" id="R Graphics" order="4" weight="0.32978722" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="SciView" order="6" weight="0.37737963" />
@@ -597,255 +670,219 @@
           <line>9</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PCA/alex_net/hierarchical_clustering_by_density.py</url>
+          <line>85</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PCA/alex_net/hierarchical_clustering_by_density.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PCA/cifar_alex_net/check.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PCA/res_random/hist_no_0/filter(1,512)dw(1000)histogram.png" />
-    <entry file="file://$PROJECT_DIR$/PCA/res_random/hist_no_0/filter(1,512)all(1000)histogram.png" />
-    <entry file="file://$PROJECT_DIR$/PCA/res_random/hist_no_0/filter(1,512)tar(1000)histogram.png" />
-    <entry file="file://$PROJECT_DIR$/PCA/res_pretrain/hist_no_0/filter(1,512)tar(1000)histogram.png" />
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1805366919/-420072412/matplotlib/axes/_axes.py">
+    <entry file="file://$PROJECT_DIR$/PCA/cifar_alex_net/plt3d.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="6461" selection-start-line="6461" selection-end-line="6461" />
+        <state relative-caret-position="76">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/pca_random.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1805366919/-420072412/sklearn/decomposition/pca.py">
+    <entry file="file://$PROJECT_DIR$/PCA/cifar_alex_net/hierarchical_clustering_by_density.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="424" selection-start-line="424" selection-end-line="424" />
+        <state relative-caret-position="115">
+          <caret line="83" column="38" lean-forward="true" selection-start-line="83" selection-start-column="38" selection-end-line="83" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/pca_noise.py" />
-    <entry file="file://$PROJECT_DIR$/PCA/pca_test2.py" />
-    <entry file="file://$PROJECT_DIR$/PCA/pca_test1.py" />
-    <entry file="file://$PROJECT_DIR$/PCA/pca_test.py" />
-    <entry file="file://$PROJECT_DIR$/PCA/dbscan_dx.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1805366919/-420072412/sklearn/neighbors/base.py">
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net(distance)/try1.py" />
+    <entry file="file://$PROJECT_DIR$/PCA/cifar_alex_net/check.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="617" lean-forward="true" selection-start-line="617" selection-end-line="617" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/pca.py" />
-    <entry file="file://$PROJECT_DIR$/PCA/dbscan_filters.py" />
-    <entry file="file://$PROJECT_DIR$/PCA/pca_conv_data.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1805366919/-420072412/sklearn/cluster/k_means_.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="860" selection-start-line="860" selection-end-line="860" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/dbscan1.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1805366919/-420072412/torch/serialization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="131" selection-start-line="131" selection-end-line="131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/Hierarchical_clustering_data/res_pretrain_0/filter(2,512)/res/res.txt" />
-    <entry file="file://$PROJECT_DIR$/PCA/Hierarchical_clustering_data/res_pretrain_0/filter(1,512)/res/res.txt" />
-    <entry file="file://$PROJECT_DIR$/PCA/Kmeans_data/res_pretrain_0/filter(1,512)/res/res.txt" />
-    <entry file="file://$PROJECT_DIR$/PCA/Kmeans_data/res_pretrain_all_10/filter(1,512)/res/res.txt" />
-    <entry file="file://$PROJECT_DIR$/PCA/alex_net/Kmeans_data_normed_feature/res_pretrain_0/filter(1,256)/res/res.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1518" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/alex_net/kmeans_normed_feature.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/res_net/hierarchical_clustering.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="111" column="30" selection-start-line="111" selection-start-column="30" selection-end-line="111" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/res_net/hierarchical_clustering_all.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="133" column="19" selection-start-line="133" selection-start-column="19" selection-end-line="133" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/res_net/hierarchical_clustering_normed_feature.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/res_net/hierarchical_clustering_all_normed_feature.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="82" selection-start-line="82" selection-end-line="85" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/res_net/process_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="15" column="87" lean-forward="true" selection-start-line="15" selection-start-column="87" selection-end-line="15" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/res_net/kmeans_all.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="122" column="6" lean-forward="true" selection-start-line="122" selection-start-column="6" selection-end-line="122" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/res_net/kmeans_all_normed_feature.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/res_net/kmeans_normed_feature.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/res_net/kmeans.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/res_net/Kmeans_data/res_pretrain_0/filter(1,512)/res/res.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="5373" selection-start-line="5373" selection-end-line="5373" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/alex_net/Hierarchical_clustering_data/res_pretrain_0/filter(1,256)/res/res.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="7818" column="33" selection-start-line="7818" selection-start-column="33" selection-end-line="7818" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/PCA_data/pca_noise.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2898" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1805366919/-420072412/matplotlib/backends/backend_qt5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/alex_net/hierarchical_clustering.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="114" column="72" lean-forward="true" selection-start-line="114" selection-start-column="72" selection-end-line="114" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/alex_net/hierarchical_clustering_by_density_10per.py" />
-    <entry file="file://$PROJECT_DIR$/PCA/alex_net/process_data_20per.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/alex_net/kmeans.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1633">
-          <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1805366919/-420072412/scipy/spatial/distance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="1938" selection-start-line="1938" selection-end-line="1938" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/alex_net/process_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/alex_net/hierarchical_clustering_normed_feature.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="55" column="46" lean-forward="true" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1805366919/-1606965440/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="331" selection-start-line="331" selection-end-line="331" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/alex_net/hierarchical_clustering_by_density.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="230">
+          <caret line="85" column="51" lean-forward="true" selection-start-line="85" selection-start-column="51" selection-end-line="85" selection-end-column="72" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1805366919/-420072412/numpy/lib/stride_tricks.py">
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net(distance)/hierarchical_clustering_by_density.py" />
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net(maxclust)/hierarchical_clustering_by_density_20per.py" />
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net(maxclust)/hierarchical_clustering_by_density.py" />
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net(distance)/hierarchical_clustering_by_density_20per.py" />
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net(distance)/plt3d.py" />
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net(distance)/Hierarchical_density_data/res_pretrain_0/filter(1,256)/res/figures/average.png" />
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net(distance)/Hierarchical_density_data/res_pretrain_0/filter(1,256)/res/figures/complete.png" />
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net(distance)/Hierarchical_density_data/res_pretrain_0/filter(1,256)/res/figures/ward.png" />
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net(distance)/Hierarchical_density_data/res_pretrain_0/filter(1,256)/res/figures/single.png" />
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_distance/Hierarchical_density_data/res_pretrain_0/filter(1,256)/res/fig_tmp/average.png" />
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_distance/Hierarchical_density_data/res_0.2_parttrain_0/filter(1,256)/res/figures/complete.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_distance/Hierarchical_density_data/res_0.2_parttrain_0/filter(1,256)/res/figures/single.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_distance/Hierarchical_density_data/res_0.2_parttrain_0/filter(1,256)/res/figures/ward.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_distance/Hierarchical_density_data/res_pretrain_0/filter(1,256)/res/res.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="183" selection-start-line="183" selection-end-line="183" />
+        <state relative-caret-position="418">
+          <caret line="5341" column="29" selection-start-line="5341" selection-start-column="29" selection-end-line="5341" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/alex_net/try3d.py">
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_distance/try1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="161">
+          <caret line="7" column="9" lean-forward="true" selection-end-line="49" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/alex_net/hierarchical_clustering_by_density_20per.py">
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust/Hierarchical_density_data/res_0.2_parttrain_0/filter(1,256)/res/fig_2d/rate_0.2/average.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust/Hierarchical_density_data/res_0.2_parttrain_0/filter(1,256)/res/fig_2d/rate_0.1/average.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust/Hierarchical_density_data/res_0.2_parttrain_0/filter(1,256)/res/fig_2d/rate_0.0/average.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust/Hierarchical_density_data/res_0.2_parttrain_0/filter(1,256)/res/fig_2d/rate_0.5/average.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust/Hierarchical_density_data/res_0.2_parttrain_0/filter(1,256)/res/fig_tmp/average.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust/Hierarchical_density_data/res_0.2_parttrain_0/filter(1,256)/res/figures/average.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust/Hierarchical_density_data/res_pretrain_0/filter(1,256)/res/figures/single.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust/Hierarchical_density_data/res_pretrain_0/filter(1,256)/res/figures/complete.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust/Hierarchical_density_data/res_pretrain_0/filter(1,256)/res/figures/average.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust/Hierarchical_density_data/res_0.2_parttrain_0/filter(4,256)/res/figures/single.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust/Hierarchical_density_data/res_0.2_parttrain_0/filter(4,256)/res/figures/average.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust/plt3d.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="34" column="15" lean-forward="true" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+          <caret line="33" column="41" lean-forward="true" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/alex_net/plt3d.py">
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust/plt2d.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+        <state relative-caret-position="392">
+          <caret line="49" column="26" lean-forward="true" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust/hierarchical_clustering_by_density.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="92" column="10" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_distance/hierarchical_clustering_by_density_20per.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="73" column="22" lean-forward="true" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_distance/Hierarchical_density_data/res_pretrain_0/filter(1,256)/res/figures/average.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_distance/Hierarchical_density_data/res_pretrain_0/filter(1,256)/res/figures/complete.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_distance/Hierarchical_density_data/res_pretrain_0/filter(1,256)/res/figures/single.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_distance/Hierarchical_density_data/res_pretrain_0/filter(1,256)/res/figures/ward.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_distance/Hierarchical_density_data/res_pretrain_0/filter(1,256)/res/figures/centroid.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_distance/Hierarchical_density_data/res_pretrain_0/filter(2,256)/res/figures/average.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_distance/Hierarchical_density_data/res_0.2_parttrain_0/filter(2,256)/res/figures/average.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_distance/Hierarchical_density_data/res_0.2_parttrain_0/filter(1,256)/res/fig_2d/rate_0.3/average.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_distance/Hierarchical_density_data/res_0.2_parttrain_0/filter(1,256)/res/fig_2d/rate_0.7/average.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_distance/hierarchical_clustering_by_density.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="85" column="40" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="40" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_distance/Hierarchical_density_data/res_0.2_parttrain_0/filter(1,256)/res/figures/average.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_distance/plt2d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_distance/plt3d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_distance/process_data.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_distance/process_data_20per.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="10" column="83" selection-start-line="10" selection-start-column="83" selection-end-line="10" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_distance/process_data_50per.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="16" column="16" selection-start-line="10" selection-start-column="82" selection-end-line="10" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_distance/hierarchical_clustering_by_density_50per.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="17" selection-start-column="86" selection-end-line="17" selection-end-column="91" />
         </state>
       </provider>
     </entry>

@@ -10,15 +10,14 @@ import os
 def main():
     print('Initiating...')
     filter_show = range(5)
-    typeorder = 0
-    tar_data = torch.load('/data/HaoChen/knowledge_distillation/PCA/tar_pretrain_0_CUB_v1.pkl')
+    typeorder = 1
+    tar_data = torch.load('/data/HaoChen/knowledge_distillation/PCA/tar_pretrain_1_v1.pkl')
     num, filter_num, top_num, channel, filter_col, filter_row = tar_data.shape
     count = channel * filter_row * filter_col
     plt.switch_backend('agg')
     del tar_data
     print('Finished!')
-    for root_dir in {"./Hierarchical_density_data/res_0.2_parttrain",
-                "./Hierarchical_density_data/res_pretrain"}:
+    for root_dir in ["./Hierarchical_density_data/res_pretrain"]:
         for filter_order in filter_show:
             print(root_dir)
             print("filter (%d/%d)\tsample (%d)\t" % (filter_order + 1, filter_num, num) + "Ploting ...")

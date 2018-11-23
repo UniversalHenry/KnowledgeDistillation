@@ -58,7 +58,7 @@ def main():
         # Hierarchical_clustering
 
         Cluster_data= {}
-        for method in ['complete', 'average', 'single', 'ward']:
+        for method in ['centroid','complete', 'average', 'single', 'ward']:
             select_feature_num = pca_component["dot_res_norm"].shape[1]
             select_feature = pca_component["dot_res_norm"]
             Cluster_data.update({method: np.zeros((100,int(select_feature_num / 50) + 1))})
@@ -69,21 +69,12 @@ def main():
                 print("\nfilter (%d/%d)\tsample (%d)\tselect_feature_num(%d)\t" % (
                     filter_order + 1, filter_num, num, select_feature_num) + "Hierarchical_clustering ...")
                 Z = sch.linkage(disMat, method=method)
-                maxd = max(disMat)
-                mind = 0
-                while abs(maxd - mind) > 1e-4:
-                    midd = (maxd + mind) / 2
-                    n_cluster = max(sch.fcluster(Z, t=midd))
-                    if n_cluster > 1:
-                        mind = midd
-                    else:
-                        maxd = midd
+                maxd = Z[-1][2]
                 # find the min distance
-
                 for i in np.arange(0, 100):
-                    rate = 1 - i / 100
+                    rate = i / 100
                     tol = maxd * rate
-                    cluster = sch.fcluster(Z, t=tol)
+                    cluster = sch.fcluster(Z, t=tol, criterion='distance')
                     unique, counts = np.unique(cluster, return_counts=True)
                     Cluster_data[method][i][int(select_feature_num / 50)] = max(unique)
                     res = dict(zip(unique, counts))

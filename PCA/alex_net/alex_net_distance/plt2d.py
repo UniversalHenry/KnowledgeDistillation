@@ -17,36 +17,37 @@ def main():
     plt.switch_backend('agg')
     del tar_data
     print('Finished!')
-    for root_dir in {"./Hierarchical_density_data/res_0.2_parttrain",
-                "./Hierarchical_density_data/res_pretrain"}:
+    for root_dir in ["./Hierarchical_density_data/res_0.2_parttrain",
+                     "./Hierarchical_density_data/res_0.5_parttrain",
+                "./Hierarchical_density_data/res_pretrain"]:
         for filter_order in filter_show:
             print(root_dir)
             print("filter (%d/%d)\tsample (%d)\t" % (filter_order + 1, filter_num, num) + "Ploting ...")
             dir = root_dir + "_%d/filter(%d,%d)/res/" % (
                 typeorder, filter_order + 1, filter_num)
             assert (os.path.exists(dir))
-            Cluster_data = torch.load( dir + "cluster_data.pth.tar")
-            dir = dir + "figures/"
+            Cluster_data = torch.load(dir + "cluster_data.pth.tar")
+            dir = dir + "fig_2d/"
             if not os.path.exists(dir):
                 os.makedirs(dir)
             # else:
             #     continue
-            y = np.linspace(1, 0.01, 100)
             x = np.linspace(count % 50, count , int(count / 50) + 1)
-            x,y = np.meshgrid(x,y)
-            for key in Cluster_data.keys():
-                print(key,'\tShape:',Cluster_data[key].shape)
-                z = Cluster_data[key][::-1]
-                for i in np.arange(z.shape[0]):
-                    z[i] = z[i][::-1]
-                fig = plt.figure()
-                ax = Axes3D(fig)
-                ax.plot_surface(x, y, z, rstride=1, cstride=1, cmap='rainbow')
-                ax.set_xlabel('feature_num', color='r')
-                ax.set_ylabel('1-rate', color='g')
-                ax.set_zlabel('n_cluster', color='b')
-                plt.title(key+"_filter(%d/%d)sample(%d)" % (filter_order + 1, filter_num, num), color='b')
-                fig.savefig(dir+key+'.png')
+            for j in np.linspace(10, 90, 9):
+                rate = j / 100
+                for key in Cluster_data.keys():
+                    print(key, '\tShape:', Cluster_data[key].shape , '\tRate:',rate)
+                    z = Cluster_data[key]
+                    y = np.zeros(int(count / 50) + 1)
+                    for i in np.arange(z.shape[1]):
+                        y[i] = z[int(j)][i]
+                    fig = plt.figure()
+                    plt.plot(x,y)
+                    plt.title(key + "_filter(%d/%d)sample(%d)_rate(%f)" % (filter_order + 1, filter_num, num, rate), color='b')
+                    tmpdir = dir + ('rate_%.1f/' % rate)
+                    if not os.path.exists(tmpdir):
+                        os.makedirs(tmpdir)
+                    fig.savefig(tmpdir + key + '.png')
             print("filter (%d/%d)\tsample (%d)\t" % (filter_order + 1, filter_num, num) + "Ploting Finished")
             print("")
 
