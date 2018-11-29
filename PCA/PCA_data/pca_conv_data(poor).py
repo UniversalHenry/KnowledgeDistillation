@@ -1,5 +1,6 @@
 from sklearn.decomposition import PCA
 import torch
+from sklearn.cluster import DBSCAN
 from sklearn import decomposition
 import matplotlib.pyplot as plt
 import numpy as np
@@ -56,7 +57,7 @@ def main():
 
         # painting figures
         fig = 0
-        for key in ["dot_res"]:
+        for key in pca:
             # decent singular_values_
             plt.figure(fig)
             fig += 1
@@ -97,14 +98,25 @@ def main():
                 os.makedirs(dir)
             plt.savefig(dir + "filter(%d,%d)" % (filter_order + 1, filter_num) + key + "(%d)hist_no_0" % (num) + ".png")
 
+            # bdscan
+            print('DBSCAN ...')
+            dbscan_data = DBSCAN(eps=0.001 * (pca[key].max() - pca[key].min()), min_samples=2).fit(
+                pca[key].reshape((-1, 1)))
+            _, counts = np.unique(dbscan_data.labels_, return_counts=True)
+            effective_dimension = sum(counts) - max(counts)
+            print(key, 'effective dimension:', effective_dimension)
+            print('DBSCAN finished!')
+
             # yx_line singular_values_ tar
             plt.figure(fig)
             fig += 1
-            plt.axis([min(pca[key]), max(pca[key]), min(pca[key]),max(pca[key])])
-            plt.scatter(pca[key],pca[key],marker='x')
+            plt.axis([min(pca[key]), max(pca[key]), min(pca[key]), max(pca[key])])
+            plt.scatter(pca[key], pca[key], marker='x', c='b')
+            plt.scatter(pca[key][0:effective_dimension], pca[key][0:effective_dimension], marker='x', c='r')
             plt.ylabel('singular_values_', fontsize=10)
             plt.xlabel('singular_values_', fontsize=10)
-            plt.title("filter (%d/%d) " % (filter_order + 1, filter_num) + key + " (%d) no_0 " % (num), fontsize=12)
+            plt.title("filter (%d/%d) " % (filter_order + 1, filter_num) + key + " (%d) no_0 " % (num) +
+                      " \n effective_dimension: %d" % effective_dimension, fontsize=12)
             dir = "./res_pretrain_poor/yx_line/" + key + "/"
             if not os.path.exists(dir):
                 os.makedirs(dir)

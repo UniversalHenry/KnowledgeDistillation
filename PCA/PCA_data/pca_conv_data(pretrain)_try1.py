@@ -1,5 +1,6 @@
 from sklearn.decomposition import PCA
 import torch
+from sklearn.cluster import DBSCAN
 from sklearn import decomposition
 import matplotlib.pyplot as plt
 import numpy as np
@@ -11,10 +12,10 @@ def main():
     interval = 100  # divide the histogram into how many parts
     # where to load the data
     print("Loading inputFeature_pretrain ...")
-    tar_data = torch.load('/data/HaoChen/knowledge_distillation/PCA/tar_pretrain_0_poorData.pkl')
+    tar_data = torch.load('/data/HaoChen/knowledge_distillation/PCA/tar_pretrain_0_CUB_v1.pkl')
     print("Loaded inputFeature_pretrain !")
     print("Loading dW_pretrain ...")
-    dw_data = torch.load('/data/HaoChen/knowledge_distillation/PCA/dx_pretrain_0_poorData.pkl')
+    dw_data = torch.load('/data/HaoChen/knowledge_distillation/PCA/dx_pretrain_0_CUB_v1.pkl')
     print("Loaded dW_pretrain !")
 
     print("Converting data ...")
@@ -56,66 +57,30 @@ def main():
 
         # painting figures
         fig = 0
-        for key in ["dot_res"]:
-            # decent singular_values_
-            plt.figure(fig)
-            fig += 1
-            plt.plot(pca[key], 'k', linewidth=2)
-            plt.xlabel('n_components', fontsize=10)
-            plt.ylabel('singular_values_', fontsize=10)
-            plt.title("filter(%d/%d) " % (filter_order + 1, filter_num) + key + " (%d) " % (num), fontsize=12)
-            dir = "./res_pretrain_poor/decent/" + key + "/"
-            if not os.path.exists(dir):
-                os.makedirs(dir)
-            plt.savefig(dir + "filter(%d,%d)" % (filter_order + 1, filter_num) + key + "(%d)decent" % (num) + ".png")
-
-            # histogram singular_values_
-            plt.figure(fig)
-            fig += 1
-            max_pca = max(pca[key])
-            min_pca = min(pca[key])
-            plt.hist(pca[key],np.arange(min_pca,max_pca,(max_pca - min_pca)/interval))
-            plt.ylabel('number_of_components', fontsize=10)
-            plt.xlabel('singular_values_', fontsize=10)
-            plt.title("filter (%d/%d) " % (filter_order + 1, filter_num) + key + " (%d) " % (num), fontsize=12)
-            dir = "./res_pretrain_poor/hist/" + key + "/"
-            if not os.path.exists(dir):
-                os.makedirs(dir)
-            plt.savefig(dir + "filter(%d,%d)" % (filter_order + 1, filter_num) + key + "(%d)hist" % (num) + ".png")
+        for key in pca:
 
             # histogram singular_values_ tar without 0
             plt.figure(fig)
             fig += 1
-            max_pca = max(pca[key])
+            max_pca = max(pca[key])*0.1
             min_pca = min(pca[key])
             plt.hist(pca[key],np.arange((max_pca - min_pca)/interval,max_pca,(max_pca - min_pca)/interval))
             plt.ylabel('number_of_components', fontsize=10)
             plt.xlabel('singular_values_', fontsize=10)
             plt.title("filter (%d/%d) " % (filter_order + 1, filter_num) + key + " (%d) no_0 " % (num), fontsize=12)
-            dir = "./res_pretrain_poor/hist_no_0/" + key + "/"
+            dir = "./pretrain_0_CUB_v1_try1/hist_no_0/" + key + "/"
             if not os.path.exists(dir):
                 os.makedirs(dir)
             plt.savefig(dir + "filter(%d,%d)" % (filter_order + 1, filter_num) + key + "(%d)hist_no_0" % (num) + ".png")
 
-            # yx_line singular_values_ tar
-            plt.figure(fig)
-            fig += 1
-            plt.axis([min(pca[key]), max(pca[key]), min(pca[key]),max(pca[key])])
-            plt.scatter(pca[key],pca[key],marker='x')
-            plt.ylabel('singular_values_', fontsize=10)
-            plt.xlabel('singular_values_', fontsize=10)
-            plt.title("filter (%d/%d) " % (filter_order + 1, filter_num) + key + " (%d) no_0 " % (num), fontsize=12)
-            dir = "./res_pretrain_poor/yx_line/" + key + "/"
-            if not os.path.exists(dir):
-                os.makedirs(dir)
-            plt.savefig(dir + "filter(%d,%d)" % (filter_order + 1, filter_num) + key + "(%d)yx_line" % (num) + ".png")
+
 
         for i in range(fig):
             plt.figure(i).clear()
             # plt.show()
 
         # print("Saving PCA...")
-        # dir = "./pca_data/res_pretrain_poor/filter(%d,%d)/" % (filter_order + 1, filter_num)
+        # dir = "./pca_data/pretrain_0_CUB_v1/filter(%d,%d)/" % (filter_order + 1, filter_num)
         # if not os.path.exists(dir):
         #     os.makedirs(dir)
         # torch.save(pca,dir + "pca_pretrain_filter(%d,%d).pth.tar" % (filter_order + 1, filter_num))
