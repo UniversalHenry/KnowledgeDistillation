@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eeac7d69-0217-4108-a2a1-02f135e3fbd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PCA/PCA_data/pca_conv_data(20per).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PCA/PCA_data/pca_conv_data(50per).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PCA/PCA_data/pca_conv_data(poor).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PCA/PCA_data/pca_conv_data(pretrain).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PCA/PCA_data/pca_conv_data(pretrain)_try1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PCA/PCA_data/pca_gen_feature_num(poor).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PCA/alex_net/alex_net_by_alpha/hierachical_cluster_sample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PCA/alex_net/alex_net_by_alpha/hierarchical_clustering_by_density.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PCA/alex_net/alex_net_by_alpha/hierarchical_clustering_by_density_20per.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PCA/alex_net/alex_net_by_alpha/hierarchical_clustering_by_density_50per.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PCA/alex_net/alex_net_by_alpha/plt2d.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PCA/alex_net/alex_net_by_alpha/plt2d_cmp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PCA/alex_net/alex_net_by_alpha/plt3d.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PCA/PCA_data/old/dbscan1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PCA/PCA_data/old/dbscan_filters.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PCA/PCA_data/old/pca.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PCA/PCA_data/old/pca_conv_data (lzn).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PCA/PCA_data/old/pca_noise.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PCA/PCA_data/old/pca_random (lzn).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PCA/PCA_data/old/pca_random.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PCA/PCA_data/old/pca_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PCA/PCA_data/old/pca_test1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PCA/PCA_data/old/pca_test2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PCA/PCA_data/pca_conv_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/PCA/PCA_data/pca_conv_data.py" afterDir="false" />
-    </list>
+    <list default="true" id="eeac7d69-0217-4108-a2a1-02f135e3fbd6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,17 +118,17 @@
     <session id="191018474">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="30" />
+          <entry key="project.closed" value="31" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="5" />
           <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="7" />
-          <entry key="project.opened" value="32" />
+          <entry key="project.opened" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -194,7 +168,7 @@
         <entry file="file://$PROJECT_DIR$/PCA/PCA_data/pca_conv_data(pretrain)_try1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="419">
-              <caret line="58" column="15" lean-forward="true" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
+              <caret line="58" column="15" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -367,7 +341,7 @@
               <item name="KnowledgeDistillation" type="b2602c69:ProjectViewProjectNode" />
               <item name="KnowledgeDistillation" type="462c0819:PsiDirectoryNode" />
               <item name="PCA" type="462c0819:PsiDirectoryNode" />
-              <item name="PCA_data" type="462c0819:PsiDirectoryNode" />
+              <item name="cifar_alex_net" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KnowledgeDistillation" type="b2602c69:ProjectViewProjectNode" />
@@ -643,7 +617,7 @@
   <component name="ToolWindowManager">
     <frame x="82" y="-8" width="1846" height="1096" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18533035" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18756999" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -663,7 +637,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Remote Host" order="3" visible="true" weight="0.25083986" />
+      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.25083986" />
       <window_info anchor="right" id="R Graphics" order="4" weight="0.32978722" />
       <window_info anchor="right" id="R Packages" order="5" weight="0.32978722" />
       <window_info anchor="right" id="SciView" order="6" weight="0.37737963" />
@@ -917,7 +891,7 @@
     <entry file="file://$PROJECT_DIR$/PCA/PCA_data/pca_conv_data(pretrain)_try1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
-          <caret line="58" column="15" lean-forward="true" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
+          <caret line="58" column="15" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
         </state>
       </provider>
     </entry>
