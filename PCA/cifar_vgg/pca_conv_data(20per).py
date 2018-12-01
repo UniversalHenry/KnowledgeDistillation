@@ -12,10 +12,10 @@ def main():
     interval = 100  # divide the histogram into how many parts
     # where to load the data
     print("Loading inputFeature_pretrain ...")
-    tar_data = torch.load('/data/HaoChen/knowledge_distillation/PCA/tar_pretrain_0_CUB_sr0.2.pkl')
+    tar_data = torch.load('/data/HaoChen/knowledge_distillation/PCA/tar_pretrain_0_sr0.2.pkl')
     print("Loaded inputFeature_pretrain !")
     print("Loading dW_pretrain ...")
-    dw_data = torch.load('/data/HaoChen/knowledge_distillation/PCA/dx_pretrain_0_CUB_sr0.2.pkl')
+    dw_data = torch.load('/data/HaoChen/knowledge_distillation/PCA/tar_pretrain_0_sr0.2.pkl')
     print("Loaded dW_pretrain !")
 
     print("Converting data ...")
@@ -39,7 +39,7 @@ def main():
     for filter_order in filter_show:
         pca={}
         k = 0
-        n = 3
+        n = 6
         tmppca = decomposition.PCA()
         print("\nfilter (%d/%d)\tsample (%d)\t" % (filter_order + 1, filter_num, num) + "PCA ...")
         tmppca.fit(tar_x[filter_order] / count ** 0.5) # 1
@@ -53,7 +53,22 @@ def main():
         pca["dot_res"] = pca["dw"] * pca["tar"] # 3
         k += 1
         print("(%d/%d) ..." % (k, n))
-        print("filter (%d/%d)\tsample (%d)\t" %(filter_order + 1, filter_num, num)+"PCA Finished\n")
+        tar_x_norm = tar_x / np.mean(tar_x ** 2) ** 0.5
+        dw_x_norm = dw_x / np.mean(dw_x ** 2) ** 0.5
+        tmppca.fit(tar_x_norm[filter_order] / count ** 0.5) # 4
+        pca["tar_norm"] = tmppca.singular_values_
+        k += 1
+        print("(%d/%d) ..." % (k, n))
+        tmppca.fit(dw_x_norm[filter_order] / count ** 0.5) # 5
+        pca["dw_norm"] = tmppca.singular_values_
+        k += 1
+        print("(%d/%d) ..." % (k, n))
+        tmppca.fit(np.append(tar_x_norm[filter_order],dw_x_norm[filter_order],
+                             axis = 0) / count ** 0.5) # 6
+        pca["all_res"] = tmppca.singular_values_
+        k += 1
+        print("(%d/%d) ..." % (k, n))
+        print("filter (%d/%d)\tsample (%d)\t" %(filter_order + 1, filter_num, num)+"PCA Finished")
 
         # painting figures
         fig = 0
