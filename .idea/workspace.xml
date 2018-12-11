@@ -2,18 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eeac7d69-0217-4108-a2a1-02f135e3fbd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PCA/cifar_vgg/hierachical_cluster_sample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PCA/cifar_vgg/hierarchical_clustering_by_density.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PCA/cifar_vgg/hierarchical_clustering_by_density_20per.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PCA/cifar_vgg/pca_conv_data(20per).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PCA/cifar_vgg/pca_conv_data(poor).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PCA/cifar_vgg/pca_conv_data(pretrain).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PCA/cifar_vgg/plt2d.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PCA/cifar_vgg/plt2d_cmp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PCA/cifar_vgg/plt3d.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PCA/cifar_vgg/visualize_w.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PCA/CUB_200_Full/pca_conv_data(pretrain).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PCA/ilsvrc/hierachical_cluster_sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PCA/ilsvrc/hierarchical_clustering_by_density.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PCA/ilsvrc/hierarchical_clustering_by_density_20per.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PCA/ilsvrc/pca_conv_data(20per).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PCA/ilsvrc/pca_conv_data(poor).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PCA/ilsvrc/pca_conv_data(pretrain).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PCA/ilsvrc/plt2d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PCA/ilsvrc/plt2d_cmp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PCA/ilsvrc/plt3d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PCA/ilsvrc/visualize_w.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PCA/PCA_data/pca_conv_data(20per).py" beforeDir="false" afterPath="$PROJECT_DIR$/PCA/PCA_data/pca_conv_data(20per).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PCA/cifar_vgg/pca_conv_data(20per).py" beforeDir="false" afterPath="$PROJECT_DIR$/PCA/cifar_vgg/pca_conv_data(20per).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PCA/grad-CAM/pytorch-grad-cam/grad-cam.py" beforeDir="false" afterPath="$PROJECT_DIR$/PCA/grad-CAM/pytorch-grad-cam/grad-cam.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,17 +27,10 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$kmeans.coverage" NAME="kmeans Coverage Results" MODIFIED="1542459895228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$pca_conv_data_50per_.coverage" NAME="pca_conv_data(50per) Coverage Results" MODIFIED="1543458270314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/PCA_data" />
-    <SUITE FILE_PATH="coverage/knowledge_distillation$dbscan_filters.coverage" NAME="dbscan_filters Coverage Results" MODIFIED="1541749394991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
-    <SUITE FILE_PATH="coverage/knowledge_distillation$dbscan1.coverage" NAME="dbscan1 Coverage Results" MODIFIED="1541749408489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$pca_conv_data_pretrain__try1.coverage" NAME="pca_conv_data(pretrain)_try1 Coverage Results" MODIFIED="1543484905014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/PCA_data" />
-    <SUITE FILE_PATH="coverage/KnowledgeDistillation$hierarchical_clustering_by_density.coverage" NAME="hierarchical_clustering_by_density Coverage Results" MODIFIED="1542966584059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust" />
-    <SUITE FILE_PATH="coverage/KnowledgeDistillation$hierarchical_clustering__1_.coverage" NAME="hierarchical_clustering (1) Coverage Results" MODIFIED="1542533324992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net" />
-    <SUITE FILE_PATH="coverage/knowledge_distillation$process_data.coverage" NAME="process_data Coverage Results" MODIFIED="1541849560970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/dbscan_data" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$process_data_50per.coverage" NAME="process_data_50per Coverage Results" MODIFIED="1542985156914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net/alex_net_distance" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$hierarchical_clustering_normed_feature.coverage" NAME="hierarchical_clustering_normed_feature Coverage Results" MODIFIED="1542845780531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net" />
-    <SUITE FILE_PATH="coverage/knowledge_distillation$overfitting_net_training.coverage" NAME="overfitting net_training Coverage Results" MODIFIED="1540045015175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/overfitting_net" />
-    <SUITE FILE_PATH="coverage/KnowledgeDistillation$plt3d__1_.coverage" NAME="plt3d (1) Coverage Results" MODIFIED="1542965414673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust" />
-    <SUITE FILE_PATH="coverage/knowledge_distillation$pca_random.coverage" NAME="pca_random Coverage Results" MODIFIED="1540544298942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$grad_cam.coverage" NAME="grad-cam Coverage Results" MODIFIED="1543862031165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/grad-CAM/pytorch-grad-cam" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$plt2d.coverage" NAME="plt2d Coverage Results" MODIFIED="1543200782248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net/alex_net_by_alpha" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$hierarchical_clustering_by_density_20per.coverage" NAME="hierarchical_clustering_by_density_20per Coverage Results" MODIFIED="1542794590775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$dbscan_dx.coverage" NAME="dbscan_dx Coverage Results" MODIFIED="1541722245998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
@@ -42,31 +38,42 @@
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$kmeans__1_.coverage" NAME="kmeans (1) Coverage Results" MODIFIED="1542519461134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/res_net" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$try1.coverage" NAME="try1 Coverage Results" MODIFIED="1542906408812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/cifar_alex_net" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$pca_conv_data_pretrain_.coverage" NAME="pca_conv_data(pretrain) Coverage Results" MODIFIED="1543458274909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/PCA_data" />
-    <SUITE FILE_PATH="coverage/KnowledgeDistillation$try3d.coverage" NAME="try3d Coverage Results" MODIFIED="1542848252727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net" />
-    <SUITE FILE_PATH="coverage/KnowledgeDistillation$pca_conv_data_20per_.coverage" NAME="pca_conv_data(20per) Coverage Results" MODIFIED="1543458267768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/PCA_data" />
-    <SUITE FILE_PATH="coverage/knowledge_distillation$pca_test.coverage" NAME="pca_test Coverage Results" MODIFIED="1540370594425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$pca.coverage" NAME="pca Coverage Results" MODIFIED="1540544802088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$kmeans_all.coverage" NAME="kmeans_all Coverage Results" MODIFIED="1542083430128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$pca_conv_data.coverage" NAME="pca_conv_data Coverage Results" MODIFIED="1541854628380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
-    <SUITE FILE_PATH="coverage/KnowledgeDistillation$check.coverage" NAME="check Coverage Results" MODIFIED="1542944658001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/cifar_alex_net" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$kmeans_all_normed_feature.coverage" NAME="kmeans_all_normed_feature Coverage Results" MODIFIED="1542534345611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/res_net" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$pca_gen_feature_num_poor_.coverage" NAME="pca_gen_feature_num(poor) Coverage Results" MODIFIED="1543457116376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/PCA_data" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$kmeans_normed_feature__1_.coverage" NAME="kmeans_normed_feature (1) Coverage Results" MODIFIED="1542534343276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/res_net" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$kmeans_normed_feature.coverage" NAME="kmeans_normed_feature Coverage Results" MODIFIED="1542459940361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net" />
+    <SUITE FILE_PATH="coverage/knowledge_distillation$pca_noise.coverage" NAME="pca_noise Coverage Results" MODIFIED="1540607822921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$pca_conv_data_pretrain___2_.coverage" NAME="pca_conv_data(pretrain) (2) Coverage Results" MODIFIED="1543819340837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/ilsvrc" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$process_data_20per.coverage" NAME="process_data_20per Coverage Results" MODIFIED="1542962631242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net/alex_net_distance" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$pca_conv_data_poor_.coverage" NAME="pca_conv_data(poor) Coverage Results" MODIFIED="1543458272638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/PCA_data" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$plt2d_cmp.coverage" NAME="plt2d_cmp Coverage Results" MODIFIED="1543200868984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net/alex_net_by_alpha" />
+    <SUITE FILE_PATH="coverage/knowledge_distillation$dbscan_filters.coverage" NAME="dbscan_filters Coverage Results" MODIFIED="1541749394991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$grad_cam__1_.coverage" NAME="grad-cam (1) Coverage Results" MODIFIED="1543855296663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/grad-CAM" />
+    <SUITE FILE_PATH="coverage/knowledge_distillation$dbscan1.coverage" NAME="dbscan1 Coverage Results" MODIFIED="1541749408489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$hierarchical_clustering_by_density.coverage" NAME="hierarchical_clustering_by_density Coverage Results" MODIFIED="1542966584059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$hierarchical_clustering__1_.coverage" NAME="hierarchical_clustering (1) Coverage Results" MODIFIED="1542533324992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net" />
+    <SUITE FILE_PATH="coverage/knowledge_distillation$process_data.coverage" NAME="process_data Coverage Results" MODIFIED="1541849560970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/dbscan_data" />
+    <SUITE FILE_PATH="coverage/knowledge_distillation$overfitting_net_training.coverage" NAME="overfitting net_training Coverage Results" MODIFIED="1540045015175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/overfitting_net" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$plt3d__1_.coverage" NAME="plt3d (1) Coverage Results" MODIFIED="1542965414673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust" />
+    <SUITE FILE_PATH="coverage/knowledge_distillation$pca_random.coverage" NAME="pca_random Coverage Results" MODIFIED="1540544298942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$pca_conv_data_pretrain___1_.coverage" NAME="pca_conv_data(pretrain) (1) Coverage Results" MODIFIED="1543712329681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/cifar_vgg" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$try3d.coverage" NAME="try3d Coverage Results" MODIFIED="1542848252727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$pca_conv_data_20per_.coverage" NAME="pca_conv_data(20per) Coverage Results" MODIFIED="1543458267768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/PCA_data" />
+    <SUITE FILE_PATH="coverage/knowledge_distillation$pca_test.coverage" NAME="pca_test Coverage Results" MODIFIED="1540370594425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$check.coverage" NAME="check Coverage Results" MODIFIED="1542944658001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/cifar_alex_net" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$hierarchical_clustering.coverage" NAME="hierarchical_clustering Coverage Results" MODIFIED="1542464618657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/res_net" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$pca_test2.coverage" NAME="pca_test2 Coverage Results" MODIFIED="1540546688034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$pca_conv_data.coverage" NAME="pca_conv_data Coverage Results" MODIFIED="1543394437664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/PCA_data" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$plt3d__2_.coverage" NAME="plt3d (2) Coverage Results" MODIFIED="1542962351731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net/alex_net_distance" />
-    <SUITE FILE_PATH="coverage/knowledge_distillation$pca_noise.coverage" NAME="pca_noise Coverage Results" MODIFIED="1540607822921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
-    <SUITE FILE_PATH="coverage/KnowledgeDistillation$process_data_20per.coverage" NAME="process_data_20per Coverage Results" MODIFIED="1542962631242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net/alex_net_distance" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$hierarchical_clustering_by_density__1_.coverage" NAME="hierarchical_clustering_by_density (1) Coverage Results" MODIFIED="1543161244263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net/alex_net_by_alpha" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$kmeans_all.coverage" NAME="kmeans_all Coverage Results" MODIFIED="1542519420325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/res_net" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$process_data.coverage" NAME="process_data Coverage Results" MODIFIED="1542901351427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/cifar_alex_net" />
-    <SUITE FILE_PATH="coverage/KnowledgeDistillation$pca_conv_data_poor_.coverage" NAME="pca_conv_data(poor) Coverage Results" MODIFIED="1543458272638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/PCA_data" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$kmeans.coverage" NAME="kmeans Coverage Results" MODIFIED="1542083403227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$plt3d.coverage" NAME="plt3d Coverage Results" MODIFIED="1543164746835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net/alex_net_by_alpha" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$hierarchical_clustering_all.coverage" NAME="hierarchical_clustering_all Coverage Results" MODIFIED="1542083434414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
-    <SUITE FILE_PATH="coverage/KnowledgeDistillation$plt2d_cmp.coverage" NAME="plt2d_cmp Coverage Results" MODIFIED="1543200868984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net/alex_net_by_alpha" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$resnet.coverage" NAME="resnet Coverage Results" MODIFIED="1540045009325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/overfitting_net" />
   </component>
   <component name="DatabaseView">
@@ -131,78 +138,59 @@
     <session id="191018474">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="32" />
+          <entry key="project.closed" value="39" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="5" />
           <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.12" value="3" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="5" />
           <entry key="project.open.time.7" value="4" />
-          <entry key="project.open.time.8" value="6" />
-          <entry key="project.open.time.9" value="7" />
-          <entry key="project.opened" value="34" />
+          <entry key="project.open.time.8" value="7" />
+          <entry key="project.open.time.9" value="8" />
+          <entry key="project.opened" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="_bootstrap&gt;" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="jpg" value="5" />
-          <entry key="png" value="323" />
-          <entry key="py" value="225" />
+          <entry key="jpg" value="10" />
+          <entry key="png" value="360" />
+          <entry key="py" value="238" />
           <entry key="txt" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="328" />
+          <entry key="Image" value="370" />
           <entry key="PLAIN_TEXT" value="18" />
           <entry key="PyRemoteDebug" value="1" />
-          <entry key="Python" value="225" />
+          <entry key="Python" value="238" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="750" />
-          <entry key="py" value="3969" />
+          <entry key="Python Console" value="843" />
+          <entry key="py" value="4150" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="4719" />
+          <entry key="Python" value="4993" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PCA/cifar_vgg/pca_conv_data(20per).py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="39" selection-start-line="39" selection-end-line="70" selection-end-column="98" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PCA/cifar_vgg/pca_conv_data(pretrain).py">
+        <entry file="file://$PROJECT_DIR$/PCA/CUB_200_Full/pca_conv_data(pretrain).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1207">
-              <caret line="65" column="72" selection-start-line="65" selection-start-column="72" selection-end-line="65" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PCA/cifar_vgg/pca_conv_data(poor).py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="851">
-              <caret line="70" column="98" selection-start-line="70" selection-start-column="98" selection-end-line="70" selection-end-column="98" />
+            <state relative-caret-position="184">
+              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -218,9 +206,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>noise</find>
-      <find>pca_val</find>
-      <find>Dbscan</find>
       <find>dbscan</find>
       <find>pretrain</find>
       <find>print</find>
@@ -248,6 +233,9 @@
       <find>_CUB_sr0.5</find>
       <find>-effective_dimension:-1</find>
       <find>pretrain_0_CUB_v1</find>
+      <find>args.dataset</find>
+      <find>retain_variables</find>
+      <find>GuidedBackpropReLU</find>
     </findStrings>
     <replaceStrings>
       <replace>()</replace>
@@ -277,6 +265,7 @@
       <replace>0.5</replace>
       <replace>pretrain_0_CUB_sr0.2</replace>
       <replace>0:effective_dimension</replace>
+      <replace>retain_graph</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -286,10 +275,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PCA/res_net/hierarchical_clustering_normed_feature.py" />
-        <option value="$PROJECT_DIR$/PCA/res_net/kmeans_all.py" />
-        <option value="$PROJECT_DIR$/PCA/res_net/kmeans_all_normed_feature.py" />
-        <option value="$PROJECT_DIR$/PCA/res_net/kmeans_normed_feature.py" />
         <option value="$PROJECT_DIR$/PCA/res_net/kmeans.py" />
         <option value="$PROJECT_DIR$/PCA/alex_net/kmeans.py" />
         <option value="$PROJECT_DIR$/PCA/alex_net/process_data_20per.py" />
@@ -334,9 +319,13 @@
         <option value="$PROJECT_DIR$/PCA/cifar_vgg/hierarchical_clustering_by_density_20per.py" />
         <option value="$PROJECT_DIR$/PCA/cifar_vgg/hierarchical_clustering_by_density.py" />
         <option value="$PROJECT_DIR$/PCA/PCA_data/pca_conv_data(20per).py" />
-        <option value="$PROJECT_DIR$/PCA/cifar_vgg/pca_conv_data(20per).py" />
         <option value="$PROJECT_DIR$/PCA/cifar_vgg/pca_conv_data(poor).py" />
         <option value="$PROJECT_DIR$/PCA/cifar_vgg/pca_conv_data(pretrain).py" />
+        <option value="$PROJECT_DIR$/PCA/cifar_vgg/pca_conv_data(20per).py" />
+        <option value="$PROJECT_DIR$/PCA/ilsvrc/pca_conv_data(pretrain).py" />
+        <option value="$PROJECT_DIR$/PCA/grad-CAM/grad-cam.py" />
+        <option value="$PROJECT_DIR$/PCA/grad-CAM/pytorch-grad-cam/grad-cam.py" />
+        <option value="$PROJECT_DIR$/PCA/CUB_200_Full/pca_conv_data(pretrain).py" />
       </list>
     </option>
   </component>
@@ -347,9 +336,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="145" />
-    <option name="width" value="1123" />
-    <option name="height" value="1087" />
+    <option name="x" value="-1386" />
+    <option name="y" value="-127" />
+    <option name="width" value="1394" />
+    <option name="height" value="916" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -359,6 +349,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -375,13 +366,12 @@
               <item name="KnowledgeDistillation" type="b2602c69:ProjectViewProjectNode" />
               <item name="KnowledgeDistillation" type="462c0819:PsiDirectoryNode" />
               <item name="PCA" type="462c0819:PsiDirectoryNode" />
-              <item name="cifar_vgg" type="462c0819:PsiDirectoryNode" />
+              <item name="ilsvrc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -398,18 +388,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\CUB_200_Full" />
+      <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\grad-CAM" />
+      <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA" />
       <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\cifar_vgg" />
       <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\PCA_data" />
-      <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA" />
-      <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\alex_net\alex_net_by_alpha" />
-      <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\alex_net\alex_net_distance" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\grad-CAM" />
       <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\PCA_data" />
       <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\PCA_data\old" />
       <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\alex_net\alex_net_by_alpha" />
       <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\alex_net\alex_net_distance" />
-      <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\alex_net" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -424,7 +414,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pca_conv_data(pretrain)_try1">
+  <component name="RunManager" selected="Python.grad-cam">
+    <configuration name="grad-cam (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="knowledge_distillation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PCA/grad-CAM" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PCA/grad-CAM/grad-cam.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="grad-cam" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="knowledge_distillation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PCA/grad-CAM/pytorch-grad-cam" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PCA/grad-CAM/pytorch-grad-cam/grad-cam.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="overfitting net_training" type="PythonConfigurationType" factoryName="Python">
       <module name="knowledge_distillation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -469,7 +503,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pca_conv_data(20per)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pca_conv_data(pretrain) (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="knowledge_distillation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -477,12 +511,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PCA/PCA_data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PCA/cifar_vgg" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PCA/PCA_data/pca_conv_data(20per).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PCA/cifar_vgg/pca_conv_data(pretrain).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -491,7 +525,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pca_conv_data(50per)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pca_conv_data(pretrain) (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="knowledge_distillation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -499,56 +533,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PCA/PCA_data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PCA/ilsvrc" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PCA/PCA_data/pca_conv_data(50per).py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pca_conv_data(poor)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="knowledge_distillation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PCA/PCA_data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PCA/PCA_data/pca_conv_data(poor).py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pca_conv_data(pretrain)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="knowledge_distillation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PCA/PCA_data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PCA/PCA_data/pca_conv_data(pretrain).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PCA/ilsvrc/pca_conv_data(pretrain).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -605,19 +595,19 @@
       <item itemvalue="Python.pca" />
       <item itemvalue="Python.overfitting net_training" />
       <item itemvalue="Python.resnet" />
-      <item itemvalue="Python.pca_conv_data(20per)" />
-      <item itemvalue="Python.pca_conv_data(50per)" />
-      <item itemvalue="Python.pca_conv_data(poor)" />
-      <item itemvalue="Python.pca_conv_data(pretrain)" />
       <item itemvalue="Python.pca_conv_data(pretrain)_try1" />
+      <item itemvalue="Python.pca_conv_data(pretrain) (1)" />
+      <item itemvalue="Python.pca_conv_data(pretrain) (2)" />
+      <item itemvalue="Python.grad-cam" />
+      <item itemvalue="Python.grad-cam (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.grad-cam" />
+        <item itemvalue="Python.grad-cam (1)" />
+        <item itemvalue="Python.pca_conv_data(pretrain) (2)" />
+        <item itemvalue="Python.pca_conv_data(pretrain) (1)" />
         <item itemvalue="Python.pca_conv_data(pretrain)_try1" />
-        <item itemvalue="Python.pca_conv_data(pretrain)" />
-        <item itemvalue="Python.pca_conv_data(poor)" />
-        <item itemvalue="Python.pca_conv_data(50per)" />
-        <item itemvalue="Python.pca_conv_data(20per)" />
       </list>
     </recent_temporary>
   </component>
@@ -644,34 +634,61 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="82" y="-8" width="1846" height="1096" extended-state="6" />
+    <frame x="-1386" y="-127" width="1394" height="916" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21780515" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09595203" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49216124" weight="0.43866944" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4955207" weight="0.49064448" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47490346" weight="0.37457433" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49420848" weight="0.54885656" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32848233" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.49328107" weight="0.4002079" />
+      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.4827586" visible="true" weight="0.47314578" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.5078387" side_tool="true" weight="0.36590436" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5078387" side_tool="true" weight="0.43866944" />
-      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.49888018" weight="0.36278588" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.51724136" side_tool="true" visible="true" weight="0.47314578" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5078387" side_tool="true" weight="0.43813848" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.3899614" weight="0.3626561" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" weight="0.24356103" />
+      <window_info active="true" anchor="right" id="Remote Host" order="3" visible="true" weight="0.24887556" />
       <window_info anchor="right" id="R Graphics" order="4" weight="0.32978722" />
       <window_info anchor="right" id="R Packages" order="5" weight="0.32978722" />
       <window_info anchor="right" id="SciView" order="6" weight="0.37737963" />
       <window_info anchor="right" id="Database" order="7" weight="0.32978722" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18253079" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49160135" weight="0.41787943" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4949608" weight="0.49064448" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32848233" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.49216124" visible="true" weight="0.28794178" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.5078387" side_tool="true" visible="true" weight="0.28794178" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5078387" side_tool="true" weight="0.43866944" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.49888018" weight="0.36278588" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.28219485" />
+      <window_info anchor="right" id="R Graphics" order="4" weight="0.32978722" />
+      <window_info anchor="right" id="R Packages" order="5" weight="0.32978722" />
+      <window_info anchor="right" id="SciView" order="6" weight="0.37737963" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32978722" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -702,64 +719,15 @@
           <line>86</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PCA/grad-CAM/FromTutorials.py</url>
+          <line>433</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PCA/PCA_data/pretrain_0_CUB_sr0.2/hist_no_0/dot_res/filter(20,256)dot_res(2000)hist_no_0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/PCA_data/res_pretrain_poor/hist_no_0/dot_res/filter(20,256)dot_res(2000)hist_no_0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/PCA_data/pretrain_0_CUB_v1/hist_no_0/dot_res/filter(20,256)dot_res(2000)hist_no_0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/PCA_data/old_program/dbscan1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_by_alpha/plt2d.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-276" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_by_alpha/hierarchical_clustering_by_density.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_by_alpha/hierachical_cluster_sample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/PCA_data/pretrain_0_CUB_sr0.2/decent/dot_res/filter(1,256)dot_res(2000)decent.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/PCA_data/pca_gen_feature_num(poor).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/PCA_data/pretrain_0_CUB_v1/yx_line/tar/filter(1,256)tar(2000)yx_line.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/PCA_data/pretrain_0_CUB_sr0.5/yx_line/tar/filter(2,256)tar(2000)yx_line.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/PCA_data/pretrain_0_CUB_sr0.5/yx_line/tar/filter(3,256)tar(2000)yx_line.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/PCA/PCA_data/pretrain_0_CUB_sr0.5/yx_line/tar/filter(6,256)tar(2000)yx_line.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -843,9 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
           <caret line="36" column="76" selection-start-line="36" selection-start-column="76" selection-end-line="36" selection-end-column="76" />
-          <folding>
-            <element signature="e#18#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -860,28 +825,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
           <caret line="54" column="24" lean-forward="true" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_by_alpha/plt2d_cmp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/PCA/PCA_data/old_program/pca_conv_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="33" column="21" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -889,9 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -926,27 +876,98 @@
     <entry file="file://$PROJECT_DIR$/PCA/cifar_vgg/hierachical_cluster_sample.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/cifar_vgg/pca_conv_data(pretrain).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="106" column="68" selection-start-line="106" selection-start-column="60" selection-end-line="106" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PCA/cifar_vgg/pca_conv_data(20per).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="39" selection-start-line="39" selection-end-line="70" selection-end-column="98" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2852">
+          <caret line="130" column="55" selection-start-line="130" selection-start-column="55" selection-end-line="130" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PCA/cifar_vgg/pca_conv_data(poor).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="70" column="98" selection-start-line="70" selection-start-column="98" selection-end-line="70" selection-end-column="98" />
+        <state relative-caret-position="989">
+          <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/cifar_vgg/pca_conv_data(pretrain).py">
+    <entry file="file://$PROJECT_DIR$/PCA/ilsvrc/plt2d.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/ilsvrc/pca_conv_data(pretrain).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1207">
-          <caret line="65" column="72" selection-start-line="65" selection-start-column="72" selection-end-line="65" selection-end-column="72" />
+        <state relative-caret-position="184">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1805366919/-420072412/torch/autograd/_functions/tensor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/grad-CAM/FromTutorials.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="721">
+          <caret line="433" column="17" selection-start-line="433" selection-start-column="17" selection-end-line="433" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="1657" selection-start-line="1657" selection-end-line="1657" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/grad-CAM/grad-cam.py" />
+    <entry file="file://$PROJECT_DIR$/PCA/grad-CAM/grad-cam-pytorch/main.py" />
+    <entry file="file://$PROJECT_DIR$/PCA/grad-CAM/pytorch-grad-cam/grad-cam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1805366919/-420072412/torch/nn/modules/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11431">
+          <caret line="504" selection-start-line="504" selection-end-line="504" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1805366919/torchvision-0.2.1-py3.6.egg!/torchvision/models/vgg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4094">
+          <caret line="180" selection-start-line="180" selection-end-line="180" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1805366919/-420072412/torch/tensor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1932">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/CUB_200_Full/pca_conv_data(pretrain).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
         </state>
       </provider>
     </entry>

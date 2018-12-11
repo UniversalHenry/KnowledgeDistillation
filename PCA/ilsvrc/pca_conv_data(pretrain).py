@@ -8,14 +8,14 @@ import os
 
 def main():
 
-    filter_show = range(20)   # which filters to calculate
+    filter_show = range(15)   # which filters to calculate
     interval = 100  # divide the histogram into how many parts
     # where to load the data
     print("Loading inputFeature_pretrain ...")
-    tar_data = torch.load('/data/HaoChen/knowledge_distillation/PCA/tar_pretrain_0_sr0.2.pkl')
+    tar_data = torch.load('/data/HaoChen/knowledge_distillation/PCA/tar_pretrain_0_ilsvrc.pkl')
     print("Loaded inputFeature_pretrain !")
     print("Loading dW_pretrain ...")
-    dw_data = torch.load('/data/HaoChen/knowledge_distillation/PCA/tar_pretrain_0_sr0.2.pkl')
+    dw_data = torch.load('/data/HaoChen/knowledge_distillation/PCA/dx_pretrain_0_ilsvrc.pkl')
     print("Loaded dW_pretrain !")
 
     print("Converting data ...")
@@ -80,7 +80,7 @@ def main():
             plt.xlabel('n_components', fontsize=10)
             plt.ylabel('singular_values_', fontsize=10)
             plt.title("filter(%d/%d) " % (filter_order + 1, filter_num) + key + " (%d) " % (num), fontsize=12)
-            dir = "./res_pretrain_20per/decent/" + key + "/"
+            dir = "./pretrain_0_CUB_v1/decent/" + key + "/"
             if not os.path.exists(dir):
                 os.makedirs(dir)
             plt.savefig(dir + "filter(%d,%d)" % (filter_order + 1, filter_num) + key + "(%d)decent" % (num) + ".png")
@@ -94,7 +94,7 @@ def main():
             plt.ylabel('number_of_components', fontsize=10)
             plt.xlabel('singular_values_', fontsize=10)
             plt.title("filter (%d/%d) " % (filter_order + 1, filter_num) + key + " (%d) " % (num), fontsize=12)
-            dir = "./res_pretrain_20per/hist/" + key + "/"
+            dir = "./pretrain_0_CUB_v1/hist/" + key + "/"
             if not os.path.exists(dir):
                 os.makedirs(dir)
             plt.savefig(dir + "filter(%d,%d)" % (filter_order + 1, filter_num) + key + "(%d)hist" % (num) + ".png")
@@ -108,7 +108,7 @@ def main():
             plt.ylabel('number_of_components', fontsize=10)
             plt.xlabel('singular_values_', fontsize=10)
             plt.title("filter (%d/%d) " % (filter_order + 1, filter_num) + key + " (%d) no_0 " % (num), fontsize=12)
-            dir = "./res_pretrain_20per/hist_no_0/" + key + "/"
+            dir = "./pretrain_0_CUB_v1/hist_no_0/" + key + "/"
             if not os.path.exists(dir):
                 os.makedirs(dir)
             plt.savefig(dir + "filter(%d,%d)" % (filter_order + 1, filter_num) + key + "(%d)hist_no_0" % (num) + ".png")
@@ -132,7 +132,7 @@ def main():
             plt.xlabel('singular_values_', fontsize=10)
             plt.title("filter (%d/%d) " % (filter_order + 1, filter_num) + key + " (%d) no_0 " % (num) +
                       " \n effective_dimension: %d" % effective_dimension, fontsize=12)
-            dir = "./res_pretrain_20per/yx_line/" + key + "/"
+            dir = "./pretrain_0_CUB_v1/yx_line/" + key + "/"
             if not os.path.exists(dir):
                 os.makedirs(dir)
             plt.savefig(dir + "filter(%d,%d)" % (filter_order + 1, filter_num) + key + "(%d)yx_line" % (num) + ".png")
@@ -142,7 +142,7 @@ def main():
             # plt.show()
 
         # print("Saving PCA...")
-        # dir = "./pca_data/res_pretrain_poor/filter(%d,%d)/" % (filter_order + 1, filter_num)
+        # dir = "./pca_data/pretrain_0_CUB_v1/filter(%d,%d)/" % (filter_order + 1, filter_num)
         # if not os.path.exists(dir):
         #     os.makedirs(dir)
         # torch.save(pca,dir + "pca_pretrain_filter(%d,%d).pth.tar" % (filter_order + 1, filter_num))

@@ -2,6 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PCA/grad-CAM/grad-cam-pytorch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PCA/grad-CAM/pytorch-grad-cam" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PCA/grad-cam-pytorch" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/docs/textureNet" vcs="Git" />
   </component>
 </project>
