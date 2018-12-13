@@ -37,7 +37,7 @@
     <SUITE FILE_PATH="coverage/knowledge_distillation$hierarchical_clustering.coverage" NAME="hierarchical_clustering Coverage Results" MODIFIED="1542083415322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$kmeans__1_.coverage" NAME="kmeans (1) Coverage Results" MODIFIED="1542519461134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/res_net" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$try1.coverage" NAME="try1 Coverage Results" MODIFIED="1542906408812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/cifar_alex_net" />
-    <SUITE FILE_PATH="coverage/KnowledgeDistillation$pca_conv_data_pretrain_.coverage" NAME="pca_conv_data(pretrain) Coverage Results" MODIFIED="1543458274909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/PCA_data" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$pca_conv_data_pretrain_.coverage" NAME="pca_conv_data(pretrain) Coverage Results" MODIFIED="1544605710204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/___ZX" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$pca.coverage" NAME="pca Coverage Results" MODIFIED="1540544802088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$kmeans_all.coverage" NAME="kmeans_all Coverage Results" MODIFIED="1542083430128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$pca_conv_data.coverage" NAME="pca_conv_data Coverage Results" MODIFIED="1541854628380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
@@ -138,19 +138,19 @@
     <session id="191018474">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="39" />
+          <entry key="project.closed" value="42" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="5" />
           <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.4" value="2" />
-          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="5" />
-          <entry key="project.open.time.7" value="4" />
+          <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.8" value="7" />
           <entry key="project.open.time.9" value="8" />
-          <entry key="project.opened" value="41" />
+          <entry key="project.opened" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -158,28 +158,28 @@
           <entry key="_bootstrap&gt;" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="jpg" value="10" />
-          <entry key="png" value="360" />
-          <entry key="py" value="238" />
+          <entry key="png" value="365" />
+          <entry key="py" value="245" />
           <entry key="txt" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="370" />
+          <entry key="Image" value="375" />
           <entry key="PLAIN_TEXT" value="18" />
           <entry key="PyRemoteDebug" value="1" />
-          <entry key="Python" value="238" />
+          <entry key="Python" value="245" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="843" />
-          <entry key="py" value="4150" />
+          <entry key="py" value="4151" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="4993" />
+          <entry key="Python" value="4994" />
         </counts>
       </usages-collector>
     </session>
@@ -187,12 +187,17 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PCA/CUB_200_Full/pca_conv_data(pretrain).py">
+        <entry file="file://$PROJECT_DIR$/PCA/___ZX/pca_conv_data(pretrain_XX).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+            <state relative-caret-position="161">
+              <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PCA/___ZX/pca_conv_data(pretrain_ZX).py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -275,8 +280,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PCA/res_net/kmeans.py" />
-        <option value="$PROJECT_DIR$/PCA/alex_net/kmeans.py" />
         <option value="$PROJECT_DIR$/PCA/alex_net/process_data_20per.py" />
         <option value="$PROJECT_DIR$/PCA/alex_net/hierarchical_clustering_by_density_20per.py" />
         <option value="$PROJECT_DIR$/PCA/alex_net/try3d.py" />
@@ -326,6 +329,8 @@
         <option value="$PROJECT_DIR$/PCA/grad-CAM/grad-cam.py" />
         <option value="$PROJECT_DIR$/PCA/grad-CAM/pytorch-grad-cam/grad-cam.py" />
         <option value="$PROJECT_DIR$/PCA/CUB_200_Full/pca_conv_data(pretrain).py" />
+        <option value="$PROJECT_DIR$/PCA/___ZX/pca_conv_data(pretrain).py" />
+        <option value="$PROJECT_DIR$/PCA/__XX/pca_conv_data(pretrain).py" />
       </list>
     </option>
   </component>
@@ -335,11 +340,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1386" />
-    <option name="y" value="-127" />
-    <option name="width" value="1394" />
-    <option name="height" value="916" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="82" />
+    <option name="y" value="-8" />
+    <option name="width" value="1846" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -349,7 +354,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -366,12 +370,19 @@
               <item name="KnowledgeDistillation" type="b2602c69:ProjectViewProjectNode" />
               <item name="KnowledgeDistillation" type="462c0819:PsiDirectoryNode" />
               <item name="PCA" type="462c0819:PsiDirectoryNode" />
-              <item name="ilsvrc" type="462c0819:PsiDirectoryNode" />
+              <item name="___ZX" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KnowledgeDistillation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KnowledgeDistillation" type="462c0819:PsiDirectoryNode" />
+              <item name="PCA" type="462c0819:PsiDirectoryNode" />
+              <item name="CUB_200_Full" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -387,19 +398,19 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\CUB_200_Full" />
-      <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\grad-CAM" />
-      <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA" />
-      <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\cifar_vgg" />
-      <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\PCA_data" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\grad-CAM" />
       <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\PCA_data" />
       <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\PCA_data\old" />
       <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\alex_net\alex_net_by_alpha" />
       <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\alex_net\alex_net_distance" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\___ZX" />
+      <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\__XX" />
+      <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\CUB_200_Full" />
+      <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA\grad-CAM" />
+      <recent name="C:\Users\Administrator\Desktop\GitHub\KnowledgeDistillation\PCA" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -414,7 +425,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.grad-cam">
+  <component name="RunManager" selected="Python.pca_conv_data(pretrain)">
     <configuration name="grad-cam (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="knowledge_distillation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -547,7 +558,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pca_conv_data(pretrain)_try1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pca_conv_data(pretrain)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="knowledge_distillation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -555,12 +566,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PCA/PCA_data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PCA/___ZX" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PCA/PCA_data/pca_conv_data(pretrain)_try1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PCA/___ZX/pca_conv_data(pretrain).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -595,19 +606,19 @@
       <item itemvalue="Python.pca" />
       <item itemvalue="Python.overfitting net_training" />
       <item itemvalue="Python.resnet" />
-      <item itemvalue="Python.pca_conv_data(pretrain)_try1" />
       <item itemvalue="Python.pca_conv_data(pretrain) (1)" />
       <item itemvalue="Python.pca_conv_data(pretrain) (2)" />
       <item itemvalue="Python.grad-cam" />
       <item itemvalue="Python.grad-cam (1)" />
+      <item itemvalue="Python.pca_conv_data(pretrain)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pca_conv_data(pretrain)" />
         <item itemvalue="Python.grad-cam" />
         <item itemvalue="Python.grad-cam (1)" />
         <item itemvalue="Python.pca_conv_data(pretrain) (2)" />
         <item itemvalue="Python.pca_conv_data(pretrain) (1)" />
-        <item itemvalue="Python.pca_conv_data(pretrain)_try1" />
       </list>
     </recent_temporary>
   </component>
@@ -634,29 +645,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1386" y="-127" width="1394" height="916" extended-state="6" />
+    <frame x="82" y="-8" width="1846" height="1096" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09595203" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15677492" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47490346" weight="0.37457433" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47424412" weight="0.37422037" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49420848" weight="0.54885656" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32848233" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.4827586" visible="true" weight="0.47314578" />
+      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.5117581" visible="true" weight="0.41787943" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.51724136" side_tool="true" visible="true" weight="0.47314578" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.48824188" side_tool="true" weight="0.47297296" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5078387" side_tool="true" weight="0.43813848" />
       <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.3899614" weight="0.3626561" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Remote Host" order="3" visible="true" weight="0.24887556" />
+      <window_info active="true" anchor="right" id="Remote Host" order="3" visible="true" weight="0.24860023" />
       <window_info anchor="right" id="R Graphics" order="4" weight="0.32978722" />
       <window_info anchor="right" id="R Packages" order="5" weight="0.32978722" />
       <window_info anchor="right" id="SciView" order="6" weight="0.37737963" />
@@ -728,18 +739,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PCA/PCA_data/pretrain_0_CUB_sr0.5/yx_line/tar/filter(6,256)tar(2000)yx_line.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/PCA_data/pretrain_0_CUB_sr0.5/yx_line/tar/filter(11,256)tar(2000)yx_line.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/PCA_data/pretrain_0_CUB_sr0.5/yx_line/tar/filter(15,256)tar(2000)yx_line.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/PCA_data/pretrain_0_CUB_sr0.5/yx_line/tar/filter(18,256)tar(2000)yx_line.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/PCA/PCA_data/pretrain_0_CUB_sr0.5/yx_line/tar/filter(17,256)tar(2000)yx_line.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -937,9 +936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
           <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -964,10 +960,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/___ZX/pca_conv_data(pretrain).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="772">
+          <caret line="96" column="42" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PCA/CUB_200_Full/pca_conv_data(pretrain).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        <state relative-caret-position="-1748">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/__XX/pca_conv_data(pretrain).py" />
+    <entry file="file://$PROJECT_DIR$/PCA/___ZX/pca_conv_data(pretrain_ZX).py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/___ZX/pca_conv_data(pretrain_XX).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
         </state>
       </provider>
     </entry>
