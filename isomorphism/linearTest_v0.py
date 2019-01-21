@@ -45,15 +45,12 @@ class LinearTester(torch.nn.Module):
         for x in range(self.layers - 1):
             self.nonLinearLayers_ReLU += [nn.ReLU(inplace=True)]
         self.nonLinearLayers_ReLU = nn.ModuleList(self.nonLinearLayers_ReLU)
-        self.nonLinearLayers_p = nn.Parameter(torch.ones(self.layers - 1), requires_grad = True)
-        self.nonLinearLayers_norm = torch.ones(self.layers - 1,self.output_size[0],self.output_size[1],self.output_size[2]
-                                               ).cuda(self.gpu_id)
+        self.nonLinearLayers_p = torch.ones(self.layers - 1, requires_grad = True).cuda(self.gpu_id)
+        self.nonLinearLayers_norm = torch.ones(self.layers - 1).cuda(self.gpu_id)
         self.eps = torch.tensor([1e-5]).cuda(self.gpu_id)
 
     def nonLinear(self, i, out):
-        a = (torch.sum(out**2,[2,3]).reshape(out.shape[0],out.shape[1],1,1) + self.eps) ** 0.5
-        a = a.repeat(1,1,out.shape[2],out.shape[3])
-        out = out / a
+        out = out / (torch.norm(out) + self.eps)
         out = self.nonLinearLayers_ReLU[i](out)
         out = self.nonLinearLayers_p[i] * out
         return out
@@ -107,25 +104,21 @@ class LinearTester(torch.nn.Module):
                         out = self._yn_nonLinear(i - 1, out)
                         out = self._yn_linear(i, out)
                 Yn[n] = out.reshape(self.output_size).cpu()
-                Yn_length[n] = torch.sum(Yn[n] ** 2) ** 0.5
-            Yn_contribution = Yn_length ** 2 / torch.sum(Yn_length ** 2)
+                Yn_length[n] = torch.norm(Yn[n])
+            Yn_contribution = Yn_length**2 / torch.sum(Yn_length**2)
 
-            return Y_sum, Yn, Yn_contribution, None
+            return Y_sum, Yn, Yn_contribution
 
     def _rec_nonLinear(self,i,out):
-        a = (torch.sum(out ** 2,[2,3]).reshape(out.shape[0],out.shape[1],1,1) + self.eps) ** 0.5
-        a = a.repeat(1,1,out.shape[2],out.shape[3])
-        self.nonLinearLayers_norm[i] = a
+        self.nonLinearLayers_norm[i] = torch.norm(out) + self.eps
         out = out / self.nonLinearLayers_norm[i]
         out = self.nonLinearLayers_ReLU[i](out)
         self.nonLinearLayersRecord[i] = torch.gt(out, 0).reshape(self.input_size)
-        out = self.nonLinearLayers_p[i] * out
         return out
 
     def _yn_nonLinear(self,i,out):
         out = out / self.nonLinearLayers_norm[i]
         out = self.nonLinearLayersRecord[i] * out
-        out = self.nonLinearLayers_p[i] * out
         return out
 
     def _yn_linear(self, i, out):

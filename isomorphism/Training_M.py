@@ -90,9 +90,10 @@ device_ids = json.loads(args.device_ids)
 print('parsed options:', vars(args))
 if args.model == 'residual':
     from linearTest_v2 import LinearTester
-else:
+elif args.model == 'new':
     from linearTest import LinearTester
-
+else:
+    from linearTest_v0 import LinearTester
 def main():
     global args, best_acc1
     if args.seed is not None:
