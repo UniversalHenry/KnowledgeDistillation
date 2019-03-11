@@ -19,8 +19,9 @@ class convOut_Dataset(torch.utils.data.Dataset):
     def __getitem__(self, idx):
         convOut1 = self.convOut1[idx]
         convOut2 = self.convOut2[idx]
+        target = self.target[idx]
 
-        pack = {'convOut1': convOut1, 'convOut2': convOut2, 'idx': idx}
+        pack = {'convOut1': convOut1, 'convOut2': convOut2, 'idx': idx, 'target': target}
 
         return pack
 

@@ -28,6 +28,8 @@
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$kmeans.coverage" NAME="kmeans Coverage Results" MODIFIED="1542459895228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$pca_conv_data_50per_.coverage" NAME="pca_conv_data(50per) Coverage Results" MODIFIED="1543458270314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/PCA_data" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$pca_conv_data_pretrain__try1.coverage" NAME="pca_conv_data(pretrain)_try1 Coverage Results" MODIFIED="1543484905014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/PCA_data" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$vis_conv.coverage" NAME="vis_conv Coverage Results" MODIFIED="1550574827609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/isomorphism" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$test.coverage" NAME="test Coverage Results" MODIFIED="1550659235337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/isomorphism" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$process_data_50per.coverage" NAME="process_data_50per Coverage Results" MODIFIED="1542985156914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net/alex_net_distance" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$hierarchical_clustering_normed_feature.coverage" NAME="hierarchical_clustering_normed_feature Coverage Results" MODIFIED="1542845780531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$grad_cam.coverage" NAME="grad-cam Coverage Results" MODIFIED="1543862031165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/grad-CAM/pytorch-grad-cam" />
@@ -36,6 +38,7 @@
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$hierarchical_clustering_by_density_20per.coverage" NAME="hierarchical_clustering_by_density_20per Coverage Results" MODIFIED="1542794590775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$dbscan_dx.coverage" NAME="dbscan_dx Coverage Results" MODIFIED="1541722245998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$hierarchical_clustering.coverage" NAME="hierarchical_clustering Coverage Results" MODIFIED="1542083415322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$Training_Finetune.coverage" NAME="Training_Finetune Coverage Results" MODIFIED="1551019968384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/isomorphism" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$kmeans__1_.coverage" NAME="kmeans (1) Coverage Results" MODIFIED="1542519461134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/res_net" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$try1.coverage" NAME="try1 Coverage Results" MODIFIED="1542906408812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/cifar_alex_net" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$pca_conv_data_pretrain_.coverage" NAME="pca_conv_data(pretrain) Coverage Results" MODIFIED="1544605710204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/___ZX" />
@@ -52,7 +55,7 @@
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$process_data_20per.coverage" NAME="process_data_20per Coverage Results" MODIFIED="1542962631242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net/alex_net_distance" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$pca_conv_data_pretrain_XX___1_.coverage" NAME="pca_conv_data(pretrain_XX) (1) Coverage Results" MODIFIED="1544690044436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/___ZX" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$pca_conv_data_poor_.coverage" NAME="pca_conv_data(poor) Coverage Results" MODIFIED="1543458272638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/PCA_data" />
-    <SUITE FILE_PATH="coverage/KnowledgeDistillation$convOut_loader.coverage" NAME="convOut_loader Coverage Results" MODIFIED="1547785214594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/isomorphism" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$convOut_loader.coverage" NAME="convOut_loader Coverage Results" MODIFIED="1549870294348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/isomorphism" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$plt2d_cmp.coverage" NAME="plt2d_cmp Coverage Results" MODIFIED="1543200868984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net/alex_net_by_alpha" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$pca_conv_data_init_.coverage" NAME="pca_conv_data(init) Coverage Results" MODIFIED="1545099851175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/init" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$dbscan_filters.coverage" NAME="dbscan_filters Coverage Results" MODIFIED="1541749394991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
@@ -63,6 +66,7 @@
     <SUITE FILE_PATH="coverage/knowledge_distillation$process_data.coverage" NAME="process_data Coverage Results" MODIFIED="1541849560970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/dbscan_data" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$overfitting_net_training.coverage" NAME="overfitting net_training Coverage Results" MODIFIED="1540045015175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/overfitting_net" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$plt3d__1_.coverage" NAME="plt3d (1) Coverage Results" MODIFIED="1542965414673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$checkConvOut.coverage" NAME="checkConvOut Coverage Results" MODIFIED="1549870552667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/isomorphism/data" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$pca_random.coverage" NAME="pca_random Coverage Results" MODIFIED="1540544298942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$pca_conv_data_pretrain___1_.coverage" NAME="pca_conv_data(pretrain) (1) Coverage Results" MODIFIED="1543712329681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/cifar_vgg" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$try3d.coverage" NAME="try3d Coverage Results" MODIFIED="1542848252727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/alex_net" />
@@ -70,8 +74,9 @@
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$distrPhoto.coverage" NAME="distrPhoto Coverage Results" MODIFIED="1547916009819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/isomorphism" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$pca_conv_data_pretrain_ZX_.coverage" NAME="pca_conv_data(pretrain_ZX) Coverage Results" MODIFIED="1544690054510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/___ZX" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$pca_test.coverage" NAME="pca_test Coverage Results" MODIFIED="1540370594425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
-    <SUITE FILE_PATH="coverage/KnowledgeDistillation$Training_M.coverage" NAME="Training_M Coverage Results" MODIFIED="1548062319095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/isomorphism" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$Training_M.coverage" NAME="Training_M Coverage Results" MODIFIED="1550920883793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/isomorphism" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$pca_conv_data_pretrain_XX_.coverage" NAME="pca_conv_data(pretrain_XX) Coverage Results" MODIFIED="1544690014089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/" />
+    <SUITE FILE_PATH="coverage/KnowledgeDistillation$linearTest_finetune_v2p.coverage" NAME="linearTest_finetune_v2p Coverage Results" MODIFIED="1551014416875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/isomorphism" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$check.coverage" NAME="check Coverage Results" MODIFIED="1542944658001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/cifar_alex_net" />
     <SUITE FILE_PATH="coverage/KnowledgeDistillation$hierarchical_clustering.coverage" NAME="hierarchical_clustering Coverage Results" MODIFIED="1542464618657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA/res_net" />
     <SUITE FILE_PATH="coverage/knowledge_distillation$pca_test2.coverage" NAME="pca_test2 Coverage Results" MODIFIED="1540546688034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
@@ -150,20 +155,20 @@
     <session id="191018474">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="64" />
+          <entry key="project.closed" value="86" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="6" />
           <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.4" value="5" />
-          <entry key="project.open.time.5" value="8" />
-          <entry key="project.open.time.6" value="9" />
-          <entry key="project.open.time.7" value="11" />
-          <entry key="project.open.time.8" value="10" />
-          <entry key="project.open.time.9" value="8" />
-          <entry key="project.opened" value="68" />
+          <entry key="project.open.time.4" value="7" />
+          <entry key="project.open.time.5" value="15" />
+          <entry key="project.open.time.6" value="16" />
+          <entry key="project.open.time.7" value="14" />
+          <entry key="project.open.time.8" value="11" />
+          <entry key="project.open.time.9" value="9" />
+          <entry key="project.opened" value="91" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -171,71 +176,90 @@
           <entry key="_bootstrap&gt;" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="jpg" value="19" />
-          <entry key="png" value="365" />
-          <entry key="py" value="305" />
+          <entry key="png" value="385" />
+          <entry key="py" value="379" />
           <entry key="txt" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="384" />
+          <entry key="Image" value="404" />
           <entry key="PLAIN_TEXT" value="18" />
           <entry key="PyRemoteDebug" value="1" />
-          <entry key="Python" value="305" />
+          <entry key="Python" value="379" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="1101" />
-          <entry key="py" value="7628" />
+          <entry key="Python Console" value="1759" />
+          <entry key="py" value="10395" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="8729" />
+          <entry key="Python" value="12154" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/isomorphism/linearTest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="57" column="45" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/isomorphism/ConvOutput.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="142" column="56" lean-forward="true" selection-start-line="142" selection-start-column="56" selection-end-line="142" selection-end-column="56" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/isomorphism/Training_M.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="161" column="32" lean-forward="true" selection-start-line="161" selection-start-column="32" selection-end-line="161" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.47704366">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/isomorphism/linearTest_finetune_v2p.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="168">
+                  <caret line="43" selection-start-line="43" selection-end-line="43" />
+                  <folding>
+                    <element signature="e#0#12#0" expanded="true" />
+                    <marker date="1551019917944" expanded="true" signature="217:222" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/isomorphism/Training_Finetune.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="4899">
+                  <caret line="235" column="51" selection-start-line="235" selection-start-column="42" selection-end-line="235" selection-end-column="51" />
+                  <folding>
+                    <element signature="e#0#15#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/isomorphism/linearTest_finetune_v2p.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="274">
+                  <caret line="80" column="45" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
+                  <folding>
+                    <element signature="e#0#12#0" expanded="true" />
+                    <marker date="1551019917944" expanded="true" signature="217:222" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/isomorphism/Training_M.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="5152">
+                  <caret line="246" column="4" selection-start-line="246" selection-start-column="4" selection-end-line="246" selection-end-column="33" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -246,39 +270,38 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>/data/HaoChen/knowledge_distillation/PCA/tar_pretrain_0_CUB_v1.pkl</find>
-      <find>tar_pretrain</find>
-      <find>file</find>
-      <find>pretrain_1</find>
-      <find>pretrain_0_v1</find>
-      <find>save</find>
-      <find>fcluster</find>
-      <find>CUB_sr0.2</find>
-      <find>_CUB_sr0.5</find>
-      <find>-effective_dimension:-1</find>
-      <find>pretrain_0_CUB_v1</find>
-      <find>args.dataset</find>
-      <find>retain_variables</find>
-      <find>GuidedBackpropReLU</find>
-      <find>init</find>
-      <find>torch.zeros_like(x)</find>
-      <find>datal</find>
-      <find>_initialize_weights</find>
-      <find>reshape</find>
-      <find>train_loader</find>
-      <find>train_sampler</find>
-      <find>nonLinear</find>
-      <find>linear</find>
-      <find>models</find>
-      <find>model</find>
-      <find>print</find>
-      <find>convOut</find>
       <find>store_true</find>
-      <find>res</find>
+      <find>l</find>
+      <find>T</find>
       <find>validate</find>
+      <find>net</find>
+      <find>my_bn</find>
+      <find>suffix</find>
+      <find>self.bn</find>
+      <find>save_checkpoint</find>
+      <find>affine</find>
+      <find>args.bn</find>
+      <find>alpha</find>
+      <find>bn</find>
+      <find>output_contrib</find>
+      <find>res</find>
+      <find>sub_img_path</find>
+      <find>img_path</find>
+      <find>..</find>
+      <find>resume</find>
+      <find>load_state_dict</find>
+      <find>output</find>
+      <find>model</find>
+      <find>L2</find>
+      <find>alphas</find>
+      <find>nonLinearLayers_p_pre</find>
+      <find>nonLinearLayers_p</find>
+      <find>fix_p</find>
+      <find>p</find>
+      <find>ps</find>
+      <find>optimizer</find>
     </findStrings>
     <replaceStrings>
-      <replace>Hierarchical_clustering</replace>
       <replace>AgglomerativeClustering</replace>
       <replace>data[typeorder]['tar']</replace>
       <replace>data[typeorder]['dw']</replace>
@@ -308,6 +331,7 @@
       <replace>yn_linear</replace>
       <replace>nonLinearLayers</replace>
       <replace>self.linearLayers</replace>
+      <replace>out</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -317,16 +341,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PCA/alex_net/alex_net(maxclust)/hierarchical_clustering_by_density_20per.py" />
-        <option value="$PROJECT_DIR$/PCA/alex_net/alex_net(maxclust)/hierarchical_clustering_by_density.py" />
-        <option value="$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust/plt2d.py" />
-        <option value="$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust/plt3d.py" />
-        <option value="$PROJECT_DIR$/PCA/alex_net/alex_net_maxclust/hierarchical_clustering_by_density.py" />
-        <option value="$PROJECT_DIR$/PCA/alex_net/alex_net_distance/hierarchical_clustering_by_density_20per.py" />
-        <option value="$PROJECT_DIR$/PCA/alex_net/alex_net_distance/hierarchical_clustering_by_density.py" />
-        <option value="$PROJECT_DIR$/PCA/alex_net/alex_net_distance/process_data_50per.py" />
-        <option value="$PROJECT_DIR$/PCA/alex_net/alex_net_distance/hierarchical_clustering_by_density_50per.py" />
-        <option value="$PROJECT_DIR$/PCA/alex_net/alex_net_distance/plt2d.py" />
         <option value="$PROJECT_DIR$/PCA/alex_net/alex_net_distance/plt3d.py" />
         <option value="$PROJECT_DIR$/PCA/alex_net/alex_net_by_alpha/hierarchical_clustering_by_density.py" />
         <option value="$PROJECT_DIR$/PCA/alex_net/alex_net_by_alpha/hierarchical_clustering_by_density_20per.py" />
@@ -365,9 +379,19 @@
         <option value="$PROJECT_DIR$/isomorphism/Training.py" />
         <option value="$PROJECT_DIR$/isomorphism/trainModel.py" />
         <option value="$PROJECT_DIR$/isomorphism/convOut_loader.py" />
-        <option value="$PROJECT_DIR$/isomorphism/Training_M.py" />
         <option value="$PROJECT_DIR$/isomorphism/distrPhoto.py" />
+        <option value="$PROJECT_DIR$/isomorphism/data/checkConvOut.py" />
+        <option value="$PROJECT_DIR$/isomorphism/linearTest_bn_problem.py" />
         <option value="$PROJECT_DIR$/isomorphism/linearTest.py" />
+        <option value="$PROJECT_DIR$/isomorphism/linearTest_sigmoidP.py" />
+        <option value="$PROJECT_DIR$/isomorphism/linearTest_v2.py" />
+        <option value="$PROJECT_DIR$/isomorphism/Training_M.py" />
+        <option value="$PROJECT_DIR$/isomorphism/vis_conv_minusZero.py" />
+        <option value="$PROJECT_DIR$/isomorphism/test.py" />
+        <option value="$PROJECT_DIR$/isomorphism/vis_conv.py" />
+        <option value="$PROJECT_DIR$/isomorphism/linearTest_v2_sigmoidP.py" />
+        <option value="$PROJECT_DIR$/isomorphism/Training_Finetune.py" />
+        <option value="$PROJECT_DIR$/isomorphism/linearTest_finetune_v2p.py" />
       </list>
     </option>
   </component>
@@ -380,8 +404,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="82" />
     <option name="y" value="-8" />
-    <option name="width" value="929" />
-    <option name="height" value="1087" />
+    <option name="width" value="1846" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -390,25 +414,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="KnowledgeDistillation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KnowledgeDistillation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KnowledgeDistillation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KnowledgeDistillation" type="462c0819:PsiDirectoryNode" />
-              <item name="isomorphism" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -417,7 +423,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MCM2019" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../tutorials-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -450,7 +456,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Training_M">
+  <component name="RunManager" selected="Python.Training_Finetune">
+    <configuration name="Training_Finetune" type="PythonConfigurationType" factoryName="Python">
+      <module name="knowledge_distillation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/isomorphism" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/isomorphism/Training_Finetune.py" />
+      <option name="PARAMETERS" value="--epochs 3 --lr 0.001 --workers 1 --convOut_path /data/HaoChen/knowledge_distillation/FeatureFactorization/ConvOut/convOut_CUB200_vgg16_bn_ft_L40_v3.pkl --sub_sampler sub_sampler_CUB200_M.npy --model v2p --gpu 3 --suffix ft_test --logspace 3 --optim Adam" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Training_M" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="knowledge_distillation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -465,7 +493,29 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/isomorphism/Training_M.py" />
-      <option name="PARAMETERS" value="--suffix Lu0 --lr 0.1 --epochs 600 --logspace True --gpu 2 --model new --resume 'checkpoint_CUB200_Lu.pth.tar'" />
+      <option name="PARAMETERS" value="--epochs 4000 --lr 0.001 --workers 1 --convOut_path /data/HaoChen/knowledge_distillation/FeatureFactorization/ConvOut/convOut_CUB200_vgg16_bn_ft_L40_v3.pkl --sub_sampler sub_sampler_CUB200_M.npy --model v2p --alphas [0.0,0.0] --gpu 0 --suffix ft_test --logspace 3 --optim Adam --fix_p --affine" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="checkConvOut" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="knowledge_distillation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/isomorphism/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/isomorphism/data/checkConvOut.py" />
+      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -495,7 +545,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="distrPhoto" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="linearTest_finetune_v2p" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="knowledge_distillation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -508,29 +558,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/isomorphism/distrPhoto.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="imageNet" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="knowledge_distillation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/isomorphism" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/isomorphism/imageNet.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/isomorphism/linearTest_finetune_v2p.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -605,7 +633,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="trainModel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python">
       <module name="knowledge_distillation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -618,8 +646,30 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/isomorphism/trainModel.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/isomorphism/test.py" />
+      <option name="PARAMETERS" value="--convout /data/HaoChen/knowledge_distillation/FeatureFactorization/ConvOut/convOut_CUB200_vgg16_bn_ft_L40_v3.pkl --sub_sampler sub_sampler_CUB200_V.npy --resume checkpoint_CUB200_v2p_alpha1.0_logs3.pth.tar --model v2p --alpha 1.0 --gpu 0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="vis_conv" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="knowledge_distillation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/isomorphism" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/isomorphism/vis_conv.py" />
+      <option name="PARAMETERS" value="--convout /data/HaoChen/knowledge_distillation/FeatureFactorization/ConvOut/convOut_CUB200_vgg16_bn_ft_L40_v3.pkl --sub_sampler sub_sampler_CUB200_V.npy --resume checkpoint_CUB200_v2p_alpha1.0_logs3.pth.tar --model v2p --alpha 1.0 --gpu 1" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -631,18 +681,20 @@
       <item itemvalue="Python.pca" />
       <item itemvalue="Python.overfitting net_training" />
       <item itemvalue="Python.resnet" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.Training_Finetune" />
       <item itemvalue="Python.convOut_loader" />
-      <item itemvalue="Python.trainModel" />
-      <item itemvalue="Python.imageNet" />
       <item itemvalue="Python.Training_M" />
-      <item itemvalue="Python.distrPhoto" />
+      <item itemvalue="Python.checkConvOut" />
+      <item itemvalue="Python.vis_conv" />
+      <item itemvalue="Python.linearTest_finetune_v2p" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.linearTest_finetune_v2p" />
         <item itemvalue="Python.Training_M" />
-        <item itemvalue="Python.distrPhoto" />
-        <item itemvalue="Python.trainModel" />
-        <item itemvalue="Python.imageNet" />
+        <item itemvalue="Python.vis_conv" />
+        <item itemvalue="Python.checkConvOut" />
         <item itemvalue="Python.convOut_loader" />
       </list>
     </recent_temporary>
@@ -671,35 +723,62 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="82" y="-8" width="1846" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20772676" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19036955" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4994401" weight="0.32848233" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.53135496" weight="0.3773389" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.57390815" weight="0.51975054" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.53135496" weight="0.36798337" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.57390815" weight="0.3929314" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32848233" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.49888018" weight="0.3170478" />
+      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.49888018" weight="0.26652676" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.42609182" side_tool="true" weight="0.5956341" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5078387" side_tool="true" weight="0.43813848" />
-      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.36506158" weight="0.35721704" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.36506158" weight="0.26299375" />
       <window_info anchor="bottom" id="Thumbnails" order="14" weight="0.32952183" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.1987682" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.21612541" />
       <window_info anchor="right" id="R Graphics" order="4" weight="0.22172453" />
       <window_info anchor="right" id="R Packages" order="5" weight="0.32978722" />
       <window_info anchor="right" id="SciView" order="6" weight="0.37737963" />
       <window_info anchor="right" id="Database" order="7" weight="0.32978722" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37974682" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4994401" weight="0.32848233" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.53135496" weight="0.3835759" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.57390815" weight="0.41580042" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32848233" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.49888018" visible="true" weight="0.26652676" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.42609182" side_tool="true" weight="0.5956341" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5078387" side_tool="true" weight="0.43813848" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.36506158" weight="0.26299375" />
+      <window_info anchor="bottom" id="Thumbnails" order="14" weight="0.32952183" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.21612541" />
+      <window_info anchor="right" id="R Graphics" order="4" weight="0.22172453" />
+      <window_info anchor="right" id="R Packages" order="5" weight="0.32978722" />
+      <window_info anchor="right" id="SciView" order="6" weight="0.37737963" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32978722" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -745,93 +824,21 @@
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/isomorphism/linearTest.py</url>
-          <line>58</line>
-          <option name="timeStamp" value="33" />
+          <url>file://$PROJECT_DIR$/isomorphism/linearTest_v2.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PCA/cifar_vgg/hierarchical_clustering_by_density_20per.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="54" column="24" lean-forward="true" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/alex_net/alex_net_by_alpha/plt2d_cmp.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/PCA_data/old_program/pca_conv_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/cifar_vgg/hierarchical_clustering_by_density.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/PCA_data/pca_conv_data(pretrain).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2622">
-          <caret line="120" column="39" lean-forward="true" selection-start-line="120" selection-start-column="39" selection-end-line="120" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/PCA_data/pca_conv_data(poor).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/PCA_data/pca_conv_data(50per).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/PCA_data/pca_conv_data(20per).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/cifar_vgg/hierachical_cluster_sample.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/cifar_vgg/pca_conv_data(pretrain).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="106" column="68" selection-start-line="106" selection-start-column="60" selection-end-line="106" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/cifar_vgg/pca_conv_data(20per).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2852">
-          <caret line="130" column="55" selection-start-line="130" selection-start-column="55" selection-end-line="130" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/cifar_vgg/pca_conv_data(poor).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="989">
-          <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/ilsvrc/plt2d.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/PCA/ilsvrc/pca_conv_data(pretrain).py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -862,13 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4094">
           <caret line="180" selection-start-line="180" selection-end-line="180" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1805366919/-420072412/torch/tensor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1932">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
         </state>
       </provider>
     </entry>
@@ -936,13 +936,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1805366919/-420072412/torch/optim/optimizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/isomorphism/imageNet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -957,32 +950,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/isomorphism/convOut_loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/isomorphism/trainModel.py" />
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1805366919/-420072412/torch/serialization.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="355" selection-start-line="355" selection-end-line="355" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="1645" column="28" selection-start-line="1645" selection-start-column="28" selection-end-line="1645" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -996,9 +968,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/isomorphism/data/result.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/isomorphism/data/result.jpg" />
     <entry file="file://$PROJECT_DIR$/PCA/grad-CAM/pytorch-grad-cam/grad-cam.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2407">
@@ -1006,23 +976,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/isomorphism/linearTest_v2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1805366919/-420072412/torch/nn/modules/module.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="170" selection-start-line="170" selection-end-line="170" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/isomorphism/Training_M.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="161" column="32" lean-forward="true" selection-start-line="161" selection-start-column="32" selection-end-line="161" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1033,23 +990,159 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/isomorphism/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1159" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isomorphism/ConvOutput.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2254">
+          <caret line="154" column="52" selection-start-line="154" selection-start-column="52" selection-end-line="154" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isomorphism/convOut_loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-203">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isomorphism/linearTest_bn_problem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="51" column="57" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/isomorphism/linearTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="57" column="45" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="39" />
+        <state relative-caret-position="276">
+          <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isomorphism/data/checkConvOut.py" />
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/xiaoyaojushi540558/Files/linearTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1805366919/-420072412/torch/tensor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1805366919/-420072412/torch/autograd/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="1067" selection-start-line="1067" selection-end-line="1067" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isomorphism/vis_conv_minusZero.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="200" selection-start-line="200" selection-end-line="200" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isomorphism/vis_conv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="187" column="19" selection-start-line="187" selection-start-column="19" selection-end-line="187" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isomorphism/linearTest_v0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="36" column="63" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isomorphism/linearTest_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-782">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/isomorphism/ConvOutput.py">
+    <entry file="file://$PROJECT_DIR$/isomorphism/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="142" column="56" lean-forward="true" selection-start-line="142" selection-start-column="56" selection-end-line="142" selection-end-column="56" />
+        <state relative-caret-position="242">
+          <caret line="163" column="18" selection-start-line="163" selection-start-column="18" selection-end-line="163" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isomorphism/linearTest_sigmoidP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="108" selection-start-line="108" selection-end-line="108" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isomorphism/linearTest_v2_sigmoidP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="994">
+          <caret line="58" column="12" lean-forward="true" selection-start-line="58" selection-start-column="12" selection-end-line="59" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1805366919/-420072412/torch/optim/optimizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="191" column="19" lean-forward="true" selection-start-line="191" selection-start-column="19" selection-end-line="191" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isomorphism/Training_Finetune.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4899">
+          <caret line="235" column="51" selection-start-line="235" selection-start-column="42" selection-end-line="235" selection-end-column="51" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isomorphism/linearTest_finetune_v2p.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="80" column="45" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+            <marker date="1551019917944" expanded="true" signature="217:222" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isomorphism/Training_M.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5152">
+          <caret line="246" column="4" selection-start-line="246" selection-start-column="4" selection-end-line="246" selection-end-column="33" />
         </state>
       </provider>
     </entry>

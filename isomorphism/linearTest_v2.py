@@ -8,15 +8,18 @@ import torch.utils.data.distributed
 
 class LinearTester(torch.nn.Module):
 
-    def __init__(self, input_size, output_size, layers=3, init_weights=True, gpu_id=None):
+    def __init__(self, input_size, output_size, layers=3, init_weights=True, gpu_id=None, fix_p=False, affine=False,bn=True):
         super(LinearTester, self).__init__()
         self.layers = layers
         # size = [C,H,W]
+        self.affine = affine
         self.input_size = input_size
         self.output_size = output_size
         self.gpu_id = gpu_id
         self._make_nonLinearLayers()
         self._make_linearLayers()
+        self.fix_p = fix_p
+        self.bn = bn
         if init_weights:
             self._initialize_weights()
         # For record

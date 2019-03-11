@@ -16,27 +16,19 @@ import torch.utils.data
 import torch.utils.data.distributed
 import torchvision.transforms as transforms
 import torchvision.datasets as datasets
-import torchvision.models as models
 from torch.utils.data.sampler import SubsetRandomSampler
 import numpy as np
 from logger import Logger
 
 
-model_names = sorted(name for name in models.__dict__
-    if name.islower() and not name.startswith("__")
-    and callable(models.__dict__[name]))
 
 parser = argparse.ArgumentParser(description='PyTorch ImageNet Training')
 # parser.add_argument('data', metavar='DIR',
 #                     help='path to dataset')
-parser.add_argument('--val_path', default='../../CUB_200_2011/crop/train', type=str, help='../ILSVRC2012_img_val')
-parser.add_argument('--train_path', default='../../CUB_200_2011/crop/test', help='../../ILSVRC2012/', type=str)
+parser.add_argument('--train_path', default='../../CUB_200_2011/crop/train', help='../../ILSVRC2012/', type=str)
+parser.add_argument('--val_path', default='../../CUB_200_2011/crop/test', type=str, help='../ILSVRC2012_img_val')
 parser.add_argument('--sample_rate', default=0, type=float)
-parser.add_argument('--arch', '-a', metavar='ARCH', default='vgg16_bn',
-                    choices=model_names,
-                    help='model architecture: ' +
-                        ' | '.join(model_names) +
-                        ' (default: resnet18)')
+parser.add_argument('--arch', '-a', metavar='ARCH', default='vgg16_bn_ft')
 parser.add_argument('-j', '--workers', default=8, type=int, metavar='N',
                     help='number of data loading workers (default: 4)')
 parser.add_argument('--epochs', default=240, type=int, metavar='N',
@@ -73,11 +65,10 @@ parser.add_argument('--suffix', default='', type=str)
 parser.add_argument('--dataset', default='CUB200', type=str)
 parser.add_argument('--epoch_step', default=60, type=int)
 parser.add_argument('--save_per_epoch', default=False, type=bool)
-parser.add_argument('--logspace',default=False, type=bool)
-parser.add_argument('--sample_num',default=0,type=type)
-parser.add_argument('--fine_tune', default=False, type=bool)
+parser.add_argument('--logspace',action='store_true')
+parser.add_argument('--sample_num',default=0,type=int)
 parser.add_argument('--decay_factor', default=0.2, type=float)
-parser.add_argument('--device_ids', default='[3,0]', type=str)
+parser.add_argument('--device_ids', default='[0,1]', type=str)
 
 best_acc1 = 0
 
@@ -86,9 +77,9 @@ device_ids = json.loads(args.device_ids)
 print('parsed options:', vars(args))
 
 if args.dataset=='cifar10':
-    from VGG_CIFAR import *
+    import VGG_CIFAR as models
 else:
-    from VGG_ImageNet import *
+    import VGG_ImageNet as models
 
 def main():
     global args, best_acc1
@@ -123,10 +114,7 @@ def main():
         elif args.dataset == 'CUB':
             model = models.alexnet(num_classes = 2)
         elif args.dataset == 'CUB200':
-            if args.fine_tune:
-                model = vgg16_ft(num_classes=200) # Fine tune~
-            else:
-                model = models.__dict__[args.arch](num_classes=200)
+            model = models.__dict__[args.arch](num_classes=200)
         else:
             model = models.__dict__[args.arch]()
         # modify for cifar dataset:
@@ -235,14 +223,18 @@ def main():
             ]))
 
         if args.sample_num>0:
-            class_map = [[] for i in range(200)]
-            for i in range(len(train_dataset)):
-                class_map[train_dataset[i][1]].append(i)
-            sub_idx = []
-            for c in class_map:
-                sub_idx += np.random.permutation(c).tolist()[:min(len(c),args.sample_num)]
+            if os.path.exists("sub_sampler_{}_{}.npy".format(args.dataset,args.suffix)):
+                print("Find sub_sampler_{}_{}.npy!".format(args.dataset,args.suffix))
+                sub_idx = np.load("sub_sampler_{}_{}.npy".format(args.dataset,args.suffix)).tolist()
+            else:
+                class_map = [[] for i in range(200)]
+                for i in range(len(train_dataset)):
+                    class_map[train_dataset[i][1]].append(i)
+                sub_idx = []
+                for c in class_map:
+                    sub_idx += np.random.permutation(c).tolist()[:min(len(c),args.sample_num)]
 
-            np.save('sub_sampler_{}.npy'.format(args.sample_num),sub_idx)
+                np.save('sub_sampler_{}.npy'.format(args.sample_num),sub_idx)
 
             train_loader = torch.utils.data.DataLoader(
                 train_dataset, batch_size=args.batch_size,
@@ -410,9 +402,9 @@ def main():
 
         # remember best acc@1 and save checkpoint
         if args.save_per_epoch:
-            save_dir = 'checkpoint_{}_{}_ep{}.pth.tar'.format(args.dataset, args.suffix, epoch)
+            save_dir = 'checkpoint_{}_{}_{}_ep{}.pth.tar'.format(args.dataset, args.arch,args.suffix, epoch)
         else:
-            save_dir = 'checkpoint_{}_{}.pth.tar'.format(args.dataset, args.suffix)
+            save_dir = 'checkpoint_{}_{}_{}.pth.tar'.format(args.dataset, args.arch, args.suffix)
         is_best = acc1 > best_acc1
         best_acc1 = max(acc1, best_acc1)
         save_checkpoint({
@@ -533,7 +525,7 @@ def validate(val_loader, model, criterion, epoch, logger):
 def save_checkpoint(state, is_best, filename='checkpoint.pth.tar'):
     torch.save(state, filename)
     if is_best:
-        shutil.copyfile(filename, 'model_best_{}_{}.pth.tar'.format(args.dataset,args.suffix))
+        shutil.copyfile(filename, 'model_best_{}_{}_{}.pth.tar'.format(args.dataset,args.arch, args.suffix))
 
 # For tensorboard
 def set_tensorboard(log_dict, epoch, logger):

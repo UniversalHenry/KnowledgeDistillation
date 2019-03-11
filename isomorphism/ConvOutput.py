@@ -19,19 +19,18 @@ import numpy as np
 from logger import Logger
 import os
 from torch.nn.modules.loss import _Loss
-import torchvision.models as models
 
 parser = argparse.ArgumentParser(description='Tracing')
 
 parser.add_argument('--device_ids', default='[0,1]', type=str)
-parser.add_argument('--arch', default='vgg16_bn', type=str)
+parser.add_argument('--arch', default='vgg16_bn_ft', type=str)
 parser.add_argument('--seed', default=1, type=int)
 parser.add_argument('--batch_size', default=64, type=int)
 parser.add_argument('--suffix', default='', type=str)
-parser.add_argument('--resume1', default='model_best_CUB200__vgg16_bn_sd_1_ep300.pth.tar', type=str)
-parser.add_argument('--resume2', default='model_best_CUB200__vgg16_bn_sd_10_ep300.pth.tar', type=str)
+parser.add_argument('--resume1', default='model_checkpoints/checkpoint_CUB200_vgg16_bn_ft_full_C.pth.tar', type=str)
+parser.add_argument('--resume2', default='model_checkpoints/checkpoint_CUB200_vgg16_bn_ft_full_B.pth.tar', type=str)
 parser.add_argument('--dataset', default='CUB200', type=str)
-parser.add_argument('--conv_layer', default=37, type=int)
+parser.add_argument('--conv_layer', default=40, type=int)
 parser.add_argument('--topk', default='[1,3]', type=str)
 opt = parser.parse_args()
 print('parsed options:', vars(opt))
@@ -40,9 +39,9 @@ device_ids = json.loads(opt.device_ids)
 topk = json.loads(opt.topk)
 
 if opt.dataset == 'cifar10':
-    from VGG_CIFAR import *
+    import VGG_CIFAR as models
 else:
-    from VGG_ImageNet import *
+    import VGG_ImageNet as models
 
 cuda.empty_cache()
 def load_checkpoint(resume, model):
@@ -181,6 +180,7 @@ def validate(input, target, model, device_id):
         output = model.classifier(featureOut)
         pred = get_pred(output, target, topk)
         return convOut, pred
+
 
 
 

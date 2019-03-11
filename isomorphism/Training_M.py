@@ -22,7 +22,9 @@ import numpy as np
 from logger import Logger
 from convOut_loader import convOut_Dataset
 
-
+np.set_printoptions(precision=3)
+# --suffix x4_L2  --epochs 2000  --lr 0.1 --gpu 2 --workers 2 --L2 --alphas '[0.01,0.01]' --epoch_step 1000
+# --epochs 2000 --lr 0.1 --workers 2 --epoch_step 10000 --convOut_path ConvOut/convOut_CUB200_vgg16_bn_ft_L40_v1.pkl --sub_sampler sub_sampler_CUB200_M.npy --alphas '[0.001,0.001]' --gpu 0 --suffix Rx_alpha0.001
 model_names = sorted(name for name in models.__dict__
                      if name.islower() and not name.startswith("__")
                      and callable(models.__dict__[name]))
@@ -34,15 +36,16 @@ parser.add_argument('--arch', '-a', metavar='ARCH', default='vgg16_bn',
                     help='model architecture: ' +
                          ' | '.join(model_names) +
                          ' (default: resnet18)')
+parser.add_argument('--optim', default='SGD', type=str)
 parser.add_argument('-j', '--workers', default=4, type=int, metavar='N',
                     help='number of data loading workers (default: 4)')
-parser.add_argument('--epochs', default=180, type=int, metavar='N',
+parser.add_argument('--epochs', default=600, type=int, metavar='N',
                     help='number of total epochs to run')
 parser.add_argument('--start-epoch', default=0, type=int, metavar='N',
                     help='manual epoch number (useful on restarts)')
 parser.add_argument('-b', '--batch-size', default=128, type=int,
                     metavar='N', help='mini-batch size (default: 256)')
-parser.add_argument('--lr', '--learning-rate', default=0.01, type=float,
+parser.add_argument('--lr', '--learning-rate', default=0.1, type=float,
                     metavar='LR', help='initial learning rate')
 parser.add_argument('--momentum', default=0.9, type=float, metavar='M',
                     help='momentum')
@@ -68,30 +71,43 @@ parser.add_argument('--seed', default=None, type=int,
                     help='seed for initializing training. ')
 parser.add_argument('--gpu', default=0, type=int,
                     help='GPU id to use.')
+parser.add_argument('--alphas', default='[0.001, 0.001]', type=str)
 parser.add_argument('--suffix', default='', type=str)
 parser.add_argument('--dataset', default='CUB200', type=str)
 parser.add_argument('--epoch_step', default=60, type=int)
-parser.add_argument('--save_per_epoch', default=False, type=bool)
-parser.add_argument('--logspace', default=False, type=bool)
+parser.add_argument('--save_per_epoch', action='store_true')
+parser.add_argument('--save_epoch', default=1000, type=int)
+parser.add_argument('--logspace', default=0, type=int)
 parser.add_argument('--sample_num', default=0, type=type)
 parser.add_argument('--fine_tune', default=False, type=bool)
 parser.add_argument('--decay_factor', default=0.2, type=float)
 parser.add_argument('--device_ids', default='[3,0]', type=str)
-parser.add_argument('--convOut_path', default='/data/HaoChen/knowledge_distillation/FeatureFactorization/convOut_CUB200_vgg16_bn_L37_.pkl',
+parser.add_argument('--convOut_path', default='./ConvOut/convOut_CUB200_vgg16_bn_ft_L40_.pkl', # Zx: 40 Nx: 37
                     type=str)
 parser.add_argument('--validate', action='store_true')
-parser.add_argument('--model', default='normal', type=str)
+parser.add_argument('--model', default='new', type=str)
 parser.add_argument('--layers', default=3, type=int)
-
+parser.add_argument('--L2', action='store_false', help='if add, then no L2 ')
+parser.add_argument('--fix_p', action='store_true', help='if add, then fix_p ')
+parser.add_argument('--bn',action='store_false', help='if add, then no bn on X ')
+parser.add_argument('--affine',action='store_true', help='if add, then bn affine is true ')
+parser.add_argument('--sub_sampler', default='', type=str)
 best_acc1 = 0
 
 args = parser.parse_args()
 device_ids = json.loads(args.device_ids)
+alphas = torch.tensor(json.loads(args.alphas)).cuda(args.gpu)
+
 print('parsed options:', vars(args))
-if args.model == 'residual':
+print(alphas)
+if args.model == 'v2':
     from linearTest_v2 import LinearTester
 elif args.model == 'new':
     from linearTest import LinearTester
+elif args.model == 'sigmoid_p':
+    from linearTest_sigmoidP import LinearTester
+elif args.model == 'v2p':
+    from linearTest_v2_sigmoidP import LinearTester
 else:
     from linearTest_v0 import LinearTester
 def main():
@@ -118,12 +134,18 @@ def main():
 
     # modify for dataset:
     train_dataset = convOut_Dataset(args.convOut_path)
-    train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=args.batch_size, shuffle=True, num_workers=args.workers, pin_memory=True)
+    if args.sub_sampler=='':
+        train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=args.batch_size,
+                                               shuffle=True, num_workers=args.workers, pin_memory=True)
+    else:
+        sub_idx = np.load(args.sub_sampler).tolist()
+        train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=args.batch_size,
+                        num_workers=args.workers, pin_memory=True,sampler=SubsetRandomSampler(sub_idx))
 
     # create model
     input_size = train_dataset.convOut1.shape[1:4]
     output_size = train_dataset.convOut2.shape[1:4]
-    model = LinearTester(input_size,output_size, gpu_id= args.gpu)
+    model = LinearTester(input_size,output_size, gpu_id= args.gpu, fix_p = args.fix_p, bn = args.bn,affine = args.affine)
 
     if args.gpu is not None:
         model = model.cuda(args.gpu)
@@ -142,9 +164,12 @@ def main():
     # define loss function (criterion) and optimizer
     criterion = nn.MSELoss().cuda(args.gpu)
 
-    optimizer = torch.optim.SGD(model.parameters(), args.lr,
-                                momentum=args.momentum,
-                                weight_decay=args.weight_decay)
+    if args.optim == 'SGD':
+        optimizer = torch.optim.SGD(model.parameters(), args.lr,
+                                    momentum=args.momentum,
+                                    weight_decay=args.weight_decay)
+    elif args.optim == 'Adam':
+        optimizer = torch.optim.Adam(model.parameters(), args.lr)
 
     # logger_train = Logger('./logs/ILSVRC_sample_rate_{}{}/train'.format(args.sample_rate,args.suffix))
     # logger_val = Logger('./logs/ILSVRC_sample_rate_{}{}/val'.format(args.sample_rate, args.suffix))
@@ -165,7 +190,7 @@ def main():
 
     cudnn.benchmark = True
 
-    logspace_lr = torch.logspace(np.log10(args.lr), np.log10(args.lr) - 1, args.epochs)
+    logspace_lr = torch.logspace(np.log10(args.lr), np.log10(args.lr) - args.logspace, args.epochs)
 
     if args.validate:
         contrib = AverageMeter()
@@ -190,7 +215,7 @@ def main():
 
     else:
         for epoch in range(args.start_epoch, args.epochs):
-            if args.logspace:
+            if args.logspace != 0:
                 for param_group in optimizer.param_groups:
                     param_group['lr'] = logspace_lr[epoch]
             else:
@@ -200,10 +225,8 @@ def main():
             train(train_loader, model, criterion, optimizer, epoch, logger_train)
 
             # remember best acc@1 and save checkpoint
-            if args.save_per_epoch:
-                save_dir = 'checkpoint_{}_{}_ep{}.pth.tar'.format(args.dataset, args.suffix, epoch)
-            else:
-                save_dir = 'checkpoint_{}_{}.pth.tar'.format(args.dataset, args.suffix)
+
+            save_dir = 'checkpoint_{}_{}.pth.tar'.format(args.dataset, args.suffix)
             save_checkpoint({
                 'epoch': epoch + 1,
                 'arch': args.arch,
@@ -211,13 +234,18 @@ def main():
                 'best_acc1': best_acc1,
                 'optimizer': optimizer.state_dict(),
             }, False, save_dir)
+            if args.save_per_epoch and epoch > 0 and epoch % args.save_epoch == 0:
+                save_dir_itr = 'checkpoint_{}_{}_ep{}.pth.tar'.format(args.dataset, args.suffix, epoch)
+                shutil.copyfile(save_dir, save_dir_itr)
 
 
 def train(train_loader, model, criterion, optimizer, epoch, logger):
     batch_time = AverageMeter()
     data_time = AverageMeter()
     losses = AverageMeter()
-
+    ps = AverageMeter(size=(2,))
+    dps = AverageMeter(size=(2,))
+    mse = AverageMeter()
     # switch to train mode
     model.train()
 
@@ -233,15 +261,24 @@ def train(train_loader, model, criterion, optimizer, epoch, logger):
         # compute output
         output = model(input)
         loss = criterion(output, target)
-
+        if args.L2:
+            mse.update(loss.item(), input.size(0))
+            loss = loss + torch.sum((model.nonLinearLayers_p**2) * alphas)
         # measure accuracy and record loss
         losses.update(loss.item(), input.size(0))
 
         # compute gradient and do SGD step
         optimizer.zero_grad()
         loss.backward()
+        if not args.fix_p:
+            if args.model == 'sigmoid_p' or args.model == 'v2p':
+                dpp = model.nonLinearLayers_p_pre.grad.data.cpu().numpy()
+                px = model.nonLinearLayers_p.data.cpu().numpy()
+                dps.update(dpp/(px*(1-px)),input.size(0))
+            else:
+                dps.update(model.nonLinearLayers_p.grad.data.cpu().numpy(), input.size(0))
+        ps.update(model.nonLinearLayers_p.data.cpu().numpy())
         optimizer.step()
-
         # measure elapsed time
         batch_time.update(time.time() - end)
         end = time.time()
@@ -249,64 +286,28 @@ def train(train_loader, model, criterion, optimizer, epoch, logger):
         if i % args.print_freq == 0:
             print('Epoch: [{0}][{1}/{2}]\t'
                   'Time {batch_time.val:.3f} ({batch_time.avg:.3f})\t'
-                  'Data {data_time.val:.3f} ({data_time.avg:.3f})\t'
                   'Loss {loss.val:.4f} ({loss.avg:.4f})'.format(
-                epoch, i, len(train_loader), batch_time=batch_time,
-                data_time=data_time, loss=losses))
+                epoch, i, len(train_loader),
+                batch_time=batch_time,
+                loss=losses, ))
 
-    log_dict = {'Loss': losses.avg}
+            print('\tP {}({})\t'
+                  'DP {}({})'.format(ps.val, ps.avg,
+                dps.val, dps.avg,))
+
+    if args.L2:
+        log_dict = {'Loss': losses.avg, 'MSE': mse.avg, 'L2_loss': losses.avg-mse.avg,
+                    'p1':ps.avg[0], 'p2': ps.avg[1],
+                    'dps1':dps.avg[0],'dps2':dps.avg[1],
+                    'dps_a1': dps.avg[0] - 2 * ps.avg[0] * alphas[0],
+                    'dps_a2': dps.avg[1] - 2 * ps.avg[1] * alphas[1],
+                    }
+    else:
+        log_dict = {'Loss': losses.avg, 'MSE': losses.avg, 'L2_loss': 0.0,
+                    'p1': ps.avg[0], 'p2': ps.avg[1],
+                    'dps1': dps.avg[0], 'dps2': dps.avg[1]
+                    }
     set_tensorboard(log_dict, epoch, logger)
-
-
-def validate(val_loader, model, criterion, epoch, logger):
-    batch_time = AverageMeter()
-    losses = AverageMeter()
-    top1 = AverageMeter()
-    top5 = AverageMeter()
-
-    # switch to evaluate mode
-    model.eval()
-
-    with torch.no_grad():
-        end = time.time()
-        for i, (input, target) in enumerate(val_loader):
-            if args.gpu is not None:
-                input = input.cuda(args.gpu, non_blocking=True)
-                target = target.cuda(args.gpu, non_blocking=True)
-
-            # compute output
-            output = model(input)
-            loss = criterion(output, target)
-
-            # measure accuracy and record loss
-            if args.dataset == 'CUB':
-                acc1, acc5 = accuracy(output, target, topk=(1, 1))
-            else:
-                acc1, acc5 = accuracy(output, target, topk=(1, 5))
-            losses.update(loss.item(), input.size(0))
-            top1.update(acc1[0], input.size(0))
-            top5.update(acc5[0], input.size(0))
-
-            # measure elapsed time
-            batch_time.update(time.time() - end)
-            end = time.time()
-
-            if i % args.print_freq == 0:
-                print('Test: [{0}/{1}]\t'
-                      'Time {batch_time.val:.3f} ({batch_time.avg:.3f})\t'
-                      'Loss {loss.val:.4f} ({loss.avg:.4f})\t'
-                      'Acc@1 {top1.val:.3f} ({top1.avg:.3f})\t'
-                      'Acc@5 {top5.val:.3f} ({top5.avg:.3f})'.format(
-                    i, len(val_loader), batch_time=batch_time, loss=losses,
-                    top1=top1, top5=top5))
-
-        print(' * Acc@1 {top1.avg:.3f} Acc@5 {top5.avg:.3f}'
-              .format(top1=top1, top5=top5))
-
-        log_dict = {'Loss': losses.avg, 'top1_prec': top1.avg.item(), 'top5_prec': top5.avg.item()}
-        set_tensorboard(log_dict, epoch, logger)
-
-    return top1.avg
 
 
 def save_checkpoint(state, is_best, filename='checkpoint.pth.tar'):
@@ -329,13 +330,19 @@ def set_tensorboard(log_dict, epoch, logger):
 class AverageMeter(object):
     """Computes and stores the average and current value"""
 
-    def __init__(self):
+    def __init__(self, size=(1,)):
+        self.size = size
         self.reset()
 
     def reset(self):
         self.val = 0
-        self.avg = 0
-        self.sum = 0
+
+        if self.size != (1,):
+            self.sum = np.zeros(self.size)
+            self.avg = np.zeros(self.size)
+        else:
+            self.sum = 0
+            self.avg = 0
         self.count = 0
 
     def update(self, val, n=1):
